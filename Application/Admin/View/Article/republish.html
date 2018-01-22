@@ -1,0 +1,227 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>
+            无标题文档
+        </title>
+        <link href="__PUBLIC__/admin/css/style.css" rel="stylesheet" type="text/css" />
+        <link href="__PUBLIC__/admin/css/select.css" rel="stylesheet" type="text/css" />
+        
+        <script type="text/javascript" src="__PUBLIC__/admin/js/jquery.js">
+        </script>
+        <script type="text/javascript" src="__PUBLIC__/admin/js/jquery.idTabs.min.js">
+        </script>
+        <script type="text/javascript" src="__PUBLIC__/admin/js/select-ui.min.js">
+        </script>
+        <script type="text/javascript">
+            $(document).ready(function(e) {
+                $(".select1").uedSelect({
+                    width: 345
+                });
+                $(".select2").uedSelect({
+                    width: 167
+                });
+                $(".select3").uedSelect({
+                    width: 100
+                });
+            });
+        </script>
+    </head>
+    
+    <body>
+        <div class="formbody">
+            <form action="__SELF__" method="post" enctype="multipart/form-data" onsubmit="return sub()">
+            <input type="hidden" name="articleId" value="{$list['articleId']}">
+            <div id="usual1" class="usual">
+                <div id="tab1" class="tabson">
+                    <ul class="forminfo">
+                        <li>
+                            <label>
+                                文章标题
+                                <b>
+                                    *
+                                </b>
+                            </label>
+                            <input name="aTitle" type="text" class="dfinput" placeholder="请填写文章标题" style="width:518px;"
+                            required="required" value="{$list['aTitle']}"/>
+                        </li>
+                        <li>
+                            <label>
+                                文章作者
+                            </label>
+                            <input name="author" type="text" class="dfinput" placeholder="请填写作者名称" style="width:518px;" value="{$list['author']}"/>
+                        </li>
+                        <li>
+                            <label>
+                                文章来源
+                            </label>
+                            <input name="source" type="text" class="dfinput" placeholder="请填写文章来源" style="width:518px;" value="{$list['source']}"/>
+                        </li>
+                        <li>
+                            <label>
+                                选择模块
+                                <b>
+                                    *
+                                </b>
+                            </label>
+                            <div class="vocation">
+                                <select class="select1" id="option1" name="category">
+                                    <option value="tzgg" 
+                                    <eq name="list['category']" value="tzgg">selected</eq>>
+                                        通知公告
+                                    </option>
+                                    <option value="sgdt"
+                                    <eq name="list['category']" value="sgdt">selected</eq>>
+                                        宿管动态
+                                    </option>
+                                    <option value="xyxw"
+                                    <eq name="list['category']" value="xyxw">selected</eq>>
+                                        校园新闻
+                                    </option>
+                                    <option value="xsgz"
+                                    <eq name="list['category']" value="xsgz">selected</eq>>
+                                        学生工作新闻
+                                    </option>
+                                    <option value="xggy"
+                                    <eq name="list['category']" value="xggy">selected</eq>>
+                                        相关公寓新闻
+                                    </option>
+                                    <option value="whjs"
+                                    <eq name="list['category']" value="whjs">selected</eq>>
+                                        文化建设
+                                    </option>
+                                    <option value="gzzd"
+                                    <eq name="list['category']" value="gzzd">selected</eq>>
+                                        规章制度
+                                    </option>
+                                    <option value="xfzs"
+                                    <eq name="list['category']" value="xfzs">selected</eq>>
+                                        消防知识
+                                    </option>
+                                    <option value="ydgl"
+                                    <eq name="list['category']" value="ydgl">selected</eq>>
+                                        用电管理
+                                    </option>
+                                    <option value="zagl"
+                                    <eq name="list['category']" value="zagl">selected</eq>>
+                                        治安管理
+                                    </option>
+                                    <option value="crbzs"
+                                    <eq name="list['category']" value="crbzs">selected</eq>>
+                                        传染病知识
+                                    </option>
+                                    <option value="fwzl"
+                                    <eq name="list['category']" value="fwzl">selected</eq>>
+                                        服务指南
+                                    </option>
+                                    <option value="xszt"
+                                      <eq name="list['category']" value="xszt">selected</eq>>
+                                        新生专题
+                                    </option>
+                                    <option value="byszt"
+                                    <eq name="list['category']" value="byszt">selected</eq>>
+                                        毕业生专题
+                                    </option>
+                                    <option value="whyzt"
+                                    <eq name="list['category']" value="whyzt">selected</eq>>
+                                        文化月专题
+                                    </option>
+                                    <option value="hbzt"
+                                    <eq name="list['category']" value="hbzt">selected</eq>>
+                                        环保专题
+                                    </option>
+                                    <option value="xgxz"
+                                    <eq name="list['category']" value="xgxz">selected</eq>>
+                                    相关下载
+                                    </option>
+                                </select>
+                            </div>
+                        </li>
+                        <li>
+                            <label>
+                                 文章封面
+                            </label>
+                            <empty name="list['image']">
+                                 <input type="file" name="myfile" accept="image/gif,image/jpeg,image/jpg,image/png,image/svg">
+                                 <else />
+                                 <input type="file" name="myfile" accept="image/gif,image/jpeg,image/jpg,image/png,image/svg" style="display: none;">
+                                  <input type="button" id="btning"  class="btn" value="删除重传"/>&nbsp;&nbsp;
+                                  <font>{:getfname($list['image'])}</font>
+                            </empty>
+                            
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            <font style="font-size:18px; color:red;font-weight:bold;">
+                                是否在首页展示：
+                                <input type="radio" name="isnav"  value="1" 
+                                <eq name="list['isnav']" value="1">checked</eq>/>
+                                是
+                                <input type="radio" name="isnav" value="0"
+                                 <eq name="list['isnav']" value="0">checked</eq>/>
+                                否
+                            </font>
+                            <li>
+                                <label>
+                                    文章内容
+                                    <b>
+                                        *
+                                    </b>
+                                </label>
+                                <script id="content7" name="aContent" type="text/plain" style="width: 80%;display: inline-block;">
+                                </script>
+                                <script type="text/javascript" src="__PUBLIC__/admin/edu/ueditor.config.js"></script>
+                                <!-- 编辑器源码文件 -->
+                                <script type="text/javascript" src="__PUBLIC__/admin/edu/ueditor.all.min.js"></script>
+                                <!-- 实例化编辑器 -->
+                                <script type="text/javascript">
+                                    var ue = UE.getEditor('content7', {
+                                        autoHeight: true,
+                                        autoWidth: true
+                                    });
+
+                              </script>
+                            </li>
+                            <li>
+                                <label>
+                                    &nbsp;
+                                </label>
+                                <input type="submit" class="btn" value="修改发布" />
+                            </li>
+                    </ul>
+                </div>
+            </div>
+            </form>
+        </div>
+    </body>
+    <script type="text/javascript">
+        function sub() {
+                    if(!ue.hasContents()) {
+                        alert("文章内容不能为空！");
+                        return false;
+                    }
+              }
+           setTimeout(function() {
+            ue.setContent('{$list["aContent"]|htmlspecialchars_decode}');
+         }, 500);
+        $(function(){
+             $('#btning').click(function(){
+                  $.get("__URL__/delImage?articleId={$list['articleId']}&image={$list['image']}",function(data){
+                          if (data.status !== undefined && data.status === 0) {
+                                alert(data.info);
+                                return;
+                            }
+                     });
+                  $('input[type="file"]').show();
+                  $(this).hide();
+                  $(this).next('font').hide();
+             })
+        })
+    </script>
+      <script type="text/javascript">
+        $("#usual1 ul").idTabs();
+    </script>
+    <script type="text/javascript">
+        $('.tablelist tbody tr:odd').addClass('odd');
+    </script>
+</html>

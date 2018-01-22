@@ -1,0 +1,80 @@
+<!--含二级菜单的模块对应的列表页-->
+<div class="container_wrapper clearfix">
+	<div class="banner">
+	</div>
+	<div class="leftContent" style="padding-left: 10px;">
+		<div class="content_title clearfix">
+			<div class="fl mt_20">
+				<span class="whjs_tit">{$mc[0]}</span>
+				<span class="whjs_tit_grey">{$mc[1]}</span>
+			</div>
+		</div>
+		<ul class="list">
+		    <volist name="list" id="vo">
+				 <li>
+					<a href="{:U('Index/details',array('article'=>$vo['articleId']))}" title="{$vo['aTitle']}" target="_blank">{$vo['aTitle']}</a><span style="float: right;">[{$vo['aTime']}]</span>
+				</li>
+			</volist>
+		</ul>
+	<notempty name="list">
+		<ul class="pagination" id="page1">
+			 <if condition="$page gt 1">
+		        <li>
+		            <a href="{:U('Index/otherList2',array('page'=>$page-1))}">
+		              «
+		            </a>
+		        </li>
+		        <else/>
+		        <li><a href="javascript:void(0)" class="btn" disabled="disabled">«</a></li>
+		    </if>
+            <for start="1" end="$pageCount+1">
+               <li><a href='{:U("Index/otherList2?page=$i")}'>{$i}</a></li>
+                <if condition="$i egt 20">
+                   <li><a href='#'>...</a></li>
+                   <php>break;</php>
+               </if>
+           </for>
+          <if condition="$page lt $pageCount">
+                <li>
+                    <a href="{:U('Index/otherList2',array('page'=>$page+1))}">»</a>
+                </li>
+                <else/>
+                <li><a href="javascript:void(0)" disabled="true">»</a></li>
+            </if>
+		</ul>
+		</notempty>
+	</div>
+	<div class="sidebarRight fr" style="margin-right: 10px;">
+		<div class="columnHeader">
+			<h1>
+				<font style="vertical-align: inherit;">
+					<font style="vertical-align: inherit;">新闻类别&nbsp;<span style="font-size: 14px;">news category</span></font>
+				</font>
+			</h1>
+		</div>
+		<div class="content">
+			<p>您可以选择要查看的新闻的类别进行筛选：</p>
+			<ul style="margin-top: 20px;">
+				<li>
+					<a href="{:U('Index/otherList2',array('sub'=>$arr[0][0]))}">{$arr[0][1]}</a>
+				</li>
+				<li>
+					<a href="{:U('Index/otherList2',array('sub'=>$arr[1][0]))}">{$arr[1][1]}</a>
+				</li>
+				<li>
+					<a href="{:U('Index/otherList2',array('sub'=>$arr[2][0]))}">{$arr[2][1]}</a>
+				</li>
+				<li>
+					<a href="{:U('Index/otherList2',array('sub'=>$arr[3][0]))}">{$arr[3][1]}</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+</div>
+<script type="text/javascript">
+    function active(){
+        $("#page1").children().eq(({$Think.get.page|default=1})).children().addClass('active');
+        console.log($("#page1").children().eq(({$Think.get.page|default=1})));
+    }
+    active();
+</script>

@@ -1,0 +1,226 @@
+[ 2017-10-09T17:02:19+08:00 ] ::1 /apartment/Admin/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004934s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009495s ]
+SQL: SHOW COLUMNS FROM `apart_admin` [ RunTime:0.1000s ]
+SQL: SELECT `password` FROM `apart_admin` WHERE `username` = '' LIMIT 1   [ RunTime:0.0049s ]
+
+[ 2017-10-09T17:02:21+08:00 ] ::1 /apartment/Admin/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002150s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003668s ]
+SQL: SHOW COLUMNS FROM `apart_admin` [ RunTime:0.0162s ]
+SQL: SELECT `password` FROM `apart_admin` WHERE `username` = '' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-10-09T17:05:10+08:00 ] ::1 /apartment/Admin/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004132s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006285s ]
+SQL: SHOW COLUMNS FROM `apart_admin` [ RunTime:0.0140s ]
+SQL: SELECT `password` FROM `apart_admin` WHERE `username` = '' LIMIT 1   [ RunTime:0.0008s ]
+
+[ 2017-10-09T17:07:56+08:00 ] ::1 /apartment/Admin/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004043s ]
+SQL: SHOW COLUMNS FROM `apart_admin` [ RunTime:0.0142s ]
+SQL: SELECT `password` FROM `apart_admin` WHERE `username` = 'sdfasfsdfa2' LIMIT 1   [ RunTime:0.0008s ]
+
+[ 2017-10-09T17:08:29+08:00 ] ::1 /apartment/Admin/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002052s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004281s ]
+SQL: SHOW COLUMNS FROM `apart_admin` [ RunTime:0.0141s ]
+SQL: SELECT `password` FROM `apart_admin` WHERE `username` = 'asdf' LIMIT 1   [ RunTime:0.0007s ]
+
+[ 2017-10-09T17:11:03+08:00 ] ::1 /apartment/Admin/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001825s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003689s ]
+SQL: SHOW COLUMNS FROM `apart_admin` [ RunTime:0.0152s ]
+SQL: SELECT `password` FROM `apart_admin` WHERE `username` = 'apartadmin' LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT `nickname` FROM `apart_admin` WHERE `username` = 'apartadmin' AND `password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined variable: data D:\xampp\htdocs\apartment\Application\Admin\Controller\IndexController.class.php 第 19 行.
+
+[ 2017-10-09T17:11:08+08:00 ] ::1 /apartment/Admin/article/login.html
+ERR: 非法操作:login
+
+[ 2017-10-09T17:11:17+08:00 ] ::1 /apartment/Admin/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002013s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003679s ]
+SQL: SHOW COLUMNS FROM `apart_admin` [ RunTime:0.0139s ]
+SQL: SELECT `password` FROM `apart_admin` WHERE `username` = 'apartadmin' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `nickname` FROM `apart_admin` WHERE `username` = 'apartadmin' AND `password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: data D:\xampp\htdocs\apartment\Application\Admin\Controller\IndexController.class.php 第 19 行.
+
+[ 2017-10-09T17:11:48+08:00 ] ::1 /apartment/Admin/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002021s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004413s ]
+SQL: SHOW COLUMNS FROM `apart_admin` [ RunTime:0.0133s ]
+SQL: SELECT `password` FROM `apart_admin` WHERE `username` = 'apartadmin' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `nickname` FROM `apart_admin` WHERE `username` = 'apartadmin' AND `password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: data D:\xampp\htdocs\apartment\Application\Admin\Controller\IndexController.class.php 第 19 行.
+
+[ 2017-10-09T17:11:58+08:00 ] ::1 /apartment/Admin/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002619s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004076s ]
+SQL: SHOW COLUMNS FROM `apart_admin` [ RunTime:0.0135s ]
+SQL: SELECT `password` FROM `apart_admin` WHERE `username` = 'apartadmin' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `nickname` FROM `apart_admin` WHERE `username` = 'apartadmin' AND `password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: data D:\xampp\htdocs\apartment\Application\Admin\Controller\IndexController.class.php 第 19 行.
+
+[ 2017-10-09T17:12:22+08:00 ] ::1 /apartment/Admin/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003365s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005291s ]
+SQL: SHOW COLUMNS FROM `apart_admin` [ RunTime:0.0138s ]
+SQL: SELECT `password` FROM `apart_admin` WHERE `username` = 'apartadmin' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `nickname` FROM `apart_admin` WHERE `username` = 'apartadmin' AND `password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: data D:\xampp\htdocs\apartment\Application\Admin\Controller\IndexController.class.php 第 19 行.
+
+[ 2017-10-09T17:14:26+08:00 ] ::1 /apartment/Admin/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002037s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004250s ]
+SQL: SHOW COLUMNS FROM `apart_admin` [ RunTime:0.0138s ]
+SQL: SELECT `password` FROM `apart_admin` WHERE `username` = '阿飞d' LIMIT 1   [ RunTime:0.0009s ]
+
+[ 2017-10-09T17:14:53+08:00 ] ::1 /apartment/Admin/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002020s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004202s ]
+SQL: SHOW COLUMNS FROM `apart_admin` [ RunTime:0.0143s ]
+SQL: SELECT `password` FROM `apart_admin` WHERE `username` = '17864159289' LIMIT 1   [ RunTime:0.0008s ]
+
+[ 2017-10-09T17:16:00+08:00 ] ::1 /apartment/Admin/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003337s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005520s ]
+SQL: SHOW COLUMNS FROM `apart_admin` [ RunTime:0.0139s ]
+SQL: SELECT `password` FROM `apart_admin` WHERE `username` = 'sdf' LIMIT 1   [ RunTime:0.0008s ]
+
+[ 2017-10-09T17:16:31+08:00 ] ::1 /apartment/Admin/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002525s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004119s ]
+SQL: SHOW COLUMNS FROM `apart_admin` [ RunTime:0.0140s ]
+SQL: SELECT `password` FROM `apart_admin` WHERE `username` = '17864159289' LIMIT 1   [ RunTime:0.0008s ]
+
+[ 2017-10-09T17:17:20+08:00 ] ::1 /apartment/Admin/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003542s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005438s ]
+SQL: SHOW COLUMNS FROM `apart_admin` [ RunTime:0.0135s ]
+SQL: SELECT `password` FROM `apart_admin` WHERE `username` = '17864159289' LIMIT 1   [ RunTime:0.0007s ]
+
+[ 2017-10-09T17:19:45+08:00 ] ::1 /apartment/Admin/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003606s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005827s ]
+SQL: SHOW COLUMNS FROM `apart_admin` [ RunTime:0.0152s ]
+SQL: SELECT `password` FROM `apart_admin` WHERE `username` = '17864159289' LIMIT 1   [ RunTime:0.0008s ]
+
+[ 2017-10-09T17:19:55+08:00 ] ::1 /apartment/Admin/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002118s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003647s ]
+SQL: SHOW COLUMNS FROM `apart_admin` [ RunTime:0.0145s ]
+SQL: SELECT `password` FROM `apart_admin` WHERE `username` = 'd\'s' LIMIT 1   [ RunTime:0.0009s ]
+
+[ 2017-10-09T17:20:50+08:00 ] ::1 /apartment/Admin/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001921s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003552s ]
+SQL: SHOW COLUMNS FROM `apart_admin` [ RunTime:0.0146s ]
+SQL: SELECT `password` FROM `apart_admin` WHERE `username` = '32' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-10-09T17:21:03+08:00 ] ::1 /apartment/Admin/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001899s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003799s ]
+SQL: SHOW COLUMNS FROM `apart_admin` [ RunTime:0.0139s ]
+SQL: SELECT `password` FROM `apart_admin` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0007s ]
+
+[ 2017-10-09T17:21:26+08:00 ] ::1 /apartment/Admin/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002204s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004467s ]
+SQL: SHOW COLUMNS FROM `apart_admin` [ RunTime:0.0147s ]
+SQL: SELECT `password` FROM `apart_admin` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0009s ]
+
+[ 2017-10-09T17:21:37+08:00 ] ::1 /apartment/Admin/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002460s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005053s ]
+SQL: SHOW COLUMNS FROM `apart_admin` [ RunTime:0.0147s ]
+SQL: SELECT `password` FROM `apart_admin` WHERE `username` = 'apartadmin' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `nickname` FROM `apart_admin` WHERE `username` = 'apartadmin' AND `password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: data D:\xampp\htdocs\apartment\Application\Admin\Controller\IndexController.class.php 第 19 行.
+
+[ 2017-10-09T17:22:58+08:00 ] ::1 /apartment/Admin/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001908s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003951s ]
+SQL: SHOW COLUMNS FROM `apart_admin` [ RunTime:0.0141s ]
+SQL: SELECT `password` FROM `apart_admin` WHERE `username` = 'asd' LIMIT 1   [ RunTime:0.0007s ]
+
+[ 2017-10-09T17:42:45+08:00 ] ::1 /apartment/Admin/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002234s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004711s ]
+SQL: SHOW COLUMNS FROM `apart_admin` [ RunTime:0.0169s ]
+SQL: SELECT `password` FROM `apart_admin` WHERE `username` = 'dsf' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-10-09T19:26:18+08:00 ] ::1 /apartment/Admin/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001835s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003774s ]
+SQL: SHOW COLUMNS FROM `apart_admin` [ RunTime:0.0135s ]
+SQL: SELECT `password` FROM `apart_admin` WHERE `username` = '孙大发' LIMIT 1   [ RunTime:0.0009s ]
+
+[ 2017-10-09T19:27:09+08:00 ] ::1 /apartment/Admin/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001949s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004006s ]
+SQL: SHOW COLUMNS FROM `apart_admin` [ RunTime:0.0142s ]
+SQL: SELECT `password` FROM `apart_admin` WHERE `username` = '孙大发沙发党' LIMIT 1   [ RunTime:0.0008s ]
+
+[ 2017-10-09T19:27:29+08:00 ] ::1 /apartment/Admin/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001974s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004318s ]
+SQL: SHOW COLUMNS FROM `apart_admin` [ RunTime:0.0140s ]
+SQL: SELECT `password` FROM `apart_admin` WHERE `username` = '孙大发撒地方' LIMIT 1   [ RunTime:0.0009s ]
+
+[ 2017-10-09T19:28:13+08:00 ] ::1 /apartment/Admin/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001894s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003882s ]
+SQL: SHOW COLUMNS FROM `apart_admin` [ RunTime:0.0139s ]
+SQL: SELECT `password` FROM `apart_admin` WHERE `username` = '孙大发手动阀' LIMIT 1   [ RunTime:0.0008s ]
+
+[ 2017-10-09T19:28:33+08:00 ] ::1 /apartment/Admin/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004142s ]
+SQL: SHOW COLUMNS FROM `apart_admin` [ RunTime:0.0135s ]
+SQL: SELECT `password` FROM `apart_admin` WHERE `username` = 'apartadmin' LIMIT 1   [ RunTime:0.0009s ]
+
+[ 2017-10-09T19:41:16+08:00 ] ::1 /apartment/Admin/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001936s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004034s ]
+SQL: SHOW COLUMNS FROM `apart_admin` [ RunTime:0.0151s ]
+SQL: SELECT `password` FROM `apart_admin` WHERE `username` = 'apartadmin' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `nickname` FROM `apart_admin` WHERE `username` = 'apartadmin' AND `password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined variable: data D:\xampp\htdocs\apartment\Application\Admin\Controller\IndexController.class.php 第 19 行.
+
+[ 2017-10-09T19:41:25+08:00 ] ::1 /apartment/Admin/article/fwzn.html
+ERR: 非法操作:fwzn
+
+[ 2017-10-09T20:57:38+08:00 ] ::1 /apartment/Admin/article/publish
+ERR: 没有上传的文件！
+

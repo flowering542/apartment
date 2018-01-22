@@ -1,0 +1,1364 @@
+[ 2017-10-14T12:34:13+08:00 ] ::1 /apartment/Admin/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001755s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002843s ]
+SQL: SHOW COLUMNS FROM `apart_admin` [ RunTime:0.0631s ]
+SQL: SELECT `password` FROM `apart_admin` WHERE `username` = 'apartadmin' LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT `nickname` FROM `apart_admin` WHERE `username` = 'apartadmin' AND `password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0006s ]
+
+[ 2017-10-14T12:41:38+08:00 ] ::1 /apartment/Admin/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001053s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002129s ]
+SQL: SHOW COLUMNS FROM `apart_admin` [ RunTime:0.0081s ]
+SQL: SELECT `password` FROM `apart_admin` WHERE `username` = 'apartadmin' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `nickname` FROM `apart_admin` WHERE `username` = 'apartadmin' AND `password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-10-14T12:59:10+08:00 ] ::1 /apartment/Admin/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001839s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002983s ]
+SQL: SHOW COLUMNS FROM `apart_admin` [ RunTime:0.0082s ]
+SQL: SELECT `password` FROM `apart_admin` WHERE `username` = 'apartadmin' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `nickname` FROM `apart_admin` WHERE `username` = 'apartadmin' AND `password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2017-10-14T20:52:07+08:00 ] ::1 /apartment/Admin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002480s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001875s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002078s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000138s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000285s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023075s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023239s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000888s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000998s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001341s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001465s ]
+
+[ 2017-10-14T20:52:14+08:00 ] ::1 /apartment/Admin/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002534s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002761s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003019s ]
+SQL: SHOW COLUMNS FROM `apart_admin` [ RunTime:0.1801s ]
+SQL: SELECT `password` FROM `apart_admin` WHERE `username` = 'apartadmin' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `nickname` FROM `apart_admin` WHERE `username` = 'apartadmin' AND `password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2017-10-14T20:52:14+08:00 ] ::1 /apartment/Admin/Article/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001590s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001813s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001990s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000096s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000236s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042626s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042907s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001588s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001717s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002707s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002909s ]
+
+[ 2017-10-14T20:52:14+08:00 ] ::1 /apartment/Admin/article/top.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002388s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005532s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005727s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000128s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000295s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.047182s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047367s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000873s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000993s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001372s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001491s ]
+
+[ 2017-10-14T20:52:14+08:00 ] ::1 /apartment/Admin/article/publish.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001867s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003585s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003810s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000207s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000342s ]
+NOTIC: [8] Undefined index: publish D:\xampp\htdocs\apartment\Application\Runtime\Cache\Admin\0596532377ed9b2c394887d1ce8ac725.php 第 73 行.
+NOTIC: [8] Undefined index: publish D:\xampp\htdocs\apartment\Application\Runtime\Cache\Admin\0596532377ed9b2c394887d1ce8ac725.php 第 77 行.
+NOTIC: [8] Undefined index: publish D:\xampp\htdocs\apartment\Application\Runtime\Cache\Admin\0596532377ed9b2c394887d1ce8ac725.php 第 81 行.
+NOTIC: [8] Undefined index: publish D:\xampp\htdocs\apartment\Application\Runtime\Cache\Admin\0596532377ed9b2c394887d1ce8ac725.php 第 85 行.
+NOTIC: [8] Undefined index: publish D:\xampp\htdocs\apartment\Application\Runtime\Cache\Admin\0596532377ed9b2c394887d1ce8ac725.php 第 89 行.
+NOTIC: [8] Undefined index: publish D:\xampp\htdocs\apartment\Application\Runtime\Cache\Admin\0596532377ed9b2c394887d1ce8ac725.php 第 93 行.
+NOTIC: [8] Undefined index: publish D:\xampp\htdocs\apartment\Application\Runtime\Cache\Admin\0596532377ed9b2c394887d1ce8ac725.php 第 97 行.
+NOTIC: [8] Undefined index: publish D:\xampp\htdocs\apartment\Application\Runtime\Cache\Admin\0596532377ed9b2c394887d1ce8ac725.php 第 101 行.
+NOTIC: [8] Undefined index: publish D:\xampp\htdocs\apartment\Application\Runtime\Cache\Admin\0596532377ed9b2c394887d1ce8ac725.php 第 105 行.
+NOTIC: [8] Undefined index: publish D:\xampp\htdocs\apartment\Application\Runtime\Cache\Admin\0596532377ed9b2c394887d1ce8ac725.php 第 109 行.
+NOTIC: [8] Undefined index: publish D:\xampp\htdocs\apartment\Application\Runtime\Cache\Admin\0596532377ed9b2c394887d1ce8ac725.php 第 113 行.
+NOTIC: [8] Undefined index: publish D:\xampp\htdocs\apartment\Application\Runtime\Cache\Admin\0596532377ed9b2c394887d1ce8ac725.php 第 117 行.
+NOTIC: [8] Undefined index: publish D:\xampp\htdocs\apartment\Application\Runtime\Cache\Admin\0596532377ed9b2c394887d1ce8ac725.php 第 121 行.
+NOTIC: [8] Undefined index: publish D:\xampp\htdocs\apartment\Application\Runtime\Cache\Admin\0596532377ed9b2c394887d1ce8ac725.php 第 125 行.
+NOTIC: [8] Undefined index: publish D:\xampp\htdocs\apartment\Application\Runtime\Cache\Admin\0596532377ed9b2c394887d1ce8ac725.php 第 129 行.
+NOTIC: [8] Undefined index: publish D:\xampp\htdocs\apartment\Application\Runtime\Cache\Admin\0596532377ed9b2c394887d1ce8ac725.php 第 133 行.
+NOTIC: [8] Undefined index: publish D:\xampp\htdocs\apartment\Application\Runtime\Cache\Admin\0596532377ed9b2c394887d1ce8ac725.php 第 137 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.062791s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.062937s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002836s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002971s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002202s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002355s ]
+
+[ 2017-10-14T20:52:14+08:00 ] ::1 /apartment/Admin/article/left.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001493s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002801s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002971s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000136s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000280s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.082744s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.082911s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002069s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002494s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004167s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004335s ]
+
+[ 2017-10-14T23:11:23+08:00 ] ::1 /apartment/Admin/sdfadsaf
+ERR: 无法加载控制器:Sdfadsaf
+
+[ 2017-10-14T23:28:12+08:00 ] ::1 /apartment/Admin/Article
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003926s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002276s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002441s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000115s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000460s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031411s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031589s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001391s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001492s ]
+
+[ 2017-10-14T23:28:15+08:00 ] ::1 /apartment/Admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001204s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001332s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001636s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000133s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000264s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017901s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018041s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001210s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001342s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002373s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002572s ]
+
+[ 2017-10-14T23:28:26+08:00 ] ::1 /apartment/Admin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001200s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001526s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001701s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000143s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000281s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020858s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021012s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000703s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000791s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001067s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001160s ]
+
+[ 2017-10-14T23:35:44+08:00 ] ::1 /apartment/Admin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001320s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001740s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001910s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000134s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000274s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018235s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018375s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001080s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001215s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001704s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001846s ]
+
+[ 2017-10-14T23:37:27+08:00 ] ::1 /apartment/Admin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001574s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004946s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005179s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000191s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000389s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029750s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029909s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001189s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001277s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001559s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001657s ]
+
+[ 2017-10-14T23:38:44+08:00 ] ::1 /apartment/Admin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001337s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002308s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002529s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000137s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000298s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018744s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001105s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002418s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002564s ]
+
+[ 2017-10-14T23:38:57+08:00 ] ::1 /apartment/Admin/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000922s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001183s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001297s ]
+SQL: SHOW COLUMNS FROM `apart_admin` [ RunTime:0.0191s ]
+SQL: SELECT `password` FROM `apart_admin` WHERE `username` = 'apartadmin' LIMIT 1   [ RunTime:0.0179s ]
+SQL: SELECT `nickname` FROM `apart_admin` WHERE `username` = 'apartadmin' AND `password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0210s ]
+
+[ 2017-10-14T23:38:58+08:00 ] ::1 /apartment/Admin/Article/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000959s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001208s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001325s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000106s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000354s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016613s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016765s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000727s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000815s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001142s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001236s ]
+
+[ 2017-10-14T23:38:58+08:00 ] ::1 /apartment/Admin/article/top.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001158s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001556s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001727s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000105s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000220s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018026s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018190s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000668s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000762s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001191s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001299s ]
+
+[ 2017-10-14T23:38:58+08:00 ] ::1 /apartment/Admin/article/publish.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001329s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001973s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002106s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000243s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000377s ]
+NOTIC: [8] Undefined index: publish D:\xampp\htdocs\apartment\Application\Runtime\Cache\Admin\0596532377ed9b2c394887d1ce8ac725.php 第 73 行.
+NOTIC: [8] Undefined index: publish D:\xampp\htdocs\apartment\Application\Runtime\Cache\Admin\0596532377ed9b2c394887d1ce8ac725.php 第 77 行.
+NOTIC: [8] Undefined index: publish D:\xampp\htdocs\apartment\Application\Runtime\Cache\Admin\0596532377ed9b2c394887d1ce8ac725.php 第 81 行.
+NOTIC: [8] Undefined index: publish D:\xampp\htdocs\apartment\Application\Runtime\Cache\Admin\0596532377ed9b2c394887d1ce8ac725.php 第 85 行.
+NOTIC: [8] Undefined index: publish D:\xampp\htdocs\apartment\Application\Runtime\Cache\Admin\0596532377ed9b2c394887d1ce8ac725.php 第 89 行.
+NOTIC: [8] Undefined index: publish D:\xampp\htdocs\apartment\Application\Runtime\Cache\Admin\0596532377ed9b2c394887d1ce8ac725.php 第 93 行.
+NOTIC: [8] Undefined index: publish D:\xampp\htdocs\apartment\Application\Runtime\Cache\Admin\0596532377ed9b2c394887d1ce8ac725.php 第 97 行.
+NOTIC: [8] Undefined index: publish D:\xampp\htdocs\apartment\Application\Runtime\Cache\Admin\0596532377ed9b2c394887d1ce8ac725.php 第 101 行.
+NOTIC: [8] Undefined index: publish D:\xampp\htdocs\apartment\Application\Runtime\Cache\Admin\0596532377ed9b2c394887d1ce8ac725.php 第 105 行.
+NOTIC: [8] Undefined index: publish D:\xampp\htdocs\apartment\Application\Runtime\Cache\Admin\0596532377ed9b2c394887d1ce8ac725.php 第 109 行.
+NOTIC: [8] Undefined index: publish D:\xampp\htdocs\apartment\Application\Runtime\Cache\Admin\0596532377ed9b2c394887d1ce8ac725.php 第 113 行.
+NOTIC: [8] Undefined index: publish D:\xampp\htdocs\apartment\Application\Runtime\Cache\Admin\0596532377ed9b2c394887d1ce8ac725.php 第 117 行.
+NOTIC: [8] Undefined index: publish D:\xampp\htdocs\apartment\Application\Runtime\Cache\Admin\0596532377ed9b2c394887d1ce8ac725.php 第 121 行.
+NOTIC: [8] Undefined index: publish D:\xampp\htdocs\apartment\Application\Runtime\Cache\Admin\0596532377ed9b2c394887d1ce8ac725.php 第 125 行.
+NOTIC: [8] Undefined index: publish D:\xampp\htdocs\apartment\Application\Runtime\Cache\Admin\0596532377ed9b2c394887d1ce8ac725.php 第 129 行.
+NOTIC: [8] Undefined index: publish D:\xampp\htdocs\apartment\Application\Runtime\Cache\Admin\0596532377ed9b2c394887d1ce8ac725.php 第 133 行.
+NOTIC: [8] Undefined index: publish D:\xampp\htdocs\apartment\Application\Runtime\Cache\Admin\0596532377ed9b2c394887d1ce8ac725.php 第 137 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037925s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038064s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001911s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002035s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002184s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002331s ]
+
+[ 2017-10-14T23:38:58+08:00 ] ::1 /apartment/Admin/article/left.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001226s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002131s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000137s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000282s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033981s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034147s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002159s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002327s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002401s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002556s ]
+
+[ 2017-10-14T23:39:03+08:00 ] ::1 /apartment/Admin/Article/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001253s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001655s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001843s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000097s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000237s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017203s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017351s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000771s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000868s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001250s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001352s ]
+
+[ 2017-10-14T23:39:03+08:00 ] ::1 /apartment/Admin/article/left.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000965s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001497s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001669s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000141s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000280s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018150s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018289s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000827s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000933s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001707s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001908s ]
+
+[ 2017-10-14T23:39:03+08:00 ] ::1 /apartment/Admin/article/top.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001024s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001738s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001867s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000109s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000258s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023070s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023263s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001030s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001141s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001572s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001712s ]
+
+[ 2017-10-14T23:39:03+08:00 ] ::1 /apartment/Admin/article/publish.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001215s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001177s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001301s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000235s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000429s ]
+NOTIC: [8] Undefined index: publish D:\xampp\htdocs\apartment\Application\Runtime\Cache\Admin\0596532377ed9b2c394887d1ce8ac725.php 第 73 行.
+NOTIC: [8] Undefined index: publish D:\xampp\htdocs\apartment\Application\Runtime\Cache\Admin\0596532377ed9b2c394887d1ce8ac725.php 第 77 行.
+NOTIC: [8] Undefined index: publish D:\xampp\htdocs\apartment\Application\Runtime\Cache\Admin\0596532377ed9b2c394887d1ce8ac725.php 第 81 行.
+NOTIC: [8] Undefined index: publish D:\xampp\htdocs\apartment\Application\Runtime\Cache\Admin\0596532377ed9b2c394887d1ce8ac725.php 第 85 行.
+NOTIC: [8] Undefined index: publish D:\xampp\htdocs\apartment\Application\Runtime\Cache\Admin\0596532377ed9b2c394887d1ce8ac725.php 第 89 行.
+NOTIC: [8] Undefined index: publish D:\xampp\htdocs\apartment\Application\Runtime\Cache\Admin\0596532377ed9b2c394887d1ce8ac725.php 第 93 行.
+NOTIC: [8] Undefined index: publish D:\xampp\htdocs\apartment\Application\Runtime\Cache\Admin\0596532377ed9b2c394887d1ce8ac725.php 第 97 行.
+NOTIC: [8] Undefined index: publish D:\xampp\htdocs\apartment\Application\Runtime\Cache\Admin\0596532377ed9b2c394887d1ce8ac725.php 第 101 行.
+NOTIC: [8] Undefined index: publish D:\xampp\htdocs\apartment\Application\Runtime\Cache\Admin\0596532377ed9b2c394887d1ce8ac725.php 第 105 行.
+NOTIC: [8] Undefined index: publish D:\xampp\htdocs\apartment\Application\Runtime\Cache\Admin\0596532377ed9b2c394887d1ce8ac725.php 第 109 行.
+NOTIC: [8] Undefined index: publish D:\xampp\htdocs\apartment\Application\Runtime\Cache\Admin\0596532377ed9b2c394887d1ce8ac725.php 第 113 行.
+NOTIC: [8] Undefined index: publish D:\xampp\htdocs\apartment\Application\Runtime\Cache\Admin\0596532377ed9b2c394887d1ce8ac725.php 第 117 行.
+NOTIC: [8] Undefined index: publish D:\xampp\htdocs\apartment\Application\Runtime\Cache\Admin\0596532377ed9b2c394887d1ce8ac725.php 第 121 行.
+NOTIC: [8] Undefined index: publish D:\xampp\htdocs\apartment\Application\Runtime\Cache\Admin\0596532377ed9b2c394887d1ce8ac725.php 第 125 行.
+NOTIC: [8] Undefined index: publish D:\xampp\htdocs\apartment\Application\Runtime\Cache\Admin\0596532377ed9b2c394887d1ce8ac725.php 第 129 行.
+NOTIC: [8] Undefined index: publish D:\xampp\htdocs\apartment\Application\Runtime\Cache\Admin\0596532377ed9b2c394887d1ce8ac725.php 第 133 行.
+NOTIC: [8] Undefined index: publish D:\xampp\htdocs\apartment\Application\Runtime\Cache\Admin\0596532377ed9b2c394887d1ce8ac725.php 第 137 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030252s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030397s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001161s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001340s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001702s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001869s ]
+
+[ 2017-10-14T23:39:07+08:00 ] ::1 /apartment/Admin/Index/login_out.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001032s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001141s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001254s ]
+
+[ 2017-10-14T23:39:07+08:00 ] ::1 /apartment/Admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001409s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001301s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001434s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000143s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000304s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019167s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019311s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000995s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001102s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001366s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001488s ]
+
+[ 2017-10-14T23:44:17+08:00 ] ::1 /apartment/Admin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001257s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001191s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001297s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000137s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000266s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016885s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017015s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000721s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000811s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001300s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001454s ]
+
+[ 2017-10-14T23:44:38+08:00 ] ::1 /apartment/Admin/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001784s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001907s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002029s ]
+SQL: SHOW COLUMNS FROM `apart_admin` [ RunTime:0.5528s ]
+SQL: SELECT `password` FROM `apart_admin` WHERE `username` = 'apartadmin' LIMIT 1   [ RunTime:0.3181s ]
+SQL: SELECT `nickname` FROM `apart_admin` WHERE `username` = 'apartadmin' AND `password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.4257s ]
+
+[ 2017-10-14T23:44:40+08:00 ] ::1 /apartment/Admin/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001165s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002019s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002157s ]
+SQL: SHOW COLUMNS FROM `apart_admin` [ RunTime:0.2229s ]
+SQL: SELECT `password` FROM `apart_admin` WHERE `username` = 'apartadmin' LIMIT 1   [ RunTime:0.2915s ]
+SQL: SELECT `nickname` FROM `apart_admin` WHERE `username` = 'apartadmin' AND `password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.5370s ]
+
+[ 2017-10-14T23:44:42+08:00 ] ::1 /apartment/Admin/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001682s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001849s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001961s ]
+SQL: SHOW COLUMNS FROM `apart_admin` [ RunTime:0.1533s ]
+SQL: SELECT `password` FROM `apart_admin` WHERE `username` = 'apartadmin' LIMIT 1   [ RunTime:0.1505s ]
+SQL: SELECT `nickname` FROM `apart_admin` WHERE `username` = 'apartadmin' AND `password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.1487s ]
+
+[ 2017-10-14T23:44:42+08:00 ] ::1 /apartment/Admin/Article/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001090s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001553s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001707s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000155s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000374s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030954s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031183s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002327s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002514s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008195s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008429s ]
+
+[ 2017-10-14T23:44:42+08:00 ] ::1 /apartment/Admin/article/top.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000934s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001117s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001236s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000291s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000429s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015349s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015522s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000757s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000851s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001130s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001232s ]
+
+[ 2017-10-14T23:44:42+08:00 ] ::1 /apartment/Admin/article/publish.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000895s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001243s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001384s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000216s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000352s ]
+NOTIC: [8] Undefined index: publish D:\xampp\htdocs\apartment\Application\Runtime\Cache\Admin\0596532377ed9b2c394887d1ce8ac725.php 第 73 行.
+NOTIC: [8] Undefined index: publish D:\xampp\htdocs\apartment\Application\Runtime\Cache\Admin\0596532377ed9b2c394887d1ce8ac725.php 第 77 行.
+NOTIC: [8] Undefined index: publish D:\xampp\htdocs\apartment\Application\Runtime\Cache\Admin\0596532377ed9b2c394887d1ce8ac725.php 第 81 行.
+NOTIC: [8] Undefined index: publish D:\xampp\htdocs\apartment\Application\Runtime\Cache\Admin\0596532377ed9b2c394887d1ce8ac725.php 第 85 行.
+NOTIC: [8] Undefined index: publish D:\xampp\htdocs\apartment\Application\Runtime\Cache\Admin\0596532377ed9b2c394887d1ce8ac725.php 第 89 行.
+NOTIC: [8] Undefined index: publish D:\xampp\htdocs\apartment\Application\Runtime\Cache\Admin\0596532377ed9b2c394887d1ce8ac725.php 第 93 行.
+NOTIC: [8] Undefined index: publish D:\xampp\htdocs\apartment\Application\Runtime\Cache\Admin\0596532377ed9b2c394887d1ce8ac725.php 第 97 行.
+NOTIC: [8] Undefined index: publish D:\xampp\htdocs\apartment\Application\Runtime\Cache\Admin\0596532377ed9b2c394887d1ce8ac725.php 第 101 行.
+NOTIC: [8] Undefined index: publish D:\xampp\htdocs\apartment\Application\Runtime\Cache\Admin\0596532377ed9b2c394887d1ce8ac725.php 第 105 行.
+NOTIC: [8] Undefined index: publish D:\xampp\htdocs\apartment\Application\Runtime\Cache\Admin\0596532377ed9b2c394887d1ce8ac725.php 第 109 行.
+NOTIC: [8] Undefined index: publish D:\xampp\htdocs\apartment\Application\Runtime\Cache\Admin\0596532377ed9b2c394887d1ce8ac725.php 第 113 行.
+NOTIC: [8] Undefined index: publish D:\xampp\htdocs\apartment\Application\Runtime\Cache\Admin\0596532377ed9b2c394887d1ce8ac725.php 第 117 行.
+NOTIC: [8] Undefined index: publish D:\xampp\htdocs\apartment\Application\Runtime\Cache\Admin\0596532377ed9b2c394887d1ce8ac725.php 第 121 行.
+NOTIC: [8] Undefined index: publish D:\xampp\htdocs\apartment\Application\Runtime\Cache\Admin\0596532377ed9b2c394887d1ce8ac725.php 第 125 行.
+NOTIC: [8] Undefined index: publish D:\xampp\htdocs\apartment\Application\Runtime\Cache\Admin\0596532377ed9b2c394887d1ce8ac725.php 第 129 行.
+NOTIC: [8] Undefined index: publish D:\xampp\htdocs\apartment\Application\Runtime\Cache\Admin\0596532377ed9b2c394887d1ce8ac725.php 第 133 行.
+NOTIC: [8] Undefined index: publish D:\xampp\htdocs\apartment\Application\Runtime\Cache\Admin\0596532377ed9b2c394887d1ce8ac725.php 第 137 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040816s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040956s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001693s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001824s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002183s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002314s ]
+
+[ 2017-10-14T23:44:42+08:00 ] ::1 /apartment/Admin/article/left.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000991s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001266s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001407s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000135s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000311s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037334s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037503s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001636s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001774s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002417s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002551s ]
+
+[ 2017-10-14T23:44:48+08:00 ] ::1 /apartment/Admin/Article/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001750s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001067s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001169s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000093s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000228s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016788s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016930s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000846s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000935s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001097s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001190s ]
+
+[ 2017-10-14T23:44:49+08:00 ] ::1 /apartment/Admin/article/top.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000946s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001251s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001386s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000098s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000221s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016771s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016922s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000686s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000835s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001282s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001386s ]
+
+[ 2017-10-14T23:44:49+08:00 ] ::1 /apartment/Admin/article/left.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000925s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001190s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001308s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000130s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000290s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029945s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030089s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000964s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001063s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001121s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001231s ]
+
+[ 2017-10-14T23:44:49+08:00 ] ::1 /apartment/Admin/article/publish.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000999s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002342s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000218s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000356s ]
+NOTIC: [8] Undefined index: publish D:\xampp\htdocs\apartment\Application\Runtime\Cache\Admin\0596532377ed9b2c394887d1ce8ac725.php 第 73 行.
+NOTIC: [8] Undefined index: publish D:\xampp\htdocs\apartment\Application\Runtime\Cache\Admin\0596532377ed9b2c394887d1ce8ac725.php 第 77 行.
+NOTIC: [8] Undefined index: publish D:\xampp\htdocs\apartment\Application\Runtime\Cache\Admin\0596532377ed9b2c394887d1ce8ac725.php 第 81 行.
+NOTIC: [8] Undefined index: publish D:\xampp\htdocs\apartment\Application\Runtime\Cache\Admin\0596532377ed9b2c394887d1ce8ac725.php 第 85 行.
+NOTIC: [8] Undefined index: publish D:\xampp\htdocs\apartment\Application\Runtime\Cache\Admin\0596532377ed9b2c394887d1ce8ac725.php 第 89 行.
+NOTIC: [8] Undefined index: publish D:\xampp\htdocs\apartment\Application\Runtime\Cache\Admin\0596532377ed9b2c394887d1ce8ac725.php 第 93 行.
+NOTIC: [8] Undefined index: publish D:\xampp\htdocs\apartment\Application\Runtime\Cache\Admin\0596532377ed9b2c394887d1ce8ac725.php 第 97 行.
+NOTIC: [8] Undefined index: publish D:\xampp\htdocs\apartment\Application\Runtime\Cache\Admin\0596532377ed9b2c394887d1ce8ac725.php 第 101 行.
+NOTIC: [8] Undefined index: publish D:\xampp\htdocs\apartment\Application\Runtime\Cache\Admin\0596532377ed9b2c394887d1ce8ac725.php 第 105 行.
+NOTIC: [8] Undefined index: publish D:\xampp\htdocs\apartment\Application\Runtime\Cache\Admin\0596532377ed9b2c394887d1ce8ac725.php 第 109 行.
+NOTIC: [8] Undefined index: publish D:\xampp\htdocs\apartment\Application\Runtime\Cache\Admin\0596532377ed9b2c394887d1ce8ac725.php 第 113 行.
+NOTIC: [8] Undefined index: publish D:\xampp\htdocs\apartment\Application\Runtime\Cache\Admin\0596532377ed9b2c394887d1ce8ac725.php 第 117 行.
+NOTIC: [8] Undefined index: publish D:\xampp\htdocs\apartment\Application\Runtime\Cache\Admin\0596532377ed9b2c394887d1ce8ac725.php 第 121 行.
+NOTIC: [8] Undefined index: publish D:\xampp\htdocs\apartment\Application\Runtime\Cache\Admin\0596532377ed9b2c394887d1ce8ac725.php 第 125 行.
+NOTIC: [8] Undefined index: publish D:\xampp\htdocs\apartment\Application\Runtime\Cache\Admin\0596532377ed9b2c394887d1ce8ac725.php 第 129 行.
+NOTIC: [8] Undefined index: publish D:\xampp\htdocs\apartment\Application\Runtime\Cache\Admin\0596532377ed9b2c394887d1ce8ac725.php 第 133 行.
+NOTIC: [8] Undefined index: publish D:\xampp\htdocs\apartment\Application\Runtime\Cache\Admin\0596532377ed9b2c394887d1ce8ac725.php 第 137 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024843s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024982s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001296s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001432s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002191s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002364s ]
+
+[ 2017-10-14T23:44:51+08:00 ] ::1 /apartment/Admin/Index/login_out.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001009s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001119s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001237s ]
+
+[ 2017-10-14T23:44:52+08:00 ] ::1 /apartment/Admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001465s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001508s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001655s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000131s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000253s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018883s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019011s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000703s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000791s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001159s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001258s ]
+
+[ 2017-10-14T23:45:07+08:00 ] ::1 /apartment/Admin/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001152s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001502s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001648s ]
+SQL: SHOW COLUMNS FROM `apart_admin` [ RunTime:0.2092s ]
+SQL: SELECT `password` FROM `apart_admin` WHERE `username` = 'apartadmin' LIMIT 1   [ RunTime:0.0600s ]
+SQL: SELECT `nickname` FROM `apart_admin` WHERE `username` = 'apartadmin' AND `password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0200s ]
+
+[ 2017-10-14T23:45:07+08:00 ] ::1 /apartment/Admin/Article/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000972s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001339s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001479s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000097s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000232s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017294s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017429s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000720s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000815s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001352s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001479s ]
+
+[ 2017-10-14T23:45:07+08:00 ] ::1 /apartment/Admin/article/top.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000987s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001180s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001330s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000094s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000219s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017702s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017885s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001166s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001307s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004189s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004336s ]
+
+[ 2017-10-14T23:45:07+08:00 ] ::1 /apartment/Admin/article/left.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001157s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001179s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001327s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000169s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000436s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019621s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019777s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000864s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000963s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001285s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001417s ]
+
+[ 2017-10-14T23:45:07+08:00 ] ::1 /apartment/Admin/article/publish.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001730s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001192s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001318s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000225s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000514s ]
+NOTIC: [8] Undefined index: publish D:\xampp\htdocs\apartment\Application\Runtime\Cache\Admin\0596532377ed9b2c394887d1ce8ac725.php 第 73 行.
+NOTIC: [8] Undefined index: publish D:\xampp\htdocs\apartment\Application\Runtime\Cache\Admin\0596532377ed9b2c394887d1ce8ac725.php 第 77 行.
+NOTIC: [8] Undefined index: publish D:\xampp\htdocs\apartment\Application\Runtime\Cache\Admin\0596532377ed9b2c394887d1ce8ac725.php 第 81 行.
+NOTIC: [8] Undefined index: publish D:\xampp\htdocs\apartment\Application\Runtime\Cache\Admin\0596532377ed9b2c394887d1ce8ac725.php 第 85 行.
+NOTIC: [8] Undefined index: publish D:\xampp\htdocs\apartment\Application\Runtime\Cache\Admin\0596532377ed9b2c394887d1ce8ac725.php 第 89 行.
+NOTIC: [8] Undefined index: publish D:\xampp\htdocs\apartment\Application\Runtime\Cache\Admin\0596532377ed9b2c394887d1ce8ac725.php 第 93 行.
+NOTIC: [8] Undefined index: publish D:\xampp\htdocs\apartment\Application\Runtime\Cache\Admin\0596532377ed9b2c394887d1ce8ac725.php 第 97 行.
+NOTIC: [8] Undefined index: publish D:\xampp\htdocs\apartment\Application\Runtime\Cache\Admin\0596532377ed9b2c394887d1ce8ac725.php 第 101 行.
+NOTIC: [8] Undefined index: publish D:\xampp\htdocs\apartment\Application\Runtime\Cache\Admin\0596532377ed9b2c394887d1ce8ac725.php 第 105 行.
+NOTIC: [8] Undefined index: publish D:\xampp\htdocs\apartment\Application\Runtime\Cache\Admin\0596532377ed9b2c394887d1ce8ac725.php 第 109 行.
+NOTIC: [8] Undefined index: publish D:\xampp\htdocs\apartment\Application\Runtime\Cache\Admin\0596532377ed9b2c394887d1ce8ac725.php 第 113 行.
+NOTIC: [8] Undefined index: publish D:\xampp\htdocs\apartment\Application\Runtime\Cache\Admin\0596532377ed9b2c394887d1ce8ac725.php 第 117 行.
+NOTIC: [8] Undefined index: publish D:\xampp\htdocs\apartment\Application\Runtime\Cache\Admin\0596532377ed9b2c394887d1ce8ac725.php 第 121 行.
+NOTIC: [8] Undefined index: publish D:\xampp\htdocs\apartment\Application\Runtime\Cache\Admin\0596532377ed9b2c394887d1ce8ac725.php 第 125 行.
+NOTIC: [8] Undefined index: publish D:\xampp\htdocs\apartment\Application\Runtime\Cache\Admin\0596532377ed9b2c394887d1ce8ac725.php 第 129 行.
+NOTIC: [8] Undefined index: publish D:\xampp\htdocs\apartment\Application\Runtime\Cache\Admin\0596532377ed9b2c394887d1ce8ac725.php 第 133 行.
+NOTIC: [8] Undefined index: publish D:\xampp\htdocs\apartment\Application\Runtime\Cache\Admin\0596532377ed9b2c394887d1ce8ac725.php 第 137 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030925s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031067s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001173s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001299s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002498s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002633s ]
+
+[ 2017-10-14T23:46:12+08:00 ] ::1 /apartment/Admin/article/publish.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001562s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001933s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002132s ]
+SQL: SHOW COLUMNS FROM `apart_article` [ RunTime:0.0882s ]
+NOTIC: [8] Undefined index: validate D:\xampp\htdocs\apartment\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\xampp\htdocs\apartment\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\xampp\htdocs\apartment\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: INSERT INTO `apart_article` (`aTitle`,`author`,`source`,`category`,`aContent`,`aTime`,`isnav`,`hits`,`image`) VALUES ('山东省学生资助管理中心','','','tzgg','&lt;p style=&quot;background: white&quot;&gt;&lt;span style=&quot;line-height: 200%&quot;&gt;&lt;span style=&quot;font-size: 21px&quot;&gt;&lt;span style=&quot;font-family: 仿宋_GB2312&quot;&gt;各学院：&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 20px;font-family: 仿宋_GB2312&quot;&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;text-indent: 40px;background: white&quot;&gt;&lt;span style=&quot;line-height: 200%&quot;&gt;&lt;span style=&quot;font-size: 21px&quot;&gt;&lt;span style=&quot;font-family: 仿宋_GB2312&quot;&gt;根据山东省学生资助管理中心《关于做好2017年奖助学金评审工作的通知》（鲁学助[2017]40号）、《山东建筑大学全日制研究生学费收费标准和奖助方案》（校办字[2014]40号）和《山东建筑大学研究生国家奖学金管理实施细则（试行）》（校办字[2015]14号）等文件精神，我校研究生2016-2017学年研究生国家奖学金评选工作已经结束，现将各学院获奖研究生名单公示如下：&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;text-indent: 25px;background: white&quot;&gt;&lt;span style=&quot;line-height: 200%&quot;&gt;&lt;span style=&quot;font-size: 21px&quot;&gt;&lt;span style=&quot;font-family: 黑体;color: #333333&quot;&gt;土木工程学院（3人）：&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;text-indent: 25px;background: white&quot;&gt;&lt;span style=&quot;line-height: 200%&quot;&gt;&lt;span style=&quot;font-size: 21px&quot;&gt;&lt;span style=&quot;font-family: 仿宋_GB2312;color: #333333&quot;&gt;孙华强2015015114 &amp;nbsp;高希虎2015015126 &amp;nbsp;冯帅克2015010112&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 20px;font-family: 仿宋_GB2312;color: #333333&quot;&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;text-indent: 25px;background: white&quot;&gt;&lt;span style=&quot;line-height: 200%&quot;&gt;&lt;span style=&quot;font-size: 21px&quot;&gt;&lt;span style=&quot;font-family: 黑体;color: #333333&quot;&gt;管理工程学院（2人）：&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 20px;font-family: 黑体;color: #333333&quot;&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;text-indent: 25px;background: white&quot;&gt;&lt;span style=&quot;line-height: 200%&quot;&gt;&lt;span style=&quot;font-size: 21px&quot;&gt;&lt;span style=&quot;font-family: 仿宋_GB2312;color: #333333&quot;&gt;马光德 &amp;nbsp;2015020105 &amp;nbsp;陈艺中 &amp;nbsp;2015020101&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 20px;font-family: 仿宋_GB2312;color: #333333&quot;&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;text-indent: 25px;background: white&quot;&gt;&lt;span style=&quot;line-height: 200%&quot;&gt;&lt;span style=&quot;font-size: 21px&quot;&gt;&lt;span style=&quot;font-family: 黑体;color: #333333&quot;&gt;热能工程学院（3人）：&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;text-indent: 25px;background: white&quot;&gt;&lt;span style=&quot;line-height: 200%&quot;&gt;&lt;span style=&quot;font-size: 21px&quot;&gt;&lt;span style=&quot;font-family: 仿宋_GB2312;color: #333333&quot;&gt;朱琳琳 &amp;nbsp;2015035117 &amp;nbsp;刘冉冉 &amp;nbsp;2015035116 &amp;nbsp; 马芳芳2015030210&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;text-indent: 25px;background: white&quot;&gt;&lt;span style=&quot;line-height: 200%&quot;&gt;&lt;span style=&quot;font-size: 21px&quot;&gt;&lt;span style=&quot;font-family: 黑体;color: #333333&quot;&gt;市政与环境工程学院（2人）：&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;text-indent: 25px;background: white&quot;&gt;&lt;span style=&quot;line-height: 200%&quot;&gt;&lt;span style=&quot;font-size: 21px&quot;&gt;&lt;span style=&quot;font-family: 仿宋_GB2312;color: #333333&quot;&gt;李海宁2015040110 &amp;nbsp;王敏香2015040205&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;text-indent: 25px;background: white&quot;&gt;&lt;span style=&quot;line-height: 200%&quot;&gt;&lt;span style=&quot;font-size: 21px&quot;&gt;&lt;span style=&quot;font-family: 黑体;color: #333333&quot;&gt;建筑城规学院（5人）：&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;text-indent: 25px;background: white&quot;&gt;&lt;span style=&quot;line-height: 200%&quot;&gt;&lt;span style=&quot;font-size: 21px&quot;&gt;&lt;span style=&quot;font-family: 仿宋_GB2312;color: #333333&quot;&gt;王长鹏2015050302 &amp;nbsp;张菲菲2015055215 &amp;nbsp;司建平2015050104&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 20px;font-family: 仿宋_GB2312;color: #333333&quot;&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;text-indent: 25px;background: white&quot;&gt;&lt;span style=&quot;line-height: 200%&quot;&gt;&lt;span style=&quot;font-size: 21px&quot;&gt;&lt;span style=&quot;font-family: 仿宋_GB2312;color: #333333&quot;&gt;刘梅杰2015050210 &amp;nbsp;丁 玎B20140501（博士）&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;text-indent: 25px;background: white&quot;&gt;&lt;span style=&quot;line-height: 200%&quot;&gt;&lt;span style=&quot;font-size: 21px&quot;&gt;&lt;span style=&quot;font-family: 黑体;color: #333333&quot;&gt;艺术学院（3人）：&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 20px;font-family: 黑体;color: #333333&quot;&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;text-indent: 25px;background: white&quot;&gt;&lt;span style=&quot;line-height: 200%&quot;&gt;&lt;span style=&quot;font-size: 21px&quot;&gt;&lt;span style=&quot;font-family: 仿宋_GB2312;color: #333333&quot;&gt;张玉玉 2015065117 &amp;nbsp;孙译远 2015065308 &amp;nbsp;任睿哲 2015065406&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 20px;font-family: 仿宋_GB2312;color: #333333&quot;&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;text-indent: 25px;background: white&quot;&gt;&lt;span style=&quot;line-height: 200%&quot;&gt;&lt;span style=&quot;font-size: 21px&quot;&gt;&lt;span style=&quot;font-family: 黑体;color: #333333&quot;&gt;机电工程学院（2人）：&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;text-indent: 25px;background: white&quot;&gt;&lt;span style=&quot;line-height: 200%&quot;&gt;&lt;span style=&quot;font-size: 21px&quot;&gt;&lt;span style=&quot;font-family: 仿宋_GB2312;color: #333333&quot;&gt;张佳丽2015075112 &amp;nbsp;李海祯2015075101&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;text-indent: 25px;background: white&quot;&gt;&lt;span style=&quot;line-height: 200%&quot;&gt;&lt;span style=&quot;font-size: 21px&quot;&gt;&lt;span style=&quot;font-family: 黑体;color: #333333&quot;&gt;信息与电气工程学院（2人）：&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;text-indent: 25px;background: white&quot;&gt;&lt;span style=&quot;line-height: 200%&quot;&gt;&lt;span style=&quot;font-size: 21px&quot;&gt;&lt;span style=&quot;font-family: 仿宋_GB2312;color: #333333&quot;&gt;丁子祥2015080109 &amp;nbsp;张连滨2015080111&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 20px;font-family: 仿宋_GB2312;color: #333333&quot;&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;text-indent: 25px;background: white&quot;&gt;&lt;span style=&quot;line-height: 200%&quot;&gt;&lt;span style=&quot;font-size: 21px&quot;&gt;&lt;span style=&quot;font-family: 黑体;color: #333333&quot;&gt;商学院（1人）：&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;text-indent: 25px;background: white&quot;&gt;&lt;span style=&quot;line-height: 200%&quot;&gt;&lt;span style=&quot;font-size: 21px&quot;&gt;&lt;span style=&quot;font-family: 仿宋_GB2312;color: #333333&quot;&gt;钟明明2015090301&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;text-indent: 25px;background: white&quot;&gt;&lt;span style=&quot;line-height: 200%&quot;&gt;&lt;span style=&quot;font-size: 21px&quot;&gt;&lt;span style=&quot;font-family: 黑体;color: #333333&quot;&gt;材料科学与工程学院（2人）： &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;text-indent: 25px;background: white&quot;&gt;&lt;span style=&quot;line-height: 200%&quot;&gt;&lt;span style=&quot;font-size: 21px&quot;&gt;&lt;span style=&quot;font-family: 仿宋_GB2312;color: #333333&quot;&gt;涂英明2015100104 &amp;nbsp;杨士菊2015100205&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;text-indent: 25px;background: white&quot;&gt;&lt;span style=&quot;line-height: 200%&quot;&gt;&lt;span style=&quot;font-size: 21px&quot;&gt;&lt;span style=&quot;font-family: 黑体;color: #333333&quot;&gt;计算机科学与技术学院（1人）：&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 20px;font-family: 黑体;color: #333333&quot;&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;text-indent: 25px;background: white&quot;&gt;&lt;span style=&quot;line-height: 200%&quot;&gt;&lt;span style=&quot;font-size: 21px&quot;&gt;&lt;span style=&quot;font-family: 仿宋_GB2312;color: #333333&quot;&gt;苏玉瑞2015110104&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 20px;font-family: 仿宋_GB2312;color: #333333&quot;&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;text-indent: 40px;background: white&quot;&gt;&lt;span style=&quot;line-height: 200%&quot;&gt;&lt;span style=&quot;font-size: 21px&quot;&gt;&lt;span style=&quot;font-family: 黑体;color: #333333&quot;&gt;理学院（1人）：&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;text-indent: 25px;background: white&quot;&gt;&lt;span style=&quot;line-height: 200%&quot;&gt;&lt;span style=&quot;font-size: 21px&quot;&gt;&lt;span style=&quot;font-family: 仿宋_GB2312;color: #333333&quot;&gt;陈龙2015120102&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 20px;font-family: 仿宋_GB2312;color: #333333&quot;&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;text-indent: 25px;background: white&quot;&gt;&lt;span style=&quot;line-height: 200%&quot;&gt;&lt;span style=&quot;font-size: 21px&quot;&gt;&lt;span style=&quot;font-family: 黑体;color: #333333&quot;&gt;法学院（1人）：&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;text-indent: 25px;background: white&quot;&gt;&lt;span style=&quot;line-height: 200%&quot;&gt;&lt;span style=&quot;font-size: 21px&quot;&gt;&lt;span style=&quot;font-family: 仿宋_GB2312;color: #333333&quot;&gt;吕冲2015130103&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;text-indent: 25px;background: white&quot;&gt;&lt;span style=&quot;line-height: 200%&quot;&gt;&lt;span style=&quot;font-size: 21px&quot;&gt;&lt;span style=&quot;font-family: 黑体;color: #333333&quot;&gt;外国语学院：（1人）&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 20px;font-family: 黑体;color: #333333&quot;&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;text-indent: 25px;background: white&quot;&gt;&lt;span style=&quot;line-height: 200%&quot;&gt;&lt;span style=&quot;font-size: 21px&quot;&gt;&lt;span style=&quot;font-family: 仿宋_GB2312;color: #333333&quot;&gt;陈芸芸2016145105&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 20px;font-family: 仿宋_GB2312;color: #333333&quot;&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;text-indent: 40px;background: white&quot;&gt;&lt;span style=&quot;line-height: 200%&quot;&gt;&lt;span style=&quot;font-size: 21px&quot;&gt;&lt;span style=&quot;font-family: 黑体;color: #333333&quot;&gt;测绘与信息学院（1人）：&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;text-indent: 25px;background: white&quot;&gt;&lt;span style=&quot;line-height: 200%&quot;&gt;&lt;span style=&quot;font-size: 21px&quot;&gt;&lt;span style=&quot;font-family: 仿宋_GB2312;color: #333333&quot;&gt;范开放2015015204&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 20px;font-family: 仿宋_GB2312;color: #333333&quot;&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;text-indent: 25px;background: white&quot;&gt;&lt;span style=&quot;line-height: 200%&quot;&gt;&lt;span style=&quot;font-size: 21px&quot;&gt;&lt;span style=&quot;font-family: 黑体;color: #333333&quot;&gt;交通工程学院（2人）：&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;text-indent: 25px;background: white&quot;&gt;&lt;span style=&quot;line-height: 200%&quot;&gt;&lt;span style=&quot;font-size: 21px&quot;&gt;&lt;span style=&quot;font-family: 仿宋_GB2312;color: #333333&quot;&gt;廖建平2015150101 &amp;nbsp;张炜熠2015155102&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 20px;font-family: 仿宋_GB2312;color: #333333&quot;&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;text-indent: 25px;background: white&quot;&gt;&lt;span style=&quot;line-height: 200%&quot;&gt;&lt;span style=&quot;font-size: 21px&quot;&gt;&lt;span style=&quot;font-family: 黑体;color: #333333&quot;&gt;马克思主义学院（1人）：&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;text-indent: 25px;background: white&quot;&gt;&lt;span style=&quot;line-height: 200%&quot;&gt;&lt;span style=&quot;font-size: 21px&quot;&gt;&lt;span style=&quot;font-family: 仿宋_GB2312;color: #333333&quot;&gt;高晓娜2015130105&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 20px;font-family: 仿宋_GB2312;color: #333333&quot;&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;text-indent: 25px;background: white&quot;&gt;&lt;span style=&quot;line-height: 200%&quot;&gt;&lt;span style=&quot;font-size: 21px&quot;&gt;&lt;span style=&quot;font-family: 黑体;color: #333333&quot;&gt;力学所（1人）：&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;text-indent: 25px;background: white&quot;&gt;&lt;span style=&quot;line-height: 200%&quot;&gt;&lt;span style=&quot;font-size: 21px&quot;&gt;&lt;span style=&quot;font-family: 仿宋_GB2312;color: #333333&quot;&gt;徐子康2015200201 &amp;nbsp; &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;text-indent: 25px;background: white&quot;&gt;&lt;span style=&quot;line-height: 200%&quot;&gt;&lt;span style=&quot;font-size: 21px&quot;&gt;&lt;span style=&quot;font-family:Calibri&quot;&gt; &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;font-family:Calibri&quot;&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;text-indent: 25px;background: white&quot;&gt;&lt;span style=&quot;line-height: 200%&quot;&gt;&lt;span style=&quot;font-size: 21px&quot;&gt;&lt;span style=&quot;font-family: 仿宋_GB2312;color: #333333&quot;&gt;公示时间：2017年10月10日——10月16日&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;text-indent: 25px;background: white&quot;&gt;&lt;span style=&quot;line-height: 200%&quot;&gt;&lt;span style=&quot;font-size: 21px&quot;&gt;&lt;span style=&quot;font-family: 仿宋_GB2312;color: #333333&quot;&gt;联系人：李老师，86361555&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;text-indent: 25px;background: white&quot;&gt;&lt;span style=&quot;line-height: 200%&quot;&gt;&lt;span style=&quot;font-size: 21px&quot;&gt;&lt;span style=&quot;font-family: 仿宋_GB2312;color: #333333&quot;&gt;邮箱：yjsyx123@126.com&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;','2017-10-14 23:46:12','0','0','/Upload/images/20171014/59e2314466e63.jpg') [ RunTime:0.2691s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000098s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000255s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.051863s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.052054s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.008368s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008520s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008483s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008680s ]
+
+[ 2017-10-14T23:46:14+08:00 ] ::1 /apartment/Admin/article/publish.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002581s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007861s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008039s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000209s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000349s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046635s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046790s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006970s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007100s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.009837s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010016s ]
+
+[ 2017-10-14T23:47:44+08:00 ] ::1 /apartment/Admin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001942s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001990s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002223s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000141s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000278s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032251s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032392s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001345s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001472s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002217s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002354s ]
+
+[ 2017-10-14T23:47:57+08:00 ] ::1 /apartment/Admin/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001487s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001365s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001515s ]
+SQL: SHOW COLUMNS FROM `apart_admin` [ RunTime:0.5593s ]
+SQL: SELECT `password` FROM `apart_admin` WHERE `username` = 'apartadmin' LIMIT 1   [ RunTime:0.5258s ]
+SQL: SELECT `nickname` FROM `apart_admin` WHERE `username` = 'apartadmin' AND `password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.2194s ]
+
+[ 2017-10-14T23:47:58+08:00 ] ::1 /apartment/Admin/Article/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001336s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001590s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001774s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000102s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000252s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018211s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018387s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001288s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001429s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001772s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001910s ]
+
+[ 2017-10-14T23:47:58+08:00 ] ::1 /apartment/Admin/article/top.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001202s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001304s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001455s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000114s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000251s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016385s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016572s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000810s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000918s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001206s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001317s ]
+
+[ 2017-10-14T23:47:58+08:00 ] ::1 /apartment/Admin/article/publish.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001797s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002448s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002637s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000223s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000368s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043103s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043266s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001436s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001545s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002758s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002896s ]
+
+[ 2017-10-14T23:47:58+08:00 ] ::1 /apartment/Admin/article/left.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001456s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010482s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010670s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000142s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000290s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048159s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048325s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003372s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003545s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003058s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004980s ]
+
+[ 2017-10-14T23:48:08+08:00 ] ::1 /apartment/Admin/Index/login_out.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001109s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001267s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001407s ]
+
+[ 2017-10-14T23:48:08+08:00 ] ::1 /apartment/Admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001252s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001246s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001380s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000136s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000270s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018260s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018395s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000668s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000757s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001227s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001348s ]
+
+[ 2017-10-14T23:48:15+08:00 ] ::1 /apartment/Admin/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001020s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001729s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001890s ]
+SQL: SHOW COLUMNS FROM `apart_admin` [ RunTime:0.2164s ]
+SQL: SELECT `password` FROM `apart_admin` WHERE `username` = 'apartadmin' LIMIT 1   [ RunTime:0.0975s ]
+SQL: SELECT `nickname` FROM `apart_admin` WHERE `username` = 'apartadmin' AND `password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0795s ]
+
+[ 2017-10-14T23:48:15+08:00 ] ::1 /apartment/Admin/Article/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001519s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001360s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001520s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000090s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000218s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017009s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017157s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000693s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000782s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001094s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001187s ]
+
+[ 2017-10-14T23:48:15+08:00 ] ::1 /apartment/Admin/article/top.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001022s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001157s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001300s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000136s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000283s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022588s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022782s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000814s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000906s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001743s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001895s ]
+
+[ 2017-10-14T23:48:16+08:00 ] ::1 /apartment/Admin/article/publish.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001066s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001321s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001583s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000573s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000771s ]
+NOTIC: [8] Undefined index: publish D:\xampp\htdocs\apartment\Application\Runtime\Cache\Admin\0596532377ed9b2c394887d1ce8ac725.php 第 73 行.
+NOTIC: [8] Undefined index: publish D:\xampp\htdocs\apartment\Application\Runtime\Cache\Admin\0596532377ed9b2c394887d1ce8ac725.php 第 77 行.
+NOTIC: [8] Undefined index: publish D:\xampp\htdocs\apartment\Application\Runtime\Cache\Admin\0596532377ed9b2c394887d1ce8ac725.php 第 81 行.
+NOTIC: [8] Undefined index: publish D:\xampp\htdocs\apartment\Application\Runtime\Cache\Admin\0596532377ed9b2c394887d1ce8ac725.php 第 85 行.
+NOTIC: [8] Undefined index: publish D:\xampp\htdocs\apartment\Application\Runtime\Cache\Admin\0596532377ed9b2c394887d1ce8ac725.php 第 89 行.
+NOTIC: [8] Undefined index: publish D:\xampp\htdocs\apartment\Application\Runtime\Cache\Admin\0596532377ed9b2c394887d1ce8ac725.php 第 93 行.
+NOTIC: [8] Undefined index: publish D:\xampp\htdocs\apartment\Application\Runtime\Cache\Admin\0596532377ed9b2c394887d1ce8ac725.php 第 97 行.
+NOTIC: [8] Undefined index: publish D:\xampp\htdocs\apartment\Application\Runtime\Cache\Admin\0596532377ed9b2c394887d1ce8ac725.php 第 101 行.
+NOTIC: [8] Undefined index: publish D:\xampp\htdocs\apartment\Application\Runtime\Cache\Admin\0596532377ed9b2c394887d1ce8ac725.php 第 105 行.
+NOTIC: [8] Undefined index: publish D:\xampp\htdocs\apartment\Application\Runtime\Cache\Admin\0596532377ed9b2c394887d1ce8ac725.php 第 109 行.
+NOTIC: [8] Undefined index: publish D:\xampp\htdocs\apartment\Application\Runtime\Cache\Admin\0596532377ed9b2c394887d1ce8ac725.php 第 113 行.
+NOTIC: [8] Undefined index: publish D:\xampp\htdocs\apartment\Application\Runtime\Cache\Admin\0596532377ed9b2c394887d1ce8ac725.php 第 117 行.
+NOTIC: [8] Undefined index: publish D:\xampp\htdocs\apartment\Application\Runtime\Cache\Admin\0596532377ed9b2c394887d1ce8ac725.php 第 121 行.
+NOTIC: [8] Undefined index: publish D:\xampp\htdocs\apartment\Application\Runtime\Cache\Admin\0596532377ed9b2c394887d1ce8ac725.php 第 125 行.
+NOTIC: [8] Undefined index: publish D:\xampp\htdocs\apartment\Application\Runtime\Cache\Admin\0596532377ed9b2c394887d1ce8ac725.php 第 129 行.
+NOTIC: [8] Undefined index: publish D:\xampp\htdocs\apartment\Application\Runtime\Cache\Admin\0596532377ed9b2c394887d1ce8ac725.php 第 133 行.
+NOTIC: [8] Undefined index: publish D:\xampp\htdocs\apartment\Application\Runtime\Cache\Admin\0596532377ed9b2c394887d1ce8ac725.php 第 137 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033452s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033602s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000915s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001102s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001685s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001827s ]
+
+[ 2017-10-14T23:48:16+08:00 ] ::1 /apartment/Admin/article/left.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001183s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004169s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004658s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000620s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000971s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046380s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046551s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001191s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001321s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002172s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002364s ]
+
+[ 2017-10-14T23:48:19+08:00 ] ::1 /apartment/Admin/Index/login_out.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001366s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001494s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001676s ]
+
+[ 2017-10-14T23:48:19+08:00 ] ::1 /apartment/Admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001245s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001334s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001467s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000138s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000271s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020670s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020820s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000711s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000811s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001112s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001212s ]
+
+[ 2017-10-14T23:48:25+08:00 ] ::1 /apartment/Admin/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000934s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001413s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001539s ]
+SQL: SHOW COLUMNS FROM `apart_admin` [ RunTime:0.0375s ]
+SQL: SELECT `password` FROM `apart_admin` WHERE `username` = 'apartadmin' LIMIT 1   [ RunTime:0.0240s ]
+SQL: SELECT `nickname` FROM `apart_admin` WHERE `username` = 'apartadmin' AND `password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0298s ]
+
+[ 2017-10-14T23:48:25+08:00 ] ::1 /apartment/Admin/Article/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001154s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001255s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001379s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000089s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000220s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015739s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015907s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001166s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001282s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001246s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001347s ]
+
+[ 2017-10-14T23:48:25+08:00 ] ::1 /apartment/Admin/article/top.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001147s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001177s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001330s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000093s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000216s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016104s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016270s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000683s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000773s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001236s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001362s ]
+
+[ 2017-10-14T23:48:25+08:00 ] ::1 /apartment/Admin/article/publish.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000966s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001166s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001289s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000211s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000348s ]
+NOTIC: [8] Undefined index: publish D:\xampp\htdocs\apartment\Application\Runtime\Cache\Admin\0596532377ed9b2c394887d1ce8ac725.php 第 73 行.
+NOTIC: [8] Undefined index: publish D:\xampp\htdocs\apartment\Application\Runtime\Cache\Admin\0596532377ed9b2c394887d1ce8ac725.php 第 77 行.
+NOTIC: [8] Undefined index: publish D:\xampp\htdocs\apartment\Application\Runtime\Cache\Admin\0596532377ed9b2c394887d1ce8ac725.php 第 81 行.
+NOTIC: [8] Undefined index: publish D:\xampp\htdocs\apartment\Application\Runtime\Cache\Admin\0596532377ed9b2c394887d1ce8ac725.php 第 85 行.
+NOTIC: [8] Undefined index: publish D:\xampp\htdocs\apartment\Application\Runtime\Cache\Admin\0596532377ed9b2c394887d1ce8ac725.php 第 89 行.
+NOTIC: [8] Undefined index: publish D:\xampp\htdocs\apartment\Application\Runtime\Cache\Admin\0596532377ed9b2c394887d1ce8ac725.php 第 93 行.
+NOTIC: [8] Undefined index: publish D:\xampp\htdocs\apartment\Application\Runtime\Cache\Admin\0596532377ed9b2c394887d1ce8ac725.php 第 97 行.
+NOTIC: [8] Undefined index: publish D:\xampp\htdocs\apartment\Application\Runtime\Cache\Admin\0596532377ed9b2c394887d1ce8ac725.php 第 101 行.
+NOTIC: [8] Undefined index: publish D:\xampp\htdocs\apartment\Application\Runtime\Cache\Admin\0596532377ed9b2c394887d1ce8ac725.php 第 105 行.
+NOTIC: [8] Undefined index: publish D:\xampp\htdocs\apartment\Application\Runtime\Cache\Admin\0596532377ed9b2c394887d1ce8ac725.php 第 109 行.
+NOTIC: [8] Undefined index: publish D:\xampp\htdocs\apartment\Application\Runtime\Cache\Admin\0596532377ed9b2c394887d1ce8ac725.php 第 113 行.
+NOTIC: [8] Undefined index: publish D:\xampp\htdocs\apartment\Application\Runtime\Cache\Admin\0596532377ed9b2c394887d1ce8ac725.php 第 117 行.
+NOTIC: [8] Undefined index: publish D:\xampp\htdocs\apartment\Application\Runtime\Cache\Admin\0596532377ed9b2c394887d1ce8ac725.php 第 121 行.
+NOTIC: [8] Undefined index: publish D:\xampp\htdocs\apartment\Application\Runtime\Cache\Admin\0596532377ed9b2c394887d1ce8ac725.php 第 125 行.
+NOTIC: [8] Undefined index: publish D:\xampp\htdocs\apartment\Application\Runtime\Cache\Admin\0596532377ed9b2c394887d1ce8ac725.php 第 129 行.
+NOTIC: [8] Undefined index: publish D:\xampp\htdocs\apartment\Application\Runtime\Cache\Admin\0596532377ed9b2c394887d1ce8ac725.php 第 133 行.
+NOTIC: [8] Undefined index: publish D:\xampp\htdocs\apartment\Application\Runtime\Cache\Admin\0596532377ed9b2c394887d1ce8ac725.php 第 137 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.044106s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044248s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001499s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001660s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.009615s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009772s ]
+
+[ 2017-10-14T23:48:25+08:00 ] ::1 /apartment/Admin/article/left.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001066s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001606s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001757s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000519s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000792s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031793s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031948s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001030s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001152s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002122s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002303s ]
+
+[ 2017-10-14T23:48:28+08:00 ] ::1 /apartment/Admin/Index/login_out.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000945s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001759s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001952s ]
+
+[ 2017-10-14T23:48:29+08:00 ] ::1 /apartment/Admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000921s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001070s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001171s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000138s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000274s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018731s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018880s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001711s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001850s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001646s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001773s ]
+
+[ 2017-10-14T23:49:45+08:00 ] ::1 /apartment/Admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001249s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001817s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001993s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000134s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000263s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020733s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020901s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001142s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001270s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001705s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001845s ]
+

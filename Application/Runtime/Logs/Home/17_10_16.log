@@ -1,0 +1,1904 @@
+[ 2017-10-16T16:46:00+08:00 ] ::1 /apartment/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.043344s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.014466s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014640s ]
+SQL: SHOW COLUMNS FROM `apart_article` [ RunTime:0.2102s ]
+SQL: SELECT `articleId`,`aTitle`,`category` FROM `apart_article` WHERE `category` = 'tzgg' ORDER BY aTime desc LIMIT 7   [ RunTime:0.1679s ]
+SQL: SELECT `articleId`,`aTitle`,`category` FROM `apart_article` WHERE `category` = 'fwzl' ORDER BY aTime desc LIMIT 7   [ RunTime:0.1599s ]
+SQL: SELECT `articleId`,`aTitle`,`category` FROM `apart_article` WHERE `category` = 'gzzd' ORDER BY aTime desc LIMIT 7   [ RunTime:0.2314s ]
+SQL: SELECT `articleId`,`aTitle`,`category` FROM `apart_article` WHERE ( category='sgdt' or category='xyxw' or category='xsgz' or category='xggy' ) ORDER BY aTime desc LIMIT 7   [ RunTime:0.2283s ]
+SQL: SELECT `articleId`,`aTitle`,`category` FROM `apart_article` WHERE ( category='xfzs' or category='ydgl' or category='zagl' or category='crbzs' ) ORDER BY aTime desc LIMIT 7   [ RunTime:0.2792s ]
+SQL: SELECT `articleId`,`aTitle`,`image`,`category` FROM `apart_article` WHERE ( image is not null AND isnav=1 AND image <> '' ) ORDER BY aTime desc LIMIT 7   [ RunTime:0.3592s ]
+SQL: SELECT `articleId`,`aTitle`,`image`,`category` FROM `apart_article` WHERE ( image is not null AND (category='xszt' or category='byszt' or category='whyzt' or category='hbzt') ) ORDER BY aTime desc LIMIT 3   [ RunTime:0.2608s ]
+SQL: SELECT `articleId`,`aTitle`,`image`,`category` FROM `apart_article` WHERE ( (image is not null) AND (category='whjs') ) ORDER BY aTime desc LIMIT 8   [ RunTime:0.3088s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.038499s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.038670s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.280745s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.280934s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.037954s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.038084s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.027719s ]
+INFO: [ app_end ] --END-- [ RunTime:0.027900s ]
+
+[ 2017-10-16T16:46:01+08:00 ] ::1 /apartment/Public/Upload/images/20171015/59e2bc3b215a1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001731s ]
+
+[ 2017-10-16T16:46:01+08:00 ] ::1 /apartment/Public/Upload/images/20171015/59e2bbf99ba11.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001735s ]
+
+[ 2017-10-16T16:46:01+08:00 ] ::1 /apartment/Public/Upload/images/20171015/59e2b7884791b.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001437s ]
+
+[ 2017-10-16T16:46:01+08:00 ] ::1 /apartment/Public/Upload/images/20171015/59e2b68b9cf75.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001336s ]
+
+[ 2017-10-16T16:46:01+08:00 ] ::1 /apartment/Public/Upload/images/20171015/59e2b63ca8207.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001879s ]
+
+[ 2017-10-16T16:46:01+08:00 ] ::1 /apartment/Public/Upload/images/20171015/59e2b6d213aa6.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000972s ]
+
+[ 2017-10-16T16:46:01+08:00 ] ::1 /apartment/Public/Upload/images/20171015/59e2b580eb284.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001586s ]
+
+[ 2017-10-16T16:48:43+08:00 ] ::1 /apartment/Index/otherList2/category/aqgl.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001353s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003249s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003475s ]
+SQL: SHOW COLUMNS FROM `apart_article` [ RunTime:0.3949s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `apart_article` WHERE ( category='xfzs' or category='ydgl' or category='zagl' or category='crbzs' ) LIMIT 1   [ RunTime:0.5360s ]
+SQL: SELECT `articleId`,`aTitle`,`aTime`,`author`,`source` FROM `apart_article` WHERE ( category='xfzs' or category='ydgl' or category='zagl' or category='crbzs' ) ORDER BY aTime desc LIMIT 0,20   [ RunTime:0.4705s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000442s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000652s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.108882s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.109118s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003244s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003470s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015907s ]
+INFO: [ app_end ] --END-- [ RunTime:0.016360s ]
+
+[ 2017-10-16T16:48:47+08:00 ] ::1 /apartment/Index/otherList2/category/aqgl.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002134s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003623s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003864s ]
+SQL: SHOW COLUMNS FROM `apart_article` [ RunTime:0.3572s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `apart_article` WHERE ( category='xfzs' or category='ydgl' or category='zagl' or category='crbzs' ) LIMIT 1   [ RunTime:0.3513s ]
+SQL: SELECT `articleId`,`aTitle`,`aTime`,`author`,`source` FROM `apart_article` WHERE ( category='xfzs' or category='ydgl' or category='zagl' or category='crbzs' ) ORDER BY aTime desc LIMIT 0,20   [ RunTime:0.5309s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000189s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000303s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034901s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035050s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001864s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001981s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001670s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001768s ]
+
+[ 2017-10-16T16:48:53+08:00 ] ::1 /apartment/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001192s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001794s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001982s ]
+SQL: SHOW COLUMNS FROM `apart_article` [ RunTime:0.2526s ]
+SQL: SELECT `articleId`,`aTitle`,`category` FROM `apart_article` WHERE `category` = 'tzgg' ORDER BY aTime desc LIMIT 7   [ RunTime:0.3181s ]
+SQL: SELECT `articleId`,`aTitle`,`category` FROM `apart_article` WHERE `category` = 'fwzl' ORDER BY aTime desc LIMIT 7   [ RunTime:0.3381s ]
+SQL: SELECT `articleId`,`aTitle`,`category` FROM `apart_article` WHERE `category` = 'gzzd' ORDER BY aTime desc LIMIT 7   [ RunTime:0.4138s ]
+SQL: SELECT `articleId`,`aTitle`,`category` FROM `apart_article` WHERE ( category='sgdt' or category='xyxw' or category='xsgz' or category='xggy' ) ORDER BY aTime desc LIMIT 7   [ RunTime:0.4471s ]
+SQL: SELECT `articleId`,`aTitle`,`category` FROM `apart_article` WHERE ( category='xfzs' or category='ydgl' or category='zagl' or category='crbzs' ) ORDER BY aTime desc LIMIT 7   [ RunTime:0.3986s ]
+SQL: SELECT `articleId`,`aTitle`,`image`,`category` FROM `apart_article` WHERE ( image is not null AND isnav=1 AND image <> '' ) ORDER BY aTime desc LIMIT 7   [ RunTime:0.5282s ]
+SQL: SELECT `articleId`,`aTitle`,`image`,`category` FROM `apart_article` WHERE ( image is not null AND (category='xszt' or category='byszt' or category='whyzt' or category='hbzt') ) ORDER BY aTime desc LIMIT 3   [ RunTime:0.4338s ]
+SQL: SELECT `articleId`,`aTitle`,`image`,`category` FROM `apart_article` WHERE ( (image is not null) AND (category='whjs') ) ORDER BY aTime desc LIMIT 8   [ RunTime:0.5536s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000616s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000820s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.088835s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.089102s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001712s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001960s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002994s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003227s ]
+
+[ 2017-10-16T16:48:53+08:00 ] ::1 /apartment/Public/Upload/images/20171015/59e2bc3b215a1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001136s ]
+
+[ 2017-10-16T16:48:53+08:00 ] ::1 /apartment/Public/Upload/images/20171015/59e2bbf99ba11.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001419s ]
+
+[ 2017-10-16T16:48:53+08:00 ] ::1 /apartment/Public/Upload/images/20171015/59e2b7884791b.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001558s ]
+
+[ 2017-10-16T16:48:53+08:00 ] ::1 /apartment/Public/Upload/images/20171015/59e2b580eb284.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003066s ]
+
+[ 2017-10-16T16:48:53+08:00 ] ::1 /apartment/Public/Upload/images/20171015/59e2b6d213aa6.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015068s ]
+
+[ 2017-10-16T16:48:53+08:00 ] ::1 /apartment/Public/Upload/images/20171015/59e2b63ca8207.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.019033s ]
+
+[ 2017-10-16T16:48:53+08:00 ] ::1 /apartment/Public/Upload/images/20171015/59e2b68b9cf75.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003142s ]
+
+[ 2017-10-16T16:48:53+08:00 ] ::1 /apartment/Public/Upload/images/20171015/59e2bbf99ba11.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002314s ]
+
+[ 2017-10-16T16:48:53+08:00 ] ::1 /apartment/Public/Upload/images/20171015/59e2bc3b215a1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001896s ]
+
+[ 2017-10-16T16:48:59+08:00 ] ::1 /apartment/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001476s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002974s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003182s ]
+SQL: SHOW COLUMNS FROM `apart_article` [ RunTime:0.4607s ]
+SQL: SELECT `articleId`,`aTitle`,`category` FROM `apart_article` WHERE `category` = 'tzgg' ORDER BY aTime desc LIMIT 7   [ RunTime:0.3970s ]
+SQL: SELECT `articleId`,`aTitle`,`category` FROM `apart_article` WHERE `category` = 'fwzl' ORDER BY aTime desc LIMIT 7   [ RunTime:0.5894s ]
+SQL: SELECT `articleId`,`aTitle`,`category` FROM `apart_article` WHERE `category` = 'gzzd' ORDER BY aTime desc LIMIT 7   [ RunTime:0.4341s ]
+SQL: SELECT `articleId`,`aTitle`,`category` FROM `apart_article` WHERE ( category='sgdt' or category='xyxw' or category='xsgz' or category='xggy' ) ORDER BY aTime desc LIMIT 7   [ RunTime:0.4719s ]
+SQL: SELECT `articleId`,`aTitle`,`category` FROM `apart_article` WHERE ( category='xfzs' or category='ydgl' or category='zagl' or category='crbzs' ) ORDER BY aTime desc LIMIT 7   [ RunTime:0.3796s ]
+SQL: SELECT `articleId`,`aTitle`,`image`,`category` FROM `apart_article` WHERE ( image is not null AND isnav=1 AND image <> '' ) ORDER BY aTime desc LIMIT 7   [ RunTime:0.3483s ]
+SQL: SELECT `articleId`,`aTitle`,`image`,`category` FROM `apart_article` WHERE ( image is not null AND (category='xszt' or category='byszt' or category='whyzt' or category='hbzt') ) ORDER BY aTime desc LIMIT 3   [ RunTime:0.3829s ]
+SQL: SELECT `articleId`,`aTitle`,`image`,`category` FROM `apart_article` WHERE ( (image is not null) AND (category='whjs') ) ORDER BY aTime desc LIMIT 8   [ RunTime:0.3400s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000356s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000488s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.067722s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.067971s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002257s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002397s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002875s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003407s ]
+
+[ 2017-10-16T16:49:02+08:00 ] ::1 /apartment/Index/otherList1/category/tzgg.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001230s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002656s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002871s ]
+SQL: SHOW COLUMNS FROM `apart_article` [ RunTime:0.5393s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `apart_article` WHERE `category` = 'tzgg' LIMIT 1   [ RunTime:0.3622s ]
+SQL: SELECT `articleId`,`aTitle`,`aTime`,`author`,`source` FROM `apart_article` WHERE `category` = 'tzgg' ORDER BY aTime desc LIMIT 0,20   [ RunTime:0.3947s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000253s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000510s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.069341s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.069512s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002115s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002247s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003600s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003763s ]
+
+[ 2017-10-16T16:49:08+08:00 ] ::1 /apartment/Index/otherList2/category/tzgg.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001149s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001656s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001837s ]
+SQL: SHOW COLUMNS FROM `apart_article` [ RunTime:0.1334s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `apart_article` WHERE ( category='' or category='' or category='' or category='' ) LIMIT 1   [ RunTime:0.2254s ]
+SQL: SELECT `articleId`,`aTitle`,`aTime`,`author`,`source` FROM `apart_article` WHERE ( category='' or category='' or category='' or category='' ) ORDER BY aTime desc LIMIT 0,20   [ RunTime:0.1812s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000324s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000512s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.049391s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049636s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001612s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001802s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002416s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002816s ]
+
+[ 2017-10-16T16:49:12+08:00 ] ::1 /apartment/Index/otherList2/category/tzgg.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001527s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001345s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001517s ]
+SQL: SHOW COLUMNS FROM `apart_article` [ RunTime:0.5963s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `apart_article` WHERE ( category='' or category='' or category='' or category='' ) LIMIT 1   [ RunTime:0.2329s ]
+SQL: SELECT `articleId`,`aTitle`,`aTime`,`author`,`source` FROM `apart_article` WHERE ( category='' or category='' or category='' or category='' ) ORDER BY aTime desc LIMIT 0,20   [ RunTime:0.0596s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000473s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000678s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.055601s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.055843s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002248s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002473s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002644s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003311s ]
+
+[ 2017-10-16T16:49:16+08:00 ] ::1 /apartment/Index/otherList2/category/tzgg.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001191s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002137s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002322s ]
+SQL: SHOW COLUMNS FROM `apart_article` [ RunTime:0.4841s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `apart_article` WHERE ( category='' or category='' or category='' or category='' ) LIMIT 1   [ RunTime:0.1624s ]
+SQL: SELECT `articleId`,`aTitle`,`aTime`,`author`,`source` FROM `apart_article` WHERE ( category='' or category='' or category='' or category='' ) ORDER BY aTime desc LIMIT 0,20   [ RunTime:0.0599s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000344s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000576s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.047679s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048015s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001886s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002091s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002153s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002330s ]
+
+[ 2017-10-16T17:01:32+08:00 ] ::1 /apartment/Index/otherList2/category/tzgg.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004108s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005706s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006084s ]
+SQL: SHOW COLUMNS FROM `apart_article` [ RunTime:0.4107s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `apart_article` WHERE ( category='' or category='' or category='' or category='' ) LIMIT 1   [ RunTime:0.4550s ]
+SQL: SELECT `articleId`,`aTitle`,`aTime`,`author`,`source` FROM `apart_article` WHERE ( category='' or category='' or category='' or category='' ) ORDER BY aTime desc LIMIT 0,20   [ RunTime:0.5316s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000204s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000329s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031722s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031903s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001588s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001727s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001986s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002109s ]
+
+[ 2017-10-16T17:01:35+08:00 ] ::1 /apartment/Index/otherList2/category/tzgg.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001210s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002142s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002271s ]
+SQL: SHOW COLUMNS FROM `apart_article` [ RunTime:0.4391s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `apart_article` WHERE ( category='' or category='' or category='' or category='' ) LIMIT 1   [ RunTime:0.4944s ]
+SQL: SELECT `articleId`,`aTitle`,`aTime`,`author`,`source` FROM `apart_article` WHERE ( category='' or category='' or category='' or category='' ) ORDER BY aTime desc LIMIT 0,20   [ RunTime:0.5994s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000205s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000324s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037274s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037449s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001736s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001859s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001854s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001966s ]
+
+[ 2017-10-16T17:01:39+08:00 ] ::1 /apartment/Index/otherList1/category/tzgg.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001835s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002162s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002325s ]
+SQL: SHOW COLUMNS FROM `apart_article` [ RunTime:0.5906s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `apart_article` WHERE `category` = 'tzgg' LIMIT 1   [ RunTime:0.5990s ]
+SQL: SELECT `articleId`,`aTitle`,`aTime`,`author`,`source` FROM `apart_article` WHERE `category` = 'tzgg' ORDER BY aTime desc LIMIT 0,20   [ RunTime:0.5999s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000265s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000434s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043606s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044081s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002652s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002833s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003232s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003417s ]
+
+[ 2017-10-16T17:01:49+08:00 ] ::1 /apartment/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001191s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003024s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003209s ]
+SQL: SHOW COLUMNS FROM `apart_article` [ RunTime:0.6037s ]
+SQL: SELECT `articleId`,`aTitle`,`category` FROM `apart_article` WHERE `category` = 'tzgg' ORDER BY aTime desc LIMIT 7   [ RunTime:0.5817s ]
+SQL: SELECT `articleId`,`aTitle`,`category` FROM `apart_article` WHERE `category` = 'fwzl' ORDER BY aTime desc LIMIT 7   [ RunTime:0.6001s ]
+SQL: SELECT `articleId`,`aTitle`,`category` FROM `apart_article` WHERE `category` = 'gzzd' ORDER BY aTime desc LIMIT 7   [ RunTime:0.5947s ]
+SQL: SELECT `articleId`,`aTitle`,`category` FROM `apart_article` WHERE ( category='sgdt' or category='xyxw' or category='xsgz' or category='xggy' ) ORDER BY aTime desc LIMIT 7   [ RunTime:0.5976s ]
+SQL: SELECT `articleId`,`aTitle`,`category` FROM `apart_article` WHERE ( category='xfzs' or category='ydgl' or category='zagl' or category='crbzs' ) ORDER BY aTime desc LIMIT 7   [ RunTime:0.6044s ]
+SQL: SELECT `articleId`,`aTitle`,`image`,`category` FROM `apart_article` WHERE ( image is not null AND isnav=1 AND image <> '' ) ORDER BY aTime desc LIMIT 7   [ RunTime:1.6764s ]
+SQL: SELECT `articleId`,`aTitle`,`image`,`category` FROM `apart_article` WHERE ( image is not null AND (category='xszt' or category='byszt' or category='whyzt' or category='hbzt') ) ORDER BY aTime desc LIMIT 3   [ RunTime:0.5725s ]
+SQL: SELECT `articleId`,`aTitle`,`image`,`category` FROM `apart_article` WHERE ( (image is not null) AND (category='whjs') ) ORDER BY aTime desc LIMIT 8   [ RunTime:0.5827s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000358s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000494s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048087s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048223s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000956s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001090s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001564s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001681s ]
+
+[ 2017-10-16T17:01:57+08:00 ] ::1 /apartment/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000959s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001279s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001409s ]
+SQL: SHOW COLUMNS FROM `apart_article` [ RunTime:0.5954s ]
+SQL: SELECT `articleId`,`aTitle`,`category` FROM `apart_article` WHERE `category` = 'tzgg' ORDER BY aTime desc LIMIT 7   [ RunTime:0.6046s ]
+SQL: SELECT `articleId`,`aTitle`,`category` FROM `apart_article` WHERE `category` = 'fwzl' ORDER BY aTime desc LIMIT 7   [ RunTime:0.5918s ]
+SQL: SELECT `articleId`,`aTitle`,`category` FROM `apart_article` WHERE `category` = 'gzzd' ORDER BY aTime desc LIMIT 7   [ RunTime:0.5925s ]
+SQL: SELECT `articleId`,`aTitle`,`category` FROM `apart_article` WHERE ( category='sgdt' or category='xyxw' or category='xsgz' or category='xggy' ) ORDER BY aTime desc LIMIT 7   [ RunTime:0.5868s ]
+SQL: SELECT `articleId`,`aTitle`,`category` FROM `apart_article` WHERE ( category='xfzs' or category='ydgl' or category='zagl' or category='crbzs' ) ORDER BY aTime desc LIMIT 7   [ RunTime:0.6015s ]
+SQL: SELECT `articleId`,`aTitle`,`image`,`category` FROM `apart_article` WHERE ( image is not null AND isnav=1 AND image <> '' ) ORDER BY aTime desc LIMIT 7   [ RunTime:0.5932s ]
+SQL: SELECT `articleId`,`aTitle`,`image`,`category` FROM `apart_article` WHERE ( image is not null AND (category='xszt' or category='byszt' or category='whyzt' or category='hbzt') ) ORDER BY aTime desc LIMIT 3   [ RunTime:0.5843s ]
+SQL: SELECT `articleId`,`aTitle`,`image`,`category` FROM `apart_article` WHERE ( (image is not null) AND (category='whjs') ) ORDER BY aTime desc LIMIT 8   [ RunTime:0.5996s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000359s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000491s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.051538s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.051682s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001173s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001304s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002135s ]
+
+[ 2017-10-16T17:01:58+08:00 ] ::1 /apartment/Public/Upload/images/20171015/59e2bc3b215a1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001368s ]
+
+[ 2017-10-16T17:01:58+08:00 ] ::1 /apartment/Public/Upload/images/20171015/59e2b7884791b.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001198s ]
+
+[ 2017-10-16T17:01:58+08:00 ] ::1 /apartment/Public/Upload/images/20171015/59e2b63ca8207.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001611s ]
+
+[ 2017-10-16T17:01:58+08:00 ] ::1 /apartment/Public/Upload/images/20171015/59e2bbf99ba11.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002222s ]
+
+[ 2017-10-16T17:01:58+08:00 ] ::1 /apartment/Public/Upload/images/20171015/59e2b6d213aa6.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002946s ]
+
+[ 2017-10-16T17:01:58+08:00 ] ::1 /apartment/Public/Upload/images/20171015/59e2b580eb284.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001655s ]
+
+[ 2017-10-16T17:01:58+08:00 ] ::1 /apartment/Public/Upload/images/20171015/59e2b68b9cf75.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002744s ]
+
+[ 2017-10-16T17:02:07+08:00 ] ::1 /apartment/Index/details/article/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001210s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002319s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002453s ]
+SQL: SHOW COLUMNS FROM `apart_article` [ RunTime:0.5929s ]
+SQL: UPDATE `apart_article` SET `hits`=hits+1 WHERE `articleId` = 2 [ RunTime:0.5866s ]
+SQL: SELECT * FROM `apart_article` WHERE `articleId` = 2 LIMIT 1   [ RunTime:3.2134s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000173s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000306s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046575s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046717s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001491s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001605s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002137s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002283s ]
+
+[ 2017-10-16T17:02:17+08:00 ] ::1 /apartment/Index/otherList2/category/xwzx.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001326s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001779s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001974s ]
+SQL: SHOW COLUMNS FROM `apart_article` [ RunTime:0.5307s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `apart_article` WHERE ( category='sgdt' or category='xyxw' or category='xsgz' or category='xggy' ) LIMIT 1   [ RunTime:0.5687s ]
+SQL: SELECT `articleId`,`aTitle`,`aTime`,`author`,`source` FROM `apart_article` WHERE ( category='sgdt' or category='xyxw' or category='xsgz' or category='xggy' ) ORDER BY aTime desc LIMIT 0,20   [ RunTime:0.6020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000202s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000329s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030553s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030704s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000925s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001021s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001333s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001447s ]
+
+[ 2017-10-16T17:02:28+08:00 ] ::1 /apartment/Index/otherList2/category/ztbd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001574s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001375s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001512s ]
+SQL: SHOW COLUMNS FROM `apart_article` [ RunTime:0.6122s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `apart_article` WHERE ( category='xszt' or category='byszt' or category='whyzt' or category='hbzt' ) LIMIT 1   [ RunTime:0.5629s ]
+SQL: SELECT `articleId`,`aTitle`,`aTime`,`author`,`source` FROM `apart_article` WHERE ( category='xszt' or category='byszt' or category='whyzt' or category='hbzt' ) ORDER BY aTime desc LIMIT 0,20   [ RunTime:0.5803s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000208s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000339s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032767s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032898s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001119s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001233s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001285s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001393s ]
+
+[ 2017-10-16T17:02:44+08:00 ] ::1 /apartment/Index/otherList2/category/aqgl.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001046s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003212s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003412s ]
+SQL: SHOW COLUMNS FROM `apart_article` [ RunTime:0.5128s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `apart_article` WHERE ( category='xfzs' or category='ydgl' or category='zagl' or category='crbzs' ) LIMIT 1   [ RunTime:0.5506s ]
+SQL: SELECT `articleId`,`aTitle`,`aTime`,`author`,`source` FROM `apart_article` WHERE ( category='xfzs' or category='ydgl' or category='zagl' or category='crbzs' ) ORDER BY aTime desc LIMIT 0,20   [ RunTime:0.4193s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000245s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000393s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034899s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035035s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001699s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001834s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002225s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002348s ]
+
+[ 2017-10-16T17:02:56+08:00 ] ::1 /apartment/Index/otherList2/category/tzgg.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000995s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001305s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001430s ]
+SQL: SHOW COLUMNS FROM `apart_article` [ RunTime:0.5501s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `apart_article` WHERE ( category='' or category='' or category='' or category='' ) LIMIT 1   [ RunTime:0.5041s ]
+SQL: SELECT `articleId`,`aTitle`,`aTime`,`author`,`source` FROM `apart_article` WHERE ( category='' or category='' or category='' or category='' ) ORDER BY aTime desc LIMIT 0,20   [ RunTime:0.4406s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000349s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000565s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048143s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048386s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001732s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001898s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002247s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002440s ]
+
+[ 2017-10-16T17:04:04+08:00 ] ::1 /apartment/Index/otherList2/category/xwzx.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000071s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001755s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002629s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002829s ]
+SQL: SHOW COLUMNS FROM `apart_article` [ RunTime:0.0314s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `apart_article` WHERE ( category='sgdt' or category='xyxw' or category='xsgz' or category='xggy' ) LIMIT 1   [ RunTime:0.0214s ]
+SQL: SELECT `articleId`,`aTitle`,`aTime`,`author`,`source` FROM `apart_article` WHERE ( category='sgdt' or category='xyxw' or category='xsgz' or category='xggy' ) ORDER BY aTime desc LIMIT 0,20   [ RunTime:0.0199s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000327s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000515s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.054173s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.054479s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002324s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002502s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007053s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007350s ]
+
+[ 2017-10-16T17:04:08+08:00 ] ::1 /apartment/Index/otherList1/category/whjs.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000133s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002239s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001419s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001586s ]
+SQL: SHOW COLUMNS FROM `apart_article` [ RunTime:0.0184s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `apart_article` WHERE `category` = 'whjs' LIMIT 1   [ RunTime:0.0189s ]
+SQL: SELECT `articleId`,`aTitle`,`aTime`,`author`,`source` FROM `apart_article` WHERE `category` = 'whjs' ORDER BY aTime desc LIMIT 0,20   [ RunTime:0.0199s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000202s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000335s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026381s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026556s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001069s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001173s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001205s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001312s ]
+
+[ 2017-10-16T17:04:10+08:00 ] ::1 /apartment/Index/otherList2/category/ztbd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001739s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001813s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001986s ]
+SQL: SHOW COLUMNS FROM `apart_article` [ RunTime:0.0271s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `apart_article` WHERE ( category='xszt' or category='byszt' or category='whyzt' or category='hbzt' ) LIMIT 1   [ RunTime:0.0360s ]
+SQL: SELECT `articleId`,`aTitle`,`aTime`,`author`,`source` FROM `apart_article` WHERE ( category='xszt' or category='byszt' or category='whyzt' or category='hbzt' ) ORDER BY aTime desc LIMIT 0,20   [ RunTime:0.0186s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000207s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000324s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029873s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030012s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000952s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001068s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001383s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001499s ]
+
+[ 2017-10-16T17:04:12+08:00 ] ::1 /apartment/Index/otherList2/category/ztbd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001260s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001455s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001629s ]
+SQL: SHOW COLUMNS FROM `apart_article` [ RunTime:0.0209s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `apart_article` WHERE ( category='xszt' or category='byszt' or category='whyzt' or category='hbzt' ) LIMIT 1   [ RunTime:0.0187s ]
+SQL: SELECT `articleId`,`aTitle`,`aTime`,`author`,`source` FROM `apart_article` WHERE ( category='xszt' or category='byszt' or category='whyzt' or category='hbzt' ) ORDER BY aTime desc LIMIT 0,20   [ RunTime:0.0196s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000211s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000336s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027339s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027492s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001266s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001398s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001437s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001546s ]
+
+[ 2017-10-16T17:04:13+08:00 ] ::1 /apartment/Index/otherList2/category/ztbd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001265s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001848s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002009s ]
+SQL: SHOW COLUMNS FROM `apart_article` [ RunTime:0.0234s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `apart_article` WHERE ( category='xszt' or category='byszt' or category='whyzt' or category='hbzt' ) LIMIT 1   [ RunTime:0.0179s ]
+SQL: SELECT `articleId`,`aTitle`,`aTime`,`author`,`source` FROM `apart_article` WHERE ( category='xszt' or category='byszt' or category='whyzt' or category='hbzt' ) ORDER BY aTime desc LIMIT 0,20   [ RunTime:0.0178s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000223s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000365s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027992s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028119s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000807s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000903s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001160s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001259s ]
+
+[ 2017-10-16T17:04:59+08:00 ] ::1 /apartment/Index/otherList2/category/ztbd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000944s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001293s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001400s ]
+SQL: SHOW COLUMNS FROM `apart_article` [ RunTime:0.0431s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `apart_article` WHERE ( category='xszt' or category='byszt' or category='whyzt' or category='hbzt' ) LIMIT 1   [ RunTime:0.0228s ]
+SQL: SELECT `articleId`,`aTitle`,`aTime`,`author`,`source` FROM `apart_article` WHERE ( category='xszt' or category='byszt' or category='whyzt' or category='hbzt' ) ORDER BY aTime desc LIMIT 0,20   [ RunTime:0.0256s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000321s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000513s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048610s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048840s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001584s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001755s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002042s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002208s ]
+
+[ 2017-10-16T17:05:02+08:00 ] ::1 /apartment/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000983s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001289s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001416s ]
+SQL: SHOW COLUMNS FROM `apart_article` [ RunTime:0.0240s ]
+SQL: SELECT `articleId`,`aTitle`,`category` FROM `apart_article` WHERE `category` = 'tzgg' ORDER BY aTime desc LIMIT 7   [ RunTime:0.0348s ]
+SQL: SELECT `articleId`,`aTitle`,`category` FROM `apart_article` WHERE `category` = 'fwzl' ORDER BY aTime desc LIMIT 7   [ RunTime:0.0306s ]
+SQL: SELECT `articleId`,`aTitle`,`category` FROM `apart_article` WHERE `category` = 'gzzd' ORDER BY aTime desc LIMIT 7   [ RunTime:0.1580s ]
+SQL: SELECT `articleId`,`aTitle`,`category` FROM `apart_article` WHERE ( category='sgdt' or category='xyxw' or category='xsgz' or category='xggy' ) ORDER BY aTime desc LIMIT 7   [ RunTime:0.0426s ]
+SQL: SELECT `articleId`,`aTitle`,`category` FROM `apart_article` WHERE ( category='xfzs' or category='ydgl' or category='zagl' or category='crbzs' ) ORDER BY aTime desc LIMIT 7   [ RunTime:0.0535s ]
+SQL: SELECT `articleId`,`aTitle`,`image`,`category` FROM `apart_article` WHERE ( image is not null AND isnav=1 AND image <> '' ) ORDER BY aTime desc LIMIT 7   [ RunTime:0.0209s ]
+SQL: SELECT `articleId`,`aTitle`,`image`,`category` FROM `apart_article` WHERE ( image is not null AND (category='xszt' or category='byszt' or category='whyzt' or category='hbzt') ) ORDER BY aTime desc LIMIT 3   [ RunTime:0.0249s ]
+SQL: SELECT `articleId`,`aTitle`,`image`,`category` FROM `apart_article` WHERE ( (image is not null) AND (category='whjs') ) ORDER BY aTime desc LIMIT 8   [ RunTime:0.0191s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000357s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000495s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046882s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047022s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001147s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001277s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001650s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001825s ]
+
+[ 2017-10-16T17:05:02+08:00 ] ::1 /apartment/Public/Upload/images/20171015/59e2b7884791b.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001316s ]
+
+[ 2017-10-16T17:05:02+08:00 ] ::1 /apartment/Public/Upload/images/20171015/59e2bc3b215a1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001933s ]
+
+[ 2017-10-16T17:05:02+08:00 ] ::1 /apartment/Public/Upload/images/20171015/59e2b63ca8207.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.038714s ]
+
+[ 2017-10-16T17:05:02+08:00 ] ::1 /apartment/Public/Upload/images/20171015/59e2bbf99ba11.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002227s ]
+
+[ 2017-10-16T17:05:02+08:00 ] ::1 /apartment/Public/Upload/images/20171015/59e2b580eb284.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.019527s ]
+
+[ 2017-10-16T17:05:02+08:00 ] ::1 /apartment/Public/Upload/images/20171015/59e2b6d213aa6.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001735s ]
+
+[ 2017-10-16T17:05:02+08:00 ] ::1 /apartment/Public/Upload/images/20171015/59e2b68b9cf75.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002386s ]
+
+[ 2017-10-16T17:05:07+08:00 ] ::1 /apartment/Index/otherList1/category/tzgg.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002568s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002822s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003027s ]
+SQL: SHOW COLUMNS FROM `apart_article` [ RunTime:0.0185s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `apart_article` WHERE `category` = 'tzgg' LIMIT 1   [ RunTime:0.0178s ]
+SQL: SELECT `articleId`,`aTitle`,`aTime`,`author`,`source` FROM `apart_article` WHERE `category` = 'tzgg' ORDER BY aTime desc LIMIT 0,20   [ RunTime:0.0183s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000320s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000566s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.054842s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.055050s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002709s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002895s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003995s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004211s ]
+
+[ 2017-10-16T17:05:11+08:00 ] ::1 /apartment/Index/otherList1/category/fwzl.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000953s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001956s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002117s ]
+SQL: SHOW COLUMNS FROM `apart_article` [ RunTime:0.0216s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `apart_article` WHERE `category` = 'fwzl' LIMIT 1   [ RunTime:0.0259s ]
+SQL: SELECT `articleId`,`aTitle`,`aTime`,`author`,`source` FROM `apart_article` WHERE `category` = 'fwzl' ORDER BY aTime desc LIMIT 0,20   [ RunTime:0.0208s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000184s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000302s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026182s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026327s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001191s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001318s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001584s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001716s ]
+
+[ 2017-10-16T17:05:16+08:00 ] ::1 /apartment/Index/otherList1/category/gzzd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001093s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001221s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001345s ]
+SQL: SHOW COLUMNS FROM `apart_article` [ RunTime:0.0430s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `apart_article` WHERE `category` = 'gzzd' LIMIT 1   [ RunTime:0.0210s ]
+SQL: SELECT `articleId`,`aTitle`,`aTime`,`author`,`source` FROM `apart_article` WHERE `category` = 'gzzd' ORDER BY aTime desc LIMIT 0,20   [ RunTime:0.0192s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000316s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000512s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.044515s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044737s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001497s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001657s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002160s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002553s ]
+
+[ 2017-10-16T17:05:24+08:00 ] ::1 /apartment/Index/otherList2/category/xwzx.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000928s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001319s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001451s ]
+SQL: SHOW COLUMNS FROM `apart_article` [ RunTime:0.0198s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `apart_article` WHERE ( category='sgdt' or category='xyxw' or category='xsgz' or category='xggy' ) LIMIT 1   [ RunTime:0.0194s ]
+SQL: SELECT `articleId`,`aTitle`,`aTime`,`author`,`source` FROM `apart_article` WHERE ( category='sgdt' or category='xyxw' or category='xsgz' or category='xggy' ) ORDER BY aTime desc LIMIT 0,20   [ RunTime:0.0211s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000326s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000521s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046850s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047025s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001199s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001309s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001423s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001545s ]
+
+[ 2017-10-16T17:05:27+08:00 ] ::1 /apartment/Index/otherList2/sub/sgdt.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001170s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001458s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001602s ]
+SQL: SHOW COLUMNS FROM `apart_article` [ RunTime:0.0255s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `apart_article` WHERE `category` = 'sgdt' LIMIT 1   [ RunTime:0.0186s ]
+SQL: SELECT `articleId`,`aTitle`,`aTime`,`author`,`source` FROM `apart_article` WHERE `category` = 'sgdt' ORDER BY aTime desc LIMIT 0,20   [ RunTime:0.0196s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000216s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000343s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038809s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038980s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001046s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001150s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001190s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001292s ]
+
+[ 2017-10-16T17:05:30+08:00 ] ::1 /apartment/Index/otherList2/sub/xyxw.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001183s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001376s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001520s ]
+SQL: SHOW COLUMNS FROM `apart_article` [ RunTime:0.0251s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `apart_article` WHERE `category` = 'xyxw' LIMIT 1   [ RunTime:0.0303s ]
+SQL: SELECT `articleId`,`aTitle`,`aTime`,`author`,`source` FROM `apart_article` WHERE `category` = 'xyxw' ORDER BY aTime desc LIMIT 0,20   [ RunTime:0.0193s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000191s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000308s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027372s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027507s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001033s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001133s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001738s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001940s ]
+
+[ 2017-10-16T17:05:32+08:00 ] ::1 /apartment/Index/otherList2/sub/xsgz.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000999s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001210s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001329s ]
+SQL: SHOW COLUMNS FROM `apart_article` [ RunTime:0.0234s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `apart_article` WHERE `category` = 'xsgz' LIMIT 1   [ RunTime:0.0194s ]
+SQL: SELECT `articleId`,`aTitle`,`aTime`,`author`,`source` FROM `apart_article` WHERE `category` = 'xsgz' ORDER BY aTime desc LIMIT 0,20   [ RunTime:0.0192s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000443s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000650s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048357s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048586s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001576s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001742s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001835s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001997s ]
+
+[ 2017-10-16T17:05:34+08:00 ] ::1 /apartment/Index/otherList2/sub/xggy.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001311s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001564s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001721s ]
+SQL: SHOW COLUMNS FROM `apart_article` [ RunTime:0.0303s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `apart_article` WHERE `category` = 'xggy' LIMIT 1   [ RunTime:0.0275s ]
+SQL: SELECT `articleId`,`aTitle`,`aTime`,`author`,`source` FROM `apart_article` WHERE `category` = 'xggy' ORDER BY aTime desc LIMIT 0,20   [ RunTime:0.0191s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000370s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000487s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029917s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030054s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001256s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001388s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001754s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001888s ]
+
+[ 2017-10-16T17:05:39+08:00 ] ::1 /apartment/Index/otherList2/category/aqgl.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001568s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001594s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001747s ]
+SQL: SHOW COLUMNS FROM `apart_article` [ RunTime:0.0255s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `apart_article` WHERE ( category='xfzs' or category='ydgl' or category='zagl' or category='crbzs' ) LIMIT 1   [ RunTime:0.0203s ]
+SQL: SELECT `articleId`,`aTitle`,`aTime`,`author`,`source` FROM `apart_article` WHERE ( category='xfzs' or category='ydgl' or category='zagl' or category='crbzs' ) ORDER BY aTime desc LIMIT 0,20   [ RunTime:0.0198s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000319s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000593s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.047878s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048078s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001317s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001478s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002465s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002669s ]
+
+[ 2017-10-16T17:05:45+08:00 ] ::1 /apartment/Index/otherList2/sub/xfzs.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001145s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001338s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001483s ]
+SQL: SHOW COLUMNS FROM `apart_article` [ RunTime:0.0320s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `apart_article` WHERE `category` = 'xfzs' LIMIT 1   [ RunTime:0.0274s ]
+SQL: SELECT `articleId`,`aTitle`,`aTime`,`author`,`source` FROM `apart_article` WHERE `category` = 'xfzs' ORDER BY aTime desc LIMIT 0,20   [ RunTime:0.0224s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000320s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000509s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048392s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048628s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001026s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001126s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001160s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001260s ]
+
+[ 2017-10-16T17:05:49+08:00 ] ::1 /apartment/Index/otherList2/category/ztbd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001505s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001901s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002095s ]
+SQL: SHOW COLUMNS FROM `apart_article` [ RunTime:0.0253s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `apart_article` WHERE ( category='xszt' or category='byszt' or category='whyzt' or category='hbzt' ) LIMIT 1   [ RunTime:0.0210s ]
+SQL: SELECT `articleId`,`aTitle`,`aTime`,`author`,`source` FROM `apart_article` WHERE ( category='xszt' or category='byszt' or category='whyzt' or category='hbzt' ) ORDER BY aTime desc LIMIT 0,20   [ RunTime:0.0188s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000203s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000325s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028726s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028867s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001224s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001319s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001193s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001299s ]
+
+[ 2017-10-16T17:05:53+08:00 ] ::1 /apartment/Index/otherList2/sub/xszt.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000946s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001262s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001390s ]
+SQL: SHOW COLUMNS FROM `apart_article` [ RunTime:0.0222s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `apart_article` WHERE `category` = 'xszt' LIMIT 1   [ RunTime:0.0259s ]
+SQL: SELECT `articleId`,`aTitle`,`aTime`,`author`,`source` FROM `apart_article` WHERE `category` = 'xszt' ORDER BY aTime desc LIMIT 0,20   [ RunTime:0.0348s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000185s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000302s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028422s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028574s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001159s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001274s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001325s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001439s ]
+
+[ 2017-10-16T17:05:55+08:00 ] ::1 /apartment/Index/otherList2/sub/byszt.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001300s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001522s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001677s ]
+SQL: SHOW COLUMNS FROM `apart_article` [ RunTime:0.0203s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `apart_article` WHERE `category` = 'byszt' LIMIT 1   [ RunTime:0.0190s ]
+SQL: SELECT `articleId`,`aTitle`,`aTime`,`author`,`source` FROM `apart_article` WHERE `category` = 'byszt' ORDER BY aTime desc LIMIT 0,20   [ RunTime:0.0211s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000192s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000311s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027644s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027786s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001218s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001356s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001591s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001721s ]
+
+[ 2017-10-16T17:05:56+08:00 ] ::1 /apartment/Index/otherList2/sub/whyzt.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000981s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001637s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001814s ]
+SQL: SHOW COLUMNS FROM `apart_article` [ RunTime:0.0194s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `apart_article` WHERE `category` = 'whyzt' LIMIT 1   [ RunTime:0.0186s ]
+SQL: SELECT `articleId`,`aTitle`,`aTime`,`author`,`source` FROM `apart_article` WHERE `category` = 'whyzt' ORDER BY aTime desc LIMIT 0,20   [ RunTime:0.0190s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000203s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000330s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027914s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028058s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001021s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001116s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001147s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001251s ]
+
+[ 2017-10-16T17:05:58+08:00 ] ::1 /apartment/Index/otherList2/sub/hbzt.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001072s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001363s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001502s ]
+SQL: SHOW COLUMNS FROM `apart_article` [ RunTime:0.0241s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `apart_article` WHERE `category` = 'hbzt' LIMIT 1   [ RunTime:0.0177s ]
+SQL: SELECT `articleId`,`aTitle`,`aTime`,`author`,`source` FROM `apart_article` WHERE `category` = 'hbzt' ORDER BY aTime desc LIMIT 0,20   [ RunTime:0.0231s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000210s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000337s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027626s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027763s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000856s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000953s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001238s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001341s ]
+
+[ 2017-10-16T17:06:01+08:00 ] ::1 /apartment/Index/otherList2/sub/hbzt.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000069s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001485s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001690s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001849s ]
+SQL: SHOW COLUMNS FROM `apart_article` [ RunTime:0.0197s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `apart_article` WHERE `category` = 'hbzt' LIMIT 1   [ RunTime:0.0187s ]
+SQL: SELECT `articleId`,`aTitle`,`aTime`,`author`,`source` FROM `apart_article` WHERE `category` = 'hbzt' ORDER BY aTime desc LIMIT 0,20   [ RunTime:0.0193s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000234s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000360s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028168s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028322s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001105s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001211s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001361s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001486s ]
+
+[ 2017-10-16T17:06:03+08:00 ] ::1 /apartment/Index/otherList2/sub/hbzt.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000896s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001485s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001638s ]
+SQL: SHOW COLUMNS FROM `apart_article` [ RunTime:0.0180s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `apart_article` WHERE `category` = 'hbzt' LIMIT 1   [ RunTime:0.0170s ]
+SQL: SELECT `articleId`,`aTitle`,`aTime`,`author`,`source` FROM `apart_article` WHERE `category` = 'hbzt' ORDER BY aTime desc LIMIT 0,20   [ RunTime:0.0172s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000254s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000401s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032938s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033087s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001122s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001261s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002354s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002491s ]
+
+[ 2017-10-16T17:06:06+08:00 ] ::1 /apartment/Index/otherList2/sub/xszt.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001078s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001520s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001646s ]
+SQL: SHOW COLUMNS FROM `apart_article` [ RunTime:0.0211s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `apart_article` WHERE `category` = 'xszt' LIMIT 1   [ RunTime:0.0168s ]
+SQL: SELECT `articleId`,`aTitle`,`aTime`,`author`,`source` FROM `apart_article` WHERE `category` = 'xszt' ORDER BY aTime desc LIMIT 0,20   [ RunTime:0.0169s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000195s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000314s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028153s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028293s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001052s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001149s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001434s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001547s ]
+
+[ 2017-10-16T17:06:13+08:00 ] ::1 /apartment/Index/otherList2/category/ztbd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001495s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002227s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002385s ]
+SQL: SHOW COLUMNS FROM `apart_article` [ RunTime:0.0191s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `apart_article` WHERE ( category='xszt' or category='byszt' or category='whyzt' or category='hbzt' ) LIMIT 1   [ RunTime:0.0181s ]
+SQL: SELECT `articleId`,`aTitle`,`aTime`,`author`,`source` FROM `apart_article` WHERE ( category='xszt' or category='byszt' or category='whyzt' or category='hbzt' ) ORDER BY aTime desc LIMIT 0,20   [ RunTime:0.0182s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000345s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000550s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.054323s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.054550s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002296s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002471s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003214s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003417s ]
+
+[ 2017-10-16T17:06:16+08:00 ] ::1 /apartment/Index/otherList1/category/gzzd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001651s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002234s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002448s ]
+SQL: SHOW COLUMNS FROM `apart_article` [ RunTime:0.0198s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `apart_article` WHERE `category` = 'gzzd' LIMIT 1   [ RunTime:0.0220s ]
+SQL: SELECT `articleId`,`aTitle`,`aTime`,`author`,`source` FROM `apart_article` WHERE `category` = 'gzzd' ORDER BY aTime desc LIMIT 0,20   [ RunTime:0.0198s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000195s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000318s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026986s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027132s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000917s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001029s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001238s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001345s ]
+
+[ 2017-10-16T17:06:18+08:00 ] ::1 /apartment/Index/otherList2/category/aqgl.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001121s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001197s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001316s ]
+SQL: SHOW COLUMNS FROM `apart_article` [ RunTime:0.0253s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `apart_article` WHERE ( category='xfzs' or category='ydgl' or category='zagl' or category='crbzs' ) LIMIT 1   [ RunTime:0.0223s ]
+SQL: SELECT `articleId`,`aTitle`,`aTime`,`author`,`source` FROM `apart_article` WHERE ( category='xfzs' or category='ydgl' or category='zagl' or category='crbzs' ) ORDER BY aTime desc LIMIT 0,20   [ RunTime:0.0197s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000246s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000396s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034107s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034251s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000826s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000923s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001122s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001216s ]
+
+[ 2017-10-16T17:06:19+08:00 ] ::1 /apartment/Index/otherList1/category/fwzl.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001415s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001273s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001402s ]
+SQL: SHOW COLUMNS FROM `apart_article` [ RunTime:0.0210s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `apart_article` WHERE `category` = 'fwzl' LIMIT 1   [ RunTime:0.0198s ]
+SQL: SELECT `articleId`,`aTitle`,`aTime`,`author`,`source` FROM `apart_article` WHERE `category` = 'fwzl' ORDER BY aTime desc LIMIT 0,20   [ RunTime:0.0191s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000199s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000340s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029304s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029439s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000873s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000969s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001118s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001216s ]
+
+[ 2017-10-16T17:06:20+08:00 ] ::1 /apartment/Index/otherList1/category/xgxz.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001240s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001624s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001782s ]
+SQL: SHOW COLUMNS FROM `apart_article` [ RunTime:0.0510s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `apart_article` WHERE `category` = 'xgxz' LIMIT 1   [ RunTime:0.0273s ]
+SQL: SELECT `articleId`,`aTitle`,`aTime`,`author`,`source` FROM `apart_article` WHERE `category` = 'xgxz' ORDER BY aTime desc LIMIT 0,20   [ RunTime:0.0302s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000324s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000518s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.045972s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046255s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001641s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001832s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001944s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002108s ]
+
+[ 2017-10-16T17:06:22+08:00 ] ::1 /apartment/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001573s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001473s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001630s ]
+SQL: SHOW COLUMNS FROM `apart_article` [ RunTime:0.0174s ]
+SQL: SELECT `articleId`,`aTitle`,`category` FROM `apart_article` WHERE `category` = 'tzgg' ORDER BY aTime desc LIMIT 7   [ RunTime:0.0165s ]
+SQL: SELECT `articleId`,`aTitle`,`category` FROM `apart_article` WHERE `category` = 'fwzl' ORDER BY aTime desc LIMIT 7   [ RunTime:0.0164s ]
+SQL: SELECT `articleId`,`aTitle`,`category` FROM `apart_article` WHERE `category` = 'gzzd' ORDER BY aTime desc LIMIT 7   [ RunTime:0.0164s ]
+SQL: SELECT `articleId`,`aTitle`,`category` FROM `apart_article` WHERE ( category='sgdt' or category='xyxw' or category='xsgz' or category='xggy' ) ORDER BY aTime desc LIMIT 7   [ RunTime:0.0165s ]
+SQL: SELECT `articleId`,`aTitle`,`category` FROM `apart_article` WHERE ( category='xfzs' or category='ydgl' or category='zagl' or category='crbzs' ) ORDER BY aTime desc LIMIT 7   [ RunTime:0.0167s ]
+SQL: SELECT `articleId`,`aTitle`,`image`,`category` FROM `apart_article` WHERE ( image is not null AND isnav=1 AND image <> '' ) ORDER BY aTime desc LIMIT 7   [ RunTime:0.0363s ]
+SQL: SELECT `articleId`,`aTitle`,`image`,`category` FROM `apart_article` WHERE ( image is not null AND (category='xszt' or category='byszt' or category='whyzt' or category='hbzt') ) ORDER BY aTime desc LIMIT 3   [ RunTime:0.0165s ]
+SQL: SELECT `articleId`,`aTitle`,`image`,`category` FROM `apart_article` WHERE ( (image is not null) AND (category='whjs') ) ORDER BY aTime desc LIMIT 8   [ RunTime:0.0220s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000355s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000490s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.051775s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.051912s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000897s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000997s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001745s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001908s ]
+
+[ 2017-10-16T17:06:22+08:00 ] ::1 /apartment/Public/Upload/images/20171015/59e2b68b9cf75.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000920s ]
+
+[ 2017-10-16T17:06:22+08:00 ] ::1 /apartment/Public/Upload/images/20171015/59e2bbf99ba11.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001089s ]
+
+[ 2017-10-16T17:06:22+08:00 ] ::1 /apartment/Public/Upload/images/20171015/59e2bc3b215a1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.009537s ]
+
+[ 2017-10-16T17:06:22+08:00 ] ::1 /apartment/Public/Upload/images/20171015/59e2b6d213aa6.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001815s ]
+
+[ 2017-10-16T17:06:22+08:00 ] ::1 /apartment/Public/Upload/images/20171015/59e2b63ca8207.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001493s ]
+
+[ 2017-10-16T17:06:22+08:00 ] ::1 /apartment/Public/Upload/images/20171015/59e2b7884791b.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002540s ]
+
+[ 2017-10-16T17:06:22+08:00 ] ::1 /apartment/Public/Upload/images/20171015/59e2b580eb284.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000159s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001989s ]
+
+[ 2017-10-16T17:06:29+08:00 ] ::1 /apartment/Index/otherList1/category/tzgg.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001192s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002179s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002335s ]
+SQL: SHOW COLUMNS FROM `apart_article` [ RunTime:0.0251s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `apart_article` WHERE `category` = 'tzgg' LIMIT 1   [ RunTime:0.0257s ]
+SQL: SELECT `articleId`,`aTitle`,`aTime`,`author`,`source` FROM `apart_article` WHERE `category` = 'tzgg' ORDER BY aTime desc LIMIT 0,20   [ RunTime:0.0185s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000211s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000339s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.047068s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047264s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001568s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001671s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001692s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001799s ]
+
+[ 2017-10-16T17:06:32+08:00 ] ::1 /apartment/Index/otherList2/category/ztbd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001669s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001309s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001450s ]
+SQL: SHOW COLUMNS FROM `apart_article` [ RunTime:0.0682s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `apart_article` WHERE ( category='xszt' or category='byszt' or category='whyzt' or category='hbzt' ) LIMIT 1   [ RunTime:0.0246s ]
+SQL: SELECT `articleId`,`aTitle`,`aTime`,`author`,`source` FROM `apart_article` WHERE ( category='xszt' or category='byszt' or category='whyzt' or category='hbzt' ) ORDER BY aTime desc LIMIT 0,20   [ RunTime:0.0249s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000197s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000314s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027999s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028138s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001065s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001168s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001149s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001247s ]
+
+[ 2017-10-16T17:06:34+08:00 ] ::1 /apartment/Index/otherList1/category/gzzd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001845s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001669s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002003s ]
+SQL: SHOW COLUMNS FROM `apart_article` [ RunTime:0.0197s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `apart_article` WHERE `category` = 'gzzd' LIMIT 1   [ RunTime:0.0196s ]
+SQL: SELECT `articleId`,`aTitle`,`aTime`,`author`,`source` FROM `apart_article` WHERE `category` = 'gzzd' ORDER BY aTime desc LIMIT 0,20   [ RunTime:0.0192s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000244s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000391s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029041s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029178s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001102s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001219s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001286s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001390s ]
+
+[ 2017-10-16T17:06:40+08:00 ] ::1 /apartment/Index/otherList2/category/aqgl.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001138s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001657s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001814s ]
+SQL: SHOW COLUMNS FROM `apart_article` [ RunTime:0.0197s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `apart_article` WHERE ( category='xfzs' or category='ydgl' or category='zagl' or category='crbzs' ) LIMIT 1   [ RunTime:0.0201s ]
+SQL: SELECT `articleId`,`aTitle`,`aTime`,`author`,`source` FROM `apart_article` WHERE ( category='xfzs' or category='ydgl' or category='zagl' or category='crbzs' ) ORDER BY aTime desc LIMIT 0,20   [ RunTime:0.0181s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000329s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000525s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046955s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047161s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001637s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001837s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002421s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002618s ]
+
+[ 2017-10-16T17:09:09+08:00 ] ::1 /apartment/Index/details/article/5.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003511s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003075s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003282s ]
+SQL: SHOW COLUMNS FROM `apart_article` [ RunTime:0.0204s ]
+SQL: UPDATE `apart_article` SET `hits`=hits+1 WHERE `articleId` = 5 [ RunTime:0.0189s ]
+SQL: SELECT * FROM `apart_article` WHERE `articleId` = 5 LIMIT 1   [ RunTime:0.0194s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000272s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000476s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043635s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043875s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002678s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002866s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003015s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003241s ]
+
+[ 2017-10-16T17:12:05+08:00 ] ::1 /apartment/Index/otherList1/category/tzgg.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002019s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003685s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003887s ]
+SQL: SHOW COLUMNS FROM `apart_article` [ RunTime:0.5790s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `apart_article` WHERE `category` = 'tzgg' LIMIT 1   [ RunTime:0.5882s ]
+SQL: SELECT `articleId`,`aTitle`,`aTime`,`author`,`source` FROM `apart_article` WHERE `category` = 'tzgg' ORDER BY aTime desc LIMIT 0,20   [ RunTime:0.5977s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000261s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000412s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037502s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037688s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002236s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002399s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003734s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003925s ]
+
+[ 2017-10-16T17:12:15+08:00 ] ::1 /apartment/Index/otherList2/category/xwzx.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001075s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001373s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001522s ]
+SQL: SHOW COLUMNS FROM `apart_article` [ RunTime:0.5542s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `apart_article` WHERE ( category='sgdt' or category='xyxw' or category='xsgz' or category='xggy' ) LIMIT 1   [ RunTime:0.5871s ]
+SQL: SELECT `articleId`,`aTitle`,`aTime`,`author`,`source` FROM `apart_article` WHERE ( category='sgdt' or category='xyxw' or category='xsgz' or category='xggy' ) ORDER BY aTime desc LIMIT 0,20   [ RunTime:0.5972s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000223s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000367s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032365s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032512s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000899s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001674s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001934s ]
+
+[ 2017-10-16T17:12:22+08:00 ] ::1 /apartment/Index/otherList1/category/whjs.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001013s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001612s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001790s ]
+SQL: SHOW COLUMNS FROM `apart_article` [ RunTime:0.5804s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `apart_article` WHERE `category` = 'whjs' LIMIT 1   [ RunTime:0.5826s ]
+SQL: SELECT `articleId`,`aTitle`,`aTime`,`author`,`source` FROM `apart_article` WHERE `category` = 'whjs' ORDER BY aTime desc LIMIT 0,20   [ RunTime:0.5841s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000326s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000516s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.045566s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045804s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001513s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001702s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002071s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002233s ]
+
+[ 2017-10-16T20:45:19+08:00 ] ::1 /apartment/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.037213s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.014702s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014888s ]
+SQL: SHOW COLUMNS FROM `apart_article` [ RunTime:0.0242s ]
+SQL: SELECT `articleId`,`aTitle`,`category` FROM `apart_article` WHERE `category` = 'tzgg' ORDER BY aTime desc LIMIT 7   [ RunTime:0.0318s ]
+SQL: SELECT `articleId`,`aTitle`,`category` FROM `apart_article` WHERE `category` = 'fwzl' ORDER BY aTime desc LIMIT 7   [ RunTime:0.0487s ]
+SQL: SELECT `articleId`,`aTitle`,`category` FROM `apart_article` WHERE `category` = 'gzzd' ORDER BY aTime desc LIMIT 7   [ RunTime:0.0230s ]
+SQL: SELECT `articleId`,`aTitle`,`category` FROM `apart_article` WHERE ( category='sgdt' or category='xyxw' or category='xsgz' or category='xggy' ) ORDER BY aTime desc LIMIT 7   [ RunTime:0.0258s ]
+SQL: SELECT `articleId`,`aTitle`,`category` FROM `apart_article` WHERE ( category='xfzs' or category='ydgl' or category='zagl' or category='crbzs' ) ORDER BY aTime desc LIMIT 7   [ RunTime:0.0762s ]
+SQL: SELECT `articleId`,`aTitle`,`image`,`category` FROM `apart_article` WHERE ( image is not null AND isnav=1 AND image <> '' ) ORDER BY aTime desc LIMIT 7   [ RunTime:0.0288s ]
+SQL: SELECT `articleId`,`aTitle`,`image`,`category` FROM `apart_article` WHERE ( image is not null AND (category='xszt' or category='byszt' or category='whyzt' or category='hbzt') ) ORDER BY aTime desc LIMIT 3   [ RunTime:0.0668s ]
+SQL: SELECT `articleId`,`aTitle`,`image`,`category` FROM `apart_article` WHERE ( (image is not null) AND (category='whjs') ) ORDER BY aTime desc LIMIT 8   [ RunTime:0.0302s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.009293s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.009467s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.123241s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.123389s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.027970s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.028110s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.023600s ]
+INFO: [ app_end ] --END-- [ RunTime:0.023762s ]
+
+[ 2017-10-16T20:45:20+08:00 ] ::1 /apartment/Public/Upload/images/20171015/59e2bc3b215a1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001493s ]
+
+[ 2017-10-16T20:45:20+08:00 ] ::1 /apartment/Public/Upload/images/20171015/59e2bbf99ba11.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002792s ]
+
+[ 2017-10-16T20:45:20+08:00 ] ::1 /apartment/Public/Upload/images/20171015/59e2b6d213aa6.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001316s ]
+
+[ 2017-10-16T20:45:20+08:00 ] ::1 /apartment/Public/Upload/images/20171015/59e2b580eb284.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001330s ]
+
+[ 2017-10-16T20:45:20+08:00 ] ::1 /apartment/Public/Upload/images/20171015/59e2b63ca8207.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001219s ]
+
+[ 2017-10-16T20:45:20+08:00 ] ::1 /apartment/Public/Upload/images/20171015/59e2b68b9cf75.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001721s ]
+
+[ 2017-10-16T20:45:20+08:00 ] ::1 /apartment/Public/Upload/images/20171015/59e2b7884791b.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002264s ]
+
+[ 2017-10-16T20:45:20+08:00 ] ::1 /apartment/Public/Upload/images/20171016/59e47a5500d4b.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001140s ]
+
+[ 2017-10-16T20:45:20+08:00 ] ::1 /apartment/Public/Upload/images/20171016/59e47a3e7a465.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001039s ]
+
+[ 2017-10-16T20:45:20+08:00 ] ::1 /apartment/Public/Upload/images/20171016/59e47a86cbdef.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002167s ]
+
+[ 2017-10-16T20:45:26+08:00 ] ::1 /apartment/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001097s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001932s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002121s ]
+SQL: SHOW COLUMNS FROM `apart_article` [ RunTime:0.0865s ]
+SQL: SELECT `articleId`,`aTitle`,`category` FROM `apart_article` WHERE `category` = 'tzgg' ORDER BY aTime desc LIMIT 7   [ RunTime:0.0188s ]
+SQL: SELECT `articleId`,`aTitle`,`category` FROM `apart_article` WHERE `category` = 'fwzl' ORDER BY aTime desc LIMIT 7   [ RunTime:0.0199s ]
+SQL: SELECT `articleId`,`aTitle`,`category` FROM `apart_article` WHERE `category` = 'gzzd' ORDER BY aTime desc LIMIT 7   [ RunTime:0.0241s ]
+SQL: SELECT `articleId`,`aTitle`,`category` FROM `apart_article` WHERE ( category='sgdt' or category='xyxw' or category='xsgz' or category='xggy' ) ORDER BY aTime desc LIMIT 7   [ RunTime:0.0232s ]
+SQL: SELECT `articleId`,`aTitle`,`category` FROM `apart_article` WHERE ( category='xfzs' or category='ydgl' or category='zagl' or category='crbzs' ) ORDER BY aTime desc LIMIT 7   [ RunTime:0.0185s ]
+SQL: SELECT `articleId`,`aTitle`,`image`,`category` FROM `apart_article` WHERE ( image is not null AND isnav=1 AND image <> '' ) ORDER BY aTime desc LIMIT 7   [ RunTime:0.0355s ]
+SQL: SELECT `articleId`,`aTitle`,`image`,`category` FROM `apart_article` WHERE ( image is not null AND (category='xszt' or category='byszt' or category='whyzt' or category='hbzt') ) ORDER BY aTime desc LIMIT 3   [ RunTime:0.0824s ]
+SQL: SELECT `articleId`,`aTitle`,`image`,`category` FROM `apart_article` WHERE ( (image is not null) AND (category='whjs') ) ORDER BY aTime desc LIMIT 8   [ RunTime:0.0936s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000359s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000492s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.054364s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.054518s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001929s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002061s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002379s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002519s ]
+
+[ 2017-10-16T20:45:27+08:00 ] ::1 /apartment/Public/Upload/images/20171015/59e2bbf99ba11.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000939s ]
+
+[ 2017-10-16T20:45:27+08:00 ] ::1 /apartment/Public/Upload/images/20171015/59e2b6d213aa6.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001649s ]
+
+[ 2017-10-16T20:45:27+08:00 ] ::1 /apartment/Public/Upload/images/20171015/59e2b7884791b.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000961s ]
+
+[ 2017-10-16T20:45:27+08:00 ] ::1 /apartment/Public/Upload/images/20171015/59e2bc3b215a1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001995s ]
+
+[ 2017-10-16T20:45:27+08:00 ] ::1 /apartment/Public/Upload/images/20171015/59e2b68b9cf75.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001755s ]
+
+[ 2017-10-16T20:45:27+08:00 ] ::1 /apartment/Public/Upload/images/20171015/59e2b580eb284.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000143s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001604s ]
+
+[ 2017-10-16T20:45:27+08:00 ] ::1 /apartment/Public/Upload/images/20171016/59e47a3e7a465.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001438s ]
+
+[ 2017-10-16T20:45:27+08:00 ] ::1 /apartment/Public/Upload/images/20171016/59e47a86cbdef.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002019s ]
+
+[ 2017-10-16T20:45:27+08:00 ] ::1 /apartment/Public/Upload/images/20171016/59e47a5500d4b.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001434s ]
+
+[ 2017-10-16T21:26:32+08:00 ] ::1 /apartment/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001675s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002333s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002506s ]
+SQL: SHOW COLUMNS FROM `apart_article` [ RunTime:0.4498s ]
+SQL: SELECT `articleId`,`aTitle`,`category` FROM `apart_article` WHERE `category` = 'tzgg' ORDER BY aTime desc LIMIT 7   [ RunTime:0.3594s ]
+SQL: SELECT `articleId`,`aTitle`,`category` FROM `apart_article` WHERE `category` = 'fwzl' ORDER BY aTime desc LIMIT 7   [ RunTime:0.1506s ]
+SQL: SELECT `articleId`,`aTitle`,`category` FROM `apart_article` WHERE `category` = 'gzzd' ORDER BY aTime desc LIMIT 7   [ RunTime:0.4870s ]
+SQL: SELECT `articleId`,`aTitle`,`category` FROM `apart_article` WHERE ( category='sgdt' or category='xyxw' or category='xsgz' or category='xggy' ) ORDER BY aTime desc LIMIT 7   [ RunTime:0.2231s ]
+SQL: SELECT `articleId`,`aTitle`,`category` FROM `apart_article` WHERE ( category='xfzs' or category='ydgl' or category='zagl' or category='crbzs' ) ORDER BY aTime desc LIMIT 7   [ RunTime:0.1365s ]
+SQL: SELECT `articleId`,`aTitle`,`image`,`category` FROM `apart_article` WHERE ( image is not null AND isnav=1 AND image <> '' ) ORDER BY aTime desc LIMIT 7   [ RunTime:0.1905s ]
+SQL: SELECT `articleId`,`aTitle`,`image`,`category` FROM `apart_article` WHERE ( image is not null AND (category='xszt' or category='byszt' or category='whyzt' or category='hbzt') ) ORDER BY aTime desc LIMIT 3   [ RunTime:1.2171s ]
+SQL: SELECT `articleId`,`aTitle`,`image`,`category` FROM `apart_article` WHERE ( (image is not null) AND (category='whjs') ) ORDER BY aTime desc LIMIT 8   [ RunTime:0.5912s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000356s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000485s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.065496s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.065683s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001663s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001763s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002635s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002893s ]
+
+[ 2017-10-16T21:26:33+08:00 ] ::1 /apartment/Public/Upload/images/20171015/59e2bc3b215a1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001106s ]
+
+[ 2017-10-16T21:26:33+08:00 ] ::1 /apartment/Public/Upload/images/20171015/59e2b580eb284.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001420s ]
+
+[ 2017-10-16T21:26:33+08:00 ] ::1 /apartment/Public/Upload/images/20171015/59e2b7884791b.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001263s ]
+
+[ 2017-10-16T21:26:33+08:00 ] ::1 /apartment/Public/Upload/images/20171015/59e2b68b9cf75.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001759s ]
+
+[ 2017-10-16T21:26:33+08:00 ] ::1 /apartment/Public/Upload/images/20171015/59e2b63ca8207.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001951s ]
+
+[ 2017-10-16T21:26:33+08:00 ] ::1 /apartment/Public/Upload/images/20171015/59e2b6d213aa6.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000277s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004591s ]
+
+[ 2017-10-16T21:26:33+08:00 ] ::1 /apartment/Public/Upload/images/20171015/59e2bbf99ba11.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001988s ]
+
+[ 2017-10-16T21:26:33+08:00 ] ::1 /apartment/Public/Upload/images/20171016/59e47a5500d4b.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001182s ]
+
+[ 2017-10-16T21:26:33+08:00 ] ::1 /apartment/Public/Upload/images/20171016/59e47a86cbdef.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001960s ]
+
+[ 2017-10-16T21:26:33+08:00 ] ::1 /apartment/Public/Upload/images/20171016/59e47a3e7a465.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002533s ]
+
+[ 2017-10-16T21:26:40+08:00 ] ::1 /apartment/Index/details/article/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000939s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002622s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002844s ]
+SQL: SHOW COLUMNS FROM `apart_article` [ RunTime:0.5150s ]
+SQL: UPDATE `apart_article` SET `hits`=hits+1 WHERE `articleId` = 1 [ RunTime:0.6134s ]
+SQL: SELECT * FROM `apart_article` WHERE `articleId` = 1 LIMIT 1   [ RunTime:1.2359s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000309s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000509s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.124563s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.124735s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002107s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002238s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002757s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002932s ]
+
+[ 2017-10-16T21:27:24+08:00 ] ::1 /apartment/Index/details/article/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001528s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002547s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002730s ]
+SQL: SHOW COLUMNS FROM `apart_article` [ RunTime:0.6114s ]
+SQL: SELECT * FROM `apart_article` WHERE `articleId` = 1 LIMIT 1   [ RunTime:1.1392s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000283s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000472s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036869s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037143s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001542s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001709s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002571s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002783s ]
+
+[ 2017-10-16T21:27:42+08:00 ] ::1 /apartment/Index/details/article/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001401s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002307s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002446s ]
+SQL: SHOW COLUMNS FROM `apart_article` [ RunTime:0.5794s ]
+SQL: SELECT * FROM `apart_article` WHERE `articleId` = 1 LIMIT 1   [ RunTime:0.9830s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000182s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000308s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035363s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035535s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001612s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001717s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002210s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002354s ]
+
+[ 2017-10-16T21:28:59+08:00 ] ::1 /apartment/Index/details/article/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001613s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001779s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001983s ]
+SQL: SHOW COLUMNS FROM `apart_article` [ RunTime:0.0263s ]
+SQL: SELECT * FROM `apart_article` WHERE `articleId` = 1 LIMIT 1   [ RunTime:0.0605s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000182s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000309s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026058s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026211s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002102s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002216s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002196s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002340s ]
+
+[ 2017-10-16T21:43:59+08:00 ] ::1 /apartment/Index/details/article/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002086s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003113s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003314s ]
+SQL: SHOW COLUMNS FROM `apart_article` [ RunTime:0.0211s ]
+SQL: SELECT * FROM `apart_article` WHERE `articleId` = 1 LIMIT 1   [ RunTime:0.0414s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000189s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000314s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026322s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026463s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001774s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001906s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002286s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002430s ]
+

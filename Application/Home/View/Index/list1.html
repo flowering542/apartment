@@ -1,0 +1,72 @@
+<!--不含二级菜单的模块对应的列表页-->
+<div class="container_wrapper clearfix">
+	<div class="banner">
+	</div>
+	<div class="leftContent" style="padding-left: 10px;position: relative;">
+		<div class="content_title clearfix">
+			<div class="fl mt_20">
+				<span class="whjs_tit">{$mc[0]}</span>
+				<span class="whjs_tit_grey">{$mc[1]}</span>
+			</div>
+		</div>
+		<ul class="list">
+			<volist name="list" id="vo">
+				 <li>
+					<a href="{:U('Index/details',array('article'=>$vo['articleId']))}" title="{$vo['aTitle']}" target="_blank">{$vo['aTitle']}</a><span style="float: right;">[{$vo['aTime']}]</span>
+				</li>
+			</volist>
+		</ul>
+		<notempty name="list">
+		<ul class="pagination" id="page1">
+			 <if condition="$page gt 1">
+		        <li>
+		            <a href="{:U('Index/otherList1',array('page'=>$page-1))}">
+		              «
+		            </a>
+		        </li>
+		        <else/>
+		        <li><a href="javascript:void(0)" class="btn" disabled="disabled">«</a></li>
+		    </if>
+            <for start="1" end="$pageCount+1">
+               <li><a href='{:U("Index/otherList1?page=$i")}'>{$i}</a></li>
+                <if condition="$i egt 20">
+                   <li><a href='#'>...</a></li>
+                   <php>break;</php>
+               </if>
+           </for>
+          <if condition="$page lt $pageCount">
+                <li>
+                    <a href="{:U('Index/otherList1',array('page'=>$page+1))}">»</a>
+                </li>
+                <else/>
+                <li><a href="javascript:void(0)" disabled="true">»</a></li>
+            </if>
+		</ul>
+		</notempty>
+	</div>
+	<div class="sidebarRight fr" style="margin-right: 10px;">
+		<div class="columnHeader">
+			<h1>
+				<font style="vertical-align: inherit;">
+					<font style="vertical-align: inherit;">联系我们&nbsp;<span style="font-size: 14px;">contact us</span></font>
+				</font>
+			</h1>
+		</div>
+		<div class="content">
+			<p>您可以通过以下方式联系我们：</p>
+			<p style="font-size: 20px;color: rgb(255, 204, 0);" class="mt_20"><i class="fa fa-phone"></i>联系电话</p>
+			<p style="font-size: 20px;" class="mt_20">17865311972</p>
+			<p style="font-size: 20px;color: rgb(255, 204, 0);" class="mt_20"><i class="fa fa-address-book"></i>联系地址</p>
+			<p style="font-size: 20px;" class="mt_20">榴园226</p>
+			<p style="font-size: 20px;color: rgb(255, 204, 0);" class="mt_20"><i class="fa fa-qq"></i>QQ</p>
+			<p style="font-size: 20px;" class="mt_20">761654554</p>
+		</div>
+	</div>
+</div>
+<script type="text/javascript">
+    function active(){
+        $("#page1").children().eq(({$Think.get.page|default=1})).children().addClass('active');
+        console.log($("#page1").children().eq(({$Think.get.page|default=1})));
+    }
+    active();
+</script>

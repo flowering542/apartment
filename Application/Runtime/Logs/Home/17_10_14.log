@@ -1,0 +1,486 @@
+[ 2017-10-14T16:15:42+08:00 ] ::1 /apartment/list.html
+ERR: 无法加载控制器:List
+
+[ 2017-10-14T16:18:21+08:00 ] ::1 /apartment/otherList1/category/tzgg.html
+ERR: 无法加载控制器:OtherList1
+
+[ 2017-10-14T16:54:19+08:00 ] ::1 /apartment/Index/otherList1/category/index.html
+ERR: 参数错误或者未定义:page
+
+[ 2017-10-14T16:54:23+08:00 ] ::1 /apartment/Index/otherList1/category/index.html
+ERR: 参数错误或者未定义:page
+
+[ 2017-10-14T17:08:58+08:00 ] ::1 /apartment/Article/otherList1/page/1.html
+ERR: 无法加载控制器:Article
+
+[ 2017-10-14T21:29:50+08:00 ] ::1 /apartment/Index/otherList2/category/xwzx.html
+ERR: 1054:Unknown column 'sgdt' in 'where clause'
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `apart_article` WHERE ( category=sgdt or category=xyxw or category=xsgz or category=xggy ) LIMIT 1  
+
+[ 2017-10-14T22:02:18+08:00 ] ::1 /apartment/list.html
+ERR: 无法加载控制器:List
+
+[ 2017-10-14T22:02:32+08:00 ] ::1 /apartment/list.html
+ERR: 无法加载控制器:List
+
+[ 2017-10-14T22:18:32+08:00 ] ::1 /apartment/ee.html
+ERR: 无法加载控制器:Ee
+
+[ 2017-10-14T22:18:38+08:00 ] ::1 /apartment/ee.html
+ERR: 无法加载控制器:Ee
+
+[ 2017-10-14T22:18:41+08:00 ] ::1 /apartment/ee.html
+ERR: 无法加载控制器:Ee
+
+[ 2017-10-14T23:17:30+08:00 ] ::1 /apartment/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001288s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001423s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001579s ]
+SQL: SHOW COLUMNS FROM `apart_article` [ RunTime:0.0102s ]
+SQL: SELECT `articleId`,`aTitle`,`category` FROM `apart_article` WHERE `category` = 'tzgg' ORDER BY aTime desc LIMIT 7   [ RunTime:0.0014s ]
+SQL: SELECT `articleId`,`aTitle`,`category` FROM `apart_article` WHERE `category` = 'fwzl' ORDER BY aTime desc LIMIT 7   [ RunTime:0.0014s ]
+SQL: SELECT `articleId`,`aTitle`,`category` FROM `apart_article` WHERE `category` = 'gzzd' ORDER BY aTime desc LIMIT 7   [ RunTime:0.0012s ]
+SQL: SELECT `articleId`,`aTitle`,`category` FROM `apart_article` WHERE ( category='sgdt' or category='xyxw' or category='xsgz' or category='xggy' ) ORDER BY aTime desc LIMIT 7   [ RunTime:0.0014s ]
+SQL: SELECT `articleId`,`aTitle`,`category` FROM `apart_article` WHERE ( category='xfzs' or category='ydgl' or category='zagl' or category='crbzs' ) ORDER BY aTime desc LIMIT 7   [ RunTime:0.0017s ]
+SQL: SELECT `articleId`,`aTitle`,`image`,`category` FROM `apart_article` WHERE ( image is not null AND isnav=1 AND image <> '' ) ORDER BY aTime desc LIMIT 7   [ RunTime:0.0016s ]
+SQL: SELECT `articleId`,`aTitle`,`image`,`category` FROM `apart_article` WHERE ( image is not null AND (category='xszt' or category='byszt' or category='whyzt' or category='hbzt') ) ORDER BY aTime desc LIMIT 3   [ RunTime:0.0017s ]
+SQL: SELECT `articleId`,`aTitle`,`image`,`category` FROM `apart_article` WHERE ( (image is not null) AND (category='whjs') ) ORDER BY aTime desc LIMIT 8   [ RunTime:0.0017s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000352s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000486s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.056513s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.056678s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001610s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001750s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001586s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001728s ]
+
+[ 2017-10-14T23:28:06+08:00 ] ::1 /apartment/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001386s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002233s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002391s ]
+SQL: SHOW COLUMNS FROM `apart_article` [ RunTime:0.0093s ]
+SQL: SELECT `articleId`,`aTitle`,`category` FROM `apart_article` WHERE `category` = 'tzgg' ORDER BY aTime desc LIMIT 7   [ RunTime:0.0017s ]
+SQL: SELECT `articleId`,`aTitle`,`category` FROM `apart_article` WHERE `category` = 'fwzl' ORDER BY aTime desc LIMIT 7   [ RunTime:0.0014s ]
+SQL: SELECT `articleId`,`aTitle`,`category` FROM `apart_article` WHERE `category` = 'gzzd' ORDER BY aTime desc LIMIT 7   [ RunTime:0.0012s ]
+SQL: SELECT `articleId`,`aTitle`,`category` FROM `apart_article` WHERE ( category='sgdt' or category='xyxw' or category='xsgz' or category='xggy' ) ORDER BY aTime desc LIMIT 7   [ RunTime:0.0012s ]
+SQL: SELECT `articleId`,`aTitle`,`category` FROM `apart_article` WHERE ( category='xfzs' or category='ydgl' or category='zagl' or category='crbzs' ) ORDER BY aTime desc LIMIT 7   [ RunTime:0.0012s ]
+SQL: SELECT `articleId`,`aTitle`,`image`,`category` FROM `apart_article` WHERE ( image is not null AND isnav=1 AND image <> '' ) ORDER BY aTime desc LIMIT 7   [ RunTime:0.0014s ]
+SQL: SELECT `articleId`,`aTitle`,`image`,`category` FROM `apart_article` WHERE ( image is not null AND (category='xszt' or category='byszt' or category='whyzt' or category='hbzt') ) ORDER BY aTime desc LIMIT 3   [ RunTime:0.0013s ]
+SQL: SELECT `articleId`,`aTitle`,`image`,`category` FROM `apart_article` WHERE ( (image is not null) AND (category='whjs') ) ORDER BY aTime desc LIMIT 8   [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000376s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000509s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.055965s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.056172s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001585s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001678s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002210s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002344s ]
+
+[ 2017-10-14T23:28:22+08:00 ] ::1 /apartment/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000906s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001165s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001276s ]
+SQL: SHOW COLUMNS FROM `apart_article` [ RunTime:0.0097s ]
+SQL: SELECT `articleId`,`aTitle`,`category` FROM `apart_article` WHERE `category` = 'tzgg' ORDER BY aTime desc LIMIT 7   [ RunTime:0.0011s ]
+SQL: SELECT `articleId`,`aTitle`,`category` FROM `apart_article` WHERE `category` = 'fwzl' ORDER BY aTime desc LIMIT 7   [ RunTime:0.0011s ]
+SQL: SELECT `articleId`,`aTitle`,`category` FROM `apart_article` WHERE `category` = 'gzzd' ORDER BY aTime desc LIMIT 7   [ RunTime:0.0010s ]
+SQL: SELECT `articleId`,`aTitle`,`category` FROM `apart_article` WHERE ( category='sgdt' or category='xyxw' or category='xsgz' or category='xggy' ) ORDER BY aTime desc LIMIT 7   [ RunTime:0.0010s ]
+SQL: SELECT `articleId`,`aTitle`,`category` FROM `apart_article` WHERE ( category='xfzs' or category='ydgl' or category='zagl' or category='crbzs' ) ORDER BY aTime desc LIMIT 7   [ RunTime:0.0010s ]
+SQL: SELECT `articleId`,`aTitle`,`image`,`category` FROM `apart_article` WHERE ( image is not null AND isnav=1 AND image <> '' ) ORDER BY aTime desc LIMIT 7   [ RunTime:0.0011s ]
+SQL: SELECT `articleId`,`aTitle`,`image`,`category` FROM `apart_article` WHERE ( image is not null AND (category='xszt' or category='byszt' or category='whyzt' or category='hbzt') ) ORDER BY aTime desc LIMIT 3   [ RunTime:0.0011s ]
+SQL: SELECT `articleId`,`aTitle`,`image`,`category` FROM `apart_article` WHERE ( (image is not null) AND (category='whjs') ) ORDER BY aTime desc LIMIT 8   [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000365s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000489s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.050252s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.050421s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001173s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001294s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001581s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001720s ]
+
+[ 2017-10-14T23:28:31+08:00 ] ::1 /apartment/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000981s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001577s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001719s ]
+SQL: SHOW COLUMNS FROM `apart_article` [ RunTime:0.0095s ]
+SQL: SELECT `articleId`,`aTitle`,`category` FROM `apart_article` WHERE `category` = 'tzgg' ORDER BY aTime desc LIMIT 7   [ RunTime:0.0015s ]
+SQL: SELECT `articleId`,`aTitle`,`category` FROM `apart_article` WHERE `category` = 'fwzl' ORDER BY aTime desc LIMIT 7   [ RunTime:0.0014s ]
+SQL: SELECT `articleId`,`aTitle`,`category` FROM `apart_article` WHERE `category` = 'gzzd' ORDER BY aTime desc LIMIT 7   [ RunTime:0.0012s ]
+SQL: SELECT `articleId`,`aTitle`,`category` FROM `apart_article` WHERE ( category='sgdt' or category='xyxw' or category='xsgz' or category='xggy' ) ORDER BY aTime desc LIMIT 7   [ RunTime:0.0016s ]
+SQL: SELECT `articleId`,`aTitle`,`category` FROM `apart_article` WHERE ( category='xfzs' or category='ydgl' or category='zagl' or category='crbzs' ) ORDER BY aTime desc LIMIT 7   [ RunTime:0.0012s ]
+SQL: SELECT `articleId`,`aTitle`,`image`,`category` FROM `apart_article` WHERE ( image is not null AND isnav=1 AND image <> '' ) ORDER BY aTime desc LIMIT 7   [ RunTime:0.0013s ]
+SQL: SELECT `articleId`,`aTitle`,`image`,`category` FROM `apart_article` WHERE ( image is not null AND (category='xszt' or category='byszt' or category='whyzt' or category='hbzt') ) ORDER BY aTime desc LIMIT 3   [ RunTime:0.0012s ]
+SQL: SELECT `articleId`,`aTitle`,`image`,`category` FROM `apart_article` WHERE ( (image is not null) AND (category='whjs') ) ORDER BY aTime desc LIMIT 8   [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000363s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000493s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.052523s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.052660s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000906s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001545s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001691s ]
+
+[ 2017-10-14T23:33:46+08:00 ] ::1 /apartment/Admin/Article
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001708s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002472s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002659s ]
+ERR: 无法加载控制器:Admin
+
+[ 2017-10-14T23:33:53+08:00 ] ::1 /apartment/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000981s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001216s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001340s ]
+SQL: SHOW COLUMNS FROM `apart_article` [ RunTime:0.0327s ]
+SQL: SELECT `articleId`,`aTitle`,`category` FROM `apart_article` WHERE `category` = 'tzgg' ORDER BY aTime desc LIMIT 7   [ RunTime:0.0338s ]
+SQL: SELECT `articleId`,`aTitle`,`category` FROM `apart_article` WHERE `category` = 'fwzl' ORDER BY aTime desc LIMIT 7   [ RunTime:0.0226s ]
+SQL: SELECT `articleId`,`aTitle`,`category` FROM `apart_article` WHERE `category` = 'gzzd' ORDER BY aTime desc LIMIT 7   [ RunTime:0.0227s ]
+SQL: SELECT `articleId`,`aTitle`,`category` FROM `apart_article` WHERE ( category='sgdt' or category='xyxw' or category='xsgz' or category='xggy' ) ORDER BY aTime desc LIMIT 7   [ RunTime:0.0275s ]
+SQL: SELECT `articleId`,`aTitle`,`category` FROM `apart_article` WHERE ( category='xfzs' or category='ydgl' or category='zagl' or category='crbzs' ) ORDER BY aTime desc LIMIT 7   [ RunTime:0.0631s ]
+SQL: SELECT `articleId`,`aTitle`,`image`,`category` FROM `apart_article` WHERE ( image is not null AND isnav=1 AND image <> '' ) ORDER BY aTime desc LIMIT 7   [ RunTime:0.1470s ]
+SQL: SELECT `articleId`,`aTitle`,`image`,`category` FROM `apart_article` WHERE ( image is not null AND (category='xszt' or category='byszt' or category='whyzt' or category='hbzt') ) ORDER BY aTime desc LIMIT 3   [ RunTime:0.4092s ]
+SQL: SELECT `articleId`,`aTitle`,`image`,`category` FROM `apart_article` WHERE ( (image is not null) AND (category='whjs') ) ORDER BY aTime desc LIMIT 8   [ RunTime:0.3812s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000358s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000484s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.071255s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.071485s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001767s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001901s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002198s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002356s ]
+
+[ 2017-10-14T23:34:04+08:00 ] ::1 /apartment/Admin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001566s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003687s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003995s ]
+ERR: 无法加载控制器:Admin
+
+[ 2017-10-14T23:34:16+08:00 ] ::1 /apartment/Home/Admin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000904s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001129s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001251s ]
+ERR: 无法加载控制器:Admin
+
+[ 2017-10-14T23:34:30+08:00 ] ::1 /apartment/Admin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000997s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001206s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001323s ]
+ERR: 无法加载控制器:Admin
+
+[ 2017-10-14T23:35:49+08:00 ] ::1 /apartment/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001183s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002326s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002490s ]
+SQL: SHOW COLUMNS FROM `apart_article` [ RunTime:0.0945s ]
+SQL: SELECT `articleId`,`aTitle`,`category` FROM `apart_article` WHERE `category` = 'tzgg' ORDER BY aTime desc LIMIT 7   [ RunTime:0.0966s ]
+SQL: SELECT `articleId`,`aTitle`,`category` FROM `apart_article` WHERE `category` = 'fwzl' ORDER BY aTime desc LIMIT 7   [ RunTime:0.0967s ]
+SQL: SELECT `articleId`,`aTitle`,`category` FROM `apart_article` WHERE `category` = 'gzzd' ORDER BY aTime desc LIMIT 7   [ RunTime:0.1439s ]
+SQL: SELECT `articleId`,`aTitle`,`category` FROM `apart_article` WHERE ( category='sgdt' or category='xyxw' or category='xsgz' or category='xggy' ) ORDER BY aTime desc LIMIT 7   [ RunTime:0.1053s ]
+SQL: SELECT `articleId`,`aTitle`,`category` FROM `apart_article` WHERE ( category='xfzs' or category='ydgl' or category='zagl' or category='crbzs' ) ORDER BY aTime desc LIMIT 7   [ RunTime:0.1198s ]
+SQL: SELECT `articleId`,`aTitle`,`image`,`category` FROM `apart_article` WHERE ( image is not null AND isnav=1 AND image <> '' ) ORDER BY aTime desc LIMIT 7   [ RunTime:0.1161s ]
+SQL: SELECT `articleId`,`aTitle`,`image`,`category` FROM `apart_article` WHERE ( image is not null AND (category='xszt' or category='byszt' or category='whyzt' or category='hbzt') ) ORDER BY aTime desc LIMIT 3   [ RunTime:0.1260s ]
+SQL: SELECT `articleId`,`aTitle`,`image`,`category` FROM `apart_article` WHERE ( (image is not null) AND (category='whjs') ) ORDER BY aTime desc LIMIT 8   [ RunTime:0.1321s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000390s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000521s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.054281s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.054450s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001366s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001492s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001573s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001773s ]
+
+[ 2017-10-14T23:37:21+08:00 ] ::1 /apartment/sdfasdf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001714s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003377s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003571s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000121s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000279s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026537s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026715s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001769s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001897s ]
+
+[ 2017-10-14T23:43:13+08:00 ] ::1 /apartment/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001679s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002339s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002568s ]
+SQL: SHOW COLUMNS FROM `apart_article` [ RunTime:0.1610s ]
+SQL: SELECT `articleId`,`aTitle`,`category` FROM `apart_article` WHERE `category` = 'tzgg' ORDER BY aTime desc LIMIT 7   [ RunTime:0.1045s ]
+SQL: SELECT `articleId`,`aTitle`,`category` FROM `apart_article` WHERE `category` = 'fwzl' ORDER BY aTime desc LIMIT 7   [ RunTime:0.0190s ]
+SQL: SELECT `articleId`,`aTitle`,`category` FROM `apart_article` WHERE `category` = 'gzzd' ORDER BY aTime desc LIMIT 7   [ RunTime:0.0213s ]
+SQL: SELECT `articleId`,`aTitle`,`category` FROM `apart_article` WHERE ( category='sgdt' or category='xyxw' or category='xsgz' or category='xggy' ) ORDER BY aTime desc LIMIT 7   [ RunTime:0.0356s ]
+SQL: SELECT `articleId`,`aTitle`,`category` FROM `apart_article` WHERE ( category='xfzs' or category='ydgl' or category='zagl' or category='crbzs' ) ORDER BY aTime desc LIMIT 7   [ RunTime:0.0877s ]
+SQL: SELECT `articleId`,`aTitle`,`image`,`category` FROM `apart_article` WHERE ( image is not null AND isnav=1 AND image <> '' ) ORDER BY aTime desc LIMIT 7   [ RunTime:0.0202s ]
+SQL: SELECT `articleId`,`aTitle`,`image`,`category` FROM `apart_article` WHERE ( image is not null AND (category='xszt' or category='byszt' or category='whyzt' or category='hbzt') ) ORDER BY aTime desc LIMIT 3   [ RunTime:0.0186s ]
+SQL: SELECT `articleId`,`aTitle`,`image`,`category` FROM `apart_article` WHERE ( (image is not null) AND (category='whjs') ) ORDER BY aTime desc LIMIT 8   [ RunTime:0.0203s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001250s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001751s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.091061s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.091301s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002535s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002847s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003104s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003305s ]
+
+[ 2017-10-14T23:43:16+08:00 ] ::1 /apartment/Index/otherList1/category/gzzd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001140s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001800s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001906s ]
+SQL: SHOW COLUMNS FROM `apart_article` [ RunTime:0.3264s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `apart_article` WHERE `category` = 'gzzd' LIMIT 1   [ RunTime:0.1615s ]
+SQL: SELECT `articleId`,`aTitle`,`aTime`,`author`,`source` FROM `apart_article` WHERE `category` = 'gzzd' ORDER BY aTime desc LIMIT 0,20   [ RunTime:0.2103s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000223s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000366s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035658s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035863s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001734s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001868s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002545s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002690s ]
+
+[ 2017-10-14T23:46:25+08:00 ] ::1 /apartment/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002536s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009546s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009729s ]
+SQL: SHOW COLUMNS FROM `apart_article` [ RunTime:0.5363s ]
+SQL: SELECT `articleId`,`aTitle`,`category` FROM `apart_article` WHERE `category` = 'tzgg' ORDER BY aTime desc LIMIT 7   [ RunTime:0.3314s ]
+SQL: SELECT `articleId`,`aTitle`,`category` FROM `apart_article` WHERE `category` = 'fwzl' ORDER BY aTime desc LIMIT 7   [ RunTime:0.4923s ]
+SQL: SELECT `articleId`,`aTitle`,`category` FROM `apart_article` WHERE `category` = 'gzzd' ORDER BY aTime desc LIMIT 7   [ RunTime:0.3581s ]
+SQL: SELECT `articleId`,`aTitle`,`category` FROM `apart_article` WHERE ( category='sgdt' or category='xyxw' or category='xsgz' or category='xggy' ) ORDER BY aTime desc LIMIT 7   [ RunTime:0.1980s ]
+SQL: SELECT `articleId`,`aTitle`,`category` FROM `apart_article` WHERE ( category='xfzs' or category='ydgl' or category='zagl' or category='crbzs' ) ORDER BY aTime desc LIMIT 7   [ RunTime:0.5308s ]
+SQL: SELECT `articleId`,`aTitle`,`image`,`category` FROM `apart_article` WHERE ( image is not null AND isnav=1 AND image <> '' ) ORDER BY aTime desc LIMIT 7   [ RunTime:0.5100s ]
+SQL: SELECT `articleId`,`aTitle`,`image`,`category` FROM `apart_article` WHERE ( image is not null AND (category='xszt' or category='byszt' or category='whyzt' or category='hbzt') ) ORDER BY aTime desc LIMIT 3   [ RunTime:0.4986s ]
+SQL: SELECT `articleId`,`aTitle`,`image`,`category` FROM `apart_article` WHERE ( (image is not null) AND (category='whjs') ) ORDER BY aTime desc LIMIT 8   [ RunTime:0.3664s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000358s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000490s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.090520s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.090725s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.007257s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007380s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008441s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008571s ]
+
+[ 2017-10-14T23:46:32+08:00 ] ::1 /apartment/Index/details/article/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002607s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.011456s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011654s ]
+SQL: SHOW COLUMNS FROM `apart_article` [ RunTime:0.1882s ]
+SQL: UPDATE `apart_article` SET `hits`=hits+1 WHERE `articleId` = 1 [ RunTime:0.2449s ]
+SQL: SELECT * FROM `apart_article` WHERE `articleId` = 1 LIMIT 1   [ RunTime:0.6323s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000188s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000324s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040615s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040810s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001894s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001995s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002334s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002546s ]
+
+[ 2017-10-14T23:46:45+08:00 ] ::1 /apartment/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001158s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001582s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001693s ]
+SQL: SHOW COLUMNS FROM `apart_article` [ RunTime:0.3652s ]
+SQL: SELECT `articleId`,`aTitle`,`category` FROM `apart_article` WHERE `category` = 'tzgg' ORDER BY aTime desc LIMIT 7   [ RunTime:0.2175s ]
+SQL: SELECT `articleId`,`aTitle`,`category` FROM `apart_article` WHERE `category` = 'fwzl' ORDER BY aTime desc LIMIT 7   [ RunTime:0.1504s ]
+SQL: SELECT `articleId`,`aTitle`,`category` FROM `apart_article` WHERE `category` = 'gzzd' ORDER BY aTime desc LIMIT 7   [ RunTime:0.4331s ]
+SQL: SELECT `articleId`,`aTitle`,`category` FROM `apart_article` WHERE ( category='sgdt' or category='xyxw' or category='xsgz' or category='xggy' ) ORDER BY aTime desc LIMIT 7   [ RunTime:0.3980s ]
+SQL: SELECT `articleId`,`aTitle`,`category` FROM `apart_article` WHERE ( category='xfzs' or category='ydgl' or category='zagl' or category='crbzs' ) ORDER BY aTime desc LIMIT 7   [ RunTime:0.2241s ]
+SQL: SELECT `articleId`,`aTitle`,`image`,`category` FROM `apart_article` WHERE ( image is not null AND isnav=1 AND image <> '' ) ORDER BY aTime desc LIMIT 7   [ RunTime:0.5742s ]
+SQL: SELECT `articleId`,`aTitle`,`image`,`category` FROM `apart_article` WHERE ( image is not null AND (category='xszt' or category='byszt' or category='whyzt' or category='hbzt') ) ORDER BY aTime desc LIMIT 3   [ RunTime:0.2642s ]
+SQL: SELECT `articleId`,`aTitle`,`image`,`category` FROM `apart_article` WHERE ( (image is not null) AND (category='whjs') ) ORDER BY aTime desc LIMIT 8   [ RunTime:0.1114s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000405s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000558s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.066357s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.066586s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001426s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001563s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001639s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001784s ]
+
+[ 2017-10-14T23:46:50+08:00 ] ::1 /apartment/Index/otherList1/category/fwzl.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001739s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002220s ]
+SQL: SHOW COLUMNS FROM `apart_article` [ RunTime:0.1630s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `apart_article` WHERE `category` = 'fwzl' LIMIT 1   [ RunTime:0.5606s ]
+SQL: SELECT `articleId`,`aTitle`,`aTime`,`author`,`source` FROM `apart_article` WHERE `category` = 'fwzl' ORDER BY aTime desc LIMIT 0,20   [ RunTime:0.2334s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000267s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000440s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029821s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029965s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001104s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001434s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004187s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004357s ]
+
+[ 2017-10-14T23:47:07+08:00 ] ::1 /apartment/Index/otherList1/category/tzgg.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001505s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002144s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002290s ]
+SQL: SHOW COLUMNS FROM `apart_article` [ RunTime:0.0474s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `apart_article` WHERE `category` = 'tzgg' LIMIT 1   [ RunTime:0.0455s ]
+SQL: SELECT `articleId`,`aTitle`,`aTime`,`author`,`source` FROM `apart_article` WHERE `category` = 'tzgg' ORDER BY aTime desc LIMIT 0,20   [ RunTime:0.3277s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000230s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000364s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038901s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039064s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000826s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000938s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001266s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001375s ]
+
+[ 2017-10-14T23:48:36+08:00 ] ::1 /apartment/Index/otherList1/category/tzgg.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001149s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001094s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001206s ]
+SQL: SHOW COLUMNS FROM `apart_article` [ RunTime:0.0204s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `apart_article` WHERE `category` = 'tzgg' LIMIT 1   [ RunTime:0.0177s ]
+SQL: SELECT `articleId`,`aTitle`,`aTime`,`author`,`source` FROM `apart_article` WHERE `category` = 'tzgg' ORDER BY aTime desc LIMIT 0,20   [ RunTime:0.0255s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000194s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000317s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029329s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029471s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000922s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001029s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001322s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001443s ]
+
+[ 2017-10-14T23:48:39+08:00 ] ::1 /apartment/Index/otherList1/category/sgdt.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000950s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001370s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001527s ]
+SQL: SHOW COLUMNS FROM `apart_article` [ RunTime:0.1389s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `apart_article` WHERE `category` = 'sgdt' LIMIT 1   [ RunTime:0.0642s ]
+SQL: SELECT `articleId`,`aTitle`,`aTime`,`author`,`source` FROM `apart_article` WHERE `category` = 'sgdt' ORDER BY aTime desc LIMIT 0,20   [ RunTime:0.0616s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000210s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000337s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041638s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041815s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001079s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001619s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001753s ]
+

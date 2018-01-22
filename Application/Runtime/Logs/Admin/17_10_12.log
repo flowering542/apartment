@@ -1,0 +1,1215 @@
+[ 2017-10-12T16:53:38+08:00 ] ::1 /apartment/Admin/Article
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000095s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003341s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002109s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002251s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000105s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000239s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.121040s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.121204s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001260s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001353s ]
+
+[ 2017-10-12T16:53:41+08:00 ] ::1 /apartment/Admin/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001368s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001700s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001860s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000182s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000325s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018251s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018400s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000904s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001858s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001971s ]
+
+[ 2017-10-12T16:54:29+08:00 ] ::1 /apartment/Admin/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001515s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002351s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002565s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000150s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000298s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021443s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021586s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001737s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001875s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002681s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002832s ]
+
+[ 2017-10-12T16:54:36+08:00 ] ::1 /apartment/Admin/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001342s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002319s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002467s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000188s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000325s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020392s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020529s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001450s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001554s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002154s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002288s ]
+
+[ 2017-10-12T16:54:45+08:00 ] ::1 /apartment/Admin/Index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001595s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002234s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000147s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000282s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030109s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030258s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001389s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001520s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001868s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001998s ]
+
+[ 2017-10-12T16:54:52+08:00 ] ::1 /apartment/Admin/Article
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002170s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002142s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000932s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001164s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021926s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022133s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001746s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001884s ]
+
+[ 2017-10-12T16:54:55+08:00 ] ::1 /apartment/Admin/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001207s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001297s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001435s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000142s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000277s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016780s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016915s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000948s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001054s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001315s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001472s ]
+
+[ 2017-10-12T16:55:03+08:00 ] ::1 /apartment/Admin/Index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001145s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001903s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002020s ]
+SQL: SHOW COLUMNS FROM `apart_admin` [ RunTime:0.1018s ]
+SQL: SELECT `password` FROM `apart_admin` WHERE `username` = 'apartadmin' LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT `nickname` FROM `apart_admin` WHERE `username` = 'apartadmin' AND `password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0006s ]
+
+[ 2017-10-12T16:55:03+08:00 ] ::1 /apartment/Admin/Article/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001699s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001737s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001930s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000183s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000330s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040268s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040445s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001873s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002019s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002590s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002942s ]
+
+[ 2017-10-12T16:55:03+08:00 ] ::1 /apartment/Admin/article/top
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000979s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001449s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001613s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000098s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000226s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024529s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024674s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001420s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001599s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001763s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001891s ]
+
+[ 2017-10-12T16:55:03+08:00 ] ::1 /apartment/Admin/article/publish
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001203s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001126s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001257s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000210s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000350s ]
+NOTIC: [8] Undefined index: publish D:\xampp\htdocs\apartment\Application\Runtime\Cache\Admin\0596532377ed9b2c394887d1ce8ac725.php 第 73 行.
+NOTIC: [8] Undefined index: publish D:\xampp\htdocs\apartment\Application\Runtime\Cache\Admin\0596532377ed9b2c394887d1ce8ac725.php 第 77 行.
+NOTIC: [8] Undefined index: publish D:\xampp\htdocs\apartment\Application\Runtime\Cache\Admin\0596532377ed9b2c394887d1ce8ac725.php 第 81 行.
+NOTIC: [8] Undefined index: publish D:\xampp\htdocs\apartment\Application\Runtime\Cache\Admin\0596532377ed9b2c394887d1ce8ac725.php 第 85 行.
+NOTIC: [8] Undefined index: publish D:\xampp\htdocs\apartment\Application\Runtime\Cache\Admin\0596532377ed9b2c394887d1ce8ac725.php 第 89 行.
+NOTIC: [8] Undefined index: publish D:\xampp\htdocs\apartment\Application\Runtime\Cache\Admin\0596532377ed9b2c394887d1ce8ac725.php 第 93 行.
+NOTIC: [8] Undefined index: publish D:\xampp\htdocs\apartment\Application\Runtime\Cache\Admin\0596532377ed9b2c394887d1ce8ac725.php 第 97 行.
+NOTIC: [8] Undefined index: publish D:\xampp\htdocs\apartment\Application\Runtime\Cache\Admin\0596532377ed9b2c394887d1ce8ac725.php 第 101 行.
+NOTIC: [8] Undefined index: publish D:\xampp\htdocs\apartment\Application\Runtime\Cache\Admin\0596532377ed9b2c394887d1ce8ac725.php 第 105 行.
+NOTIC: [8] Undefined index: publish D:\xampp\htdocs\apartment\Application\Runtime\Cache\Admin\0596532377ed9b2c394887d1ce8ac725.php 第 109 行.
+NOTIC: [8] Undefined index: publish D:\xampp\htdocs\apartment\Application\Runtime\Cache\Admin\0596532377ed9b2c394887d1ce8ac725.php 第 113 行.
+NOTIC: [8] Undefined index: publish D:\xampp\htdocs\apartment\Application\Runtime\Cache\Admin\0596532377ed9b2c394887d1ce8ac725.php 第 117 行.
+NOTIC: [8] Undefined index: publish D:\xampp\htdocs\apartment\Application\Runtime\Cache\Admin\0596532377ed9b2c394887d1ce8ac725.php 第 121 行.
+NOTIC: [8] Undefined index: publish D:\xampp\htdocs\apartment\Application\Runtime\Cache\Admin\0596532377ed9b2c394887d1ce8ac725.php 第 125 行.
+NOTIC: [8] Undefined index: publish D:\xampp\htdocs\apartment\Application\Runtime\Cache\Admin\0596532377ed9b2c394887d1ce8ac725.php 第 129 行.
+NOTIC: [8] Undefined index: publish D:\xampp\htdocs\apartment\Application\Runtime\Cache\Admin\0596532377ed9b2c394887d1ce8ac725.php 第 133 行.
+NOTIC: [8] Undefined index: publish D:\xampp\htdocs\apartment\Application\Runtime\Cache\Admin\0596532377ed9b2c394887d1ce8ac725.php 第 137 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.087288s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.087425s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001363s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001508s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001695s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001875s ]
+
+[ 2017-10-12T16:55:04+08:00 ] ::1 /apartment/Admin/article/left
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001055s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001481s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001642s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000133s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000263s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.159595s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.159873s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001948s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002297s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002346s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002529s ]
+
+[ 2017-10-12T16:55:06+08:00 ] ::1 /apartment/Admin/Article/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001035s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001709s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001891s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000146s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000361s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017542s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017700s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001019s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001121s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001938s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002066s ]
+
+[ 2017-10-12T16:55:07+08:00 ] ::1 /apartment/Admin/article/top
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001023s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001383s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001544s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000100s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000244s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016870s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017052s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002070s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002254s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001839s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002024s ]
+
+[ 2017-10-12T16:55:07+08:00 ] ::1 /apartment/Admin/article/publish
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001026s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001641s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001806s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000225s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000377s ]
+NOTIC: [8] Undefined index: publish D:\xampp\htdocs\apartment\Application\Runtime\Cache\Admin\0596532377ed9b2c394887d1ce8ac725.php 第 73 行.
+NOTIC: [8] Undefined index: publish D:\xampp\htdocs\apartment\Application\Runtime\Cache\Admin\0596532377ed9b2c394887d1ce8ac725.php 第 77 行.
+NOTIC: [8] Undefined index: publish D:\xampp\htdocs\apartment\Application\Runtime\Cache\Admin\0596532377ed9b2c394887d1ce8ac725.php 第 81 行.
+NOTIC: [8] Undefined index: publish D:\xampp\htdocs\apartment\Application\Runtime\Cache\Admin\0596532377ed9b2c394887d1ce8ac725.php 第 85 行.
+NOTIC: [8] Undefined index: publish D:\xampp\htdocs\apartment\Application\Runtime\Cache\Admin\0596532377ed9b2c394887d1ce8ac725.php 第 89 行.
+NOTIC: [8] Undefined index: publish D:\xampp\htdocs\apartment\Application\Runtime\Cache\Admin\0596532377ed9b2c394887d1ce8ac725.php 第 93 行.
+NOTIC: [8] Undefined index: publish D:\xampp\htdocs\apartment\Application\Runtime\Cache\Admin\0596532377ed9b2c394887d1ce8ac725.php 第 97 行.
+NOTIC: [8] Undefined index: publish D:\xampp\htdocs\apartment\Application\Runtime\Cache\Admin\0596532377ed9b2c394887d1ce8ac725.php 第 101 行.
+NOTIC: [8] Undefined index: publish D:\xampp\htdocs\apartment\Application\Runtime\Cache\Admin\0596532377ed9b2c394887d1ce8ac725.php 第 105 行.
+NOTIC: [8] Undefined index: publish D:\xampp\htdocs\apartment\Application\Runtime\Cache\Admin\0596532377ed9b2c394887d1ce8ac725.php 第 109 行.
+NOTIC: [8] Undefined index: publish D:\xampp\htdocs\apartment\Application\Runtime\Cache\Admin\0596532377ed9b2c394887d1ce8ac725.php 第 113 行.
+NOTIC: [8] Undefined index: publish D:\xampp\htdocs\apartment\Application\Runtime\Cache\Admin\0596532377ed9b2c394887d1ce8ac725.php 第 117 行.
+NOTIC: [8] Undefined index: publish D:\xampp\htdocs\apartment\Application\Runtime\Cache\Admin\0596532377ed9b2c394887d1ce8ac725.php 第 121 行.
+NOTIC: [8] Undefined index: publish D:\xampp\htdocs\apartment\Application\Runtime\Cache\Admin\0596532377ed9b2c394887d1ce8ac725.php 第 125 行.
+NOTIC: [8] Undefined index: publish D:\xampp\htdocs\apartment\Application\Runtime\Cache\Admin\0596532377ed9b2c394887d1ce8ac725.php 第 129 行.
+NOTIC: [8] Undefined index: publish D:\xampp\htdocs\apartment\Application\Runtime\Cache\Admin\0596532377ed9b2c394887d1ce8ac725.php 第 133 行.
+NOTIC: [8] Undefined index: publish D:\xampp\htdocs\apartment\Application\Runtime\Cache\Admin\0596532377ed9b2c394887d1ce8ac725.php 第 137 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.045883s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046027s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002153s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002288s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.028121s ]
+INFO: [ app_end ] --END-- [ RunTime:0.028312s ]
+
+[ 2017-10-12T16:55:07+08:00 ] ::1 /apartment/Admin/article/left
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001554s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001319s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001470s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000130s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000301s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019590s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019755s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001389s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001558s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002361s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002515s ]
+
+[ 2017-10-12T16:55:09+08:00 ] ::1 /apartment/Admin/Article/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001464s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002380s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002546s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000094s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000227s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019667s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019823s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004718s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004879s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002706s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002855s ]
+
+[ 2017-10-12T16:55:09+08:00 ] ::1 /apartment/Admin/article/top
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000132s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001583s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001699s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001862s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000129s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000286s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018241s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018417s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000772s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000865s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001316s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001431s ]
+
+[ 2017-10-12T16:55:09+08:00 ] ::1 /apartment/Admin/article/publish
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001339s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001282s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001443s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000228s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000387s ]
+NOTIC: [8] Undefined index: publish D:\xampp\htdocs\apartment\Application\Runtime\Cache\Admin\0596532377ed9b2c394887d1ce8ac725.php 第 73 行.
+NOTIC: [8] Undefined index: publish D:\xampp\htdocs\apartment\Application\Runtime\Cache\Admin\0596532377ed9b2c394887d1ce8ac725.php 第 77 行.
+NOTIC: [8] Undefined index: publish D:\xampp\htdocs\apartment\Application\Runtime\Cache\Admin\0596532377ed9b2c394887d1ce8ac725.php 第 81 行.
+NOTIC: [8] Undefined index: publish D:\xampp\htdocs\apartment\Application\Runtime\Cache\Admin\0596532377ed9b2c394887d1ce8ac725.php 第 85 行.
+NOTIC: [8] Undefined index: publish D:\xampp\htdocs\apartment\Application\Runtime\Cache\Admin\0596532377ed9b2c394887d1ce8ac725.php 第 89 行.
+NOTIC: [8] Undefined index: publish D:\xampp\htdocs\apartment\Application\Runtime\Cache\Admin\0596532377ed9b2c394887d1ce8ac725.php 第 93 行.
+NOTIC: [8] Undefined index: publish D:\xampp\htdocs\apartment\Application\Runtime\Cache\Admin\0596532377ed9b2c394887d1ce8ac725.php 第 97 行.
+NOTIC: [8] Undefined index: publish D:\xampp\htdocs\apartment\Application\Runtime\Cache\Admin\0596532377ed9b2c394887d1ce8ac725.php 第 101 行.
+NOTIC: [8] Undefined index: publish D:\xampp\htdocs\apartment\Application\Runtime\Cache\Admin\0596532377ed9b2c394887d1ce8ac725.php 第 105 行.
+NOTIC: [8] Undefined index: publish D:\xampp\htdocs\apartment\Application\Runtime\Cache\Admin\0596532377ed9b2c394887d1ce8ac725.php 第 109 行.
+NOTIC: [8] Undefined index: publish D:\xampp\htdocs\apartment\Application\Runtime\Cache\Admin\0596532377ed9b2c394887d1ce8ac725.php 第 113 行.
+NOTIC: [8] Undefined index: publish D:\xampp\htdocs\apartment\Application\Runtime\Cache\Admin\0596532377ed9b2c394887d1ce8ac725.php 第 117 行.
+NOTIC: [8] Undefined index: publish D:\xampp\htdocs\apartment\Application\Runtime\Cache\Admin\0596532377ed9b2c394887d1ce8ac725.php 第 121 行.
+NOTIC: [8] Undefined index: publish D:\xampp\htdocs\apartment\Application\Runtime\Cache\Admin\0596532377ed9b2c394887d1ce8ac725.php 第 125 行.
+NOTIC: [8] Undefined index: publish D:\xampp\htdocs\apartment\Application\Runtime\Cache\Admin\0596532377ed9b2c394887d1ce8ac725.php 第 129 行.
+NOTIC: [8] Undefined index: publish D:\xampp\htdocs\apartment\Application\Runtime\Cache\Admin\0596532377ed9b2c394887d1ce8ac725.php 第 133 行.
+NOTIC: [8] Undefined index: publish D:\xampp\htdocs\apartment\Application\Runtime\Cache\Admin\0596532377ed9b2c394887d1ce8ac725.php 第 137 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025736s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025861s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001231s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001361s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001691s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001841s ]
+
+[ 2017-10-12T16:55:09+08:00 ] ::1 /apartment/Admin/article/left
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001455s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001880s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002061s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000250s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000418s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025023s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025173s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001492s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001638s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002095s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002235s ]
+
+[ 2017-10-12T16:55:14+08:00 ] ::1 /apartment/Admin/article/sgdt.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001027s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001217s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001337s ]
+SQL: SHOW COLUMNS FROM `apart_article` [ RunTime:0.0812s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `apart_article` WHERE `category` = 'sgdt' LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT `articleId`,`aTitle`,`aTime`,`author`,`source` FROM `apart_article` WHERE `category` = 'sgdt' ORDER BY aTime desc LIMIT 0,10   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000144s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000269s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034844s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034983s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000964s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001070s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001538s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001671s ]
+
+[ 2017-10-12T16:55:16+08:00 ] ::1 /apartment/Admin/article/xyxw.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001024s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001665s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001828s ]
+SQL: SHOW COLUMNS FROM `apart_article` [ RunTime:0.0121s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `apart_article` WHERE `category` = 'xyxw' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `articleId`,`aTitle`,`aTime`,`author`,`source` FROM `apart_article` WHERE `category` = 'xyxw' ORDER BY aTime desc LIMIT 0,10   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000231s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000393s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.052286s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.052430s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001498s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001629s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001652s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001790s ]
+
+[ 2017-10-12T16:55:17+08:00 ] ::1 /apartment/Admin/article/xsgz.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000958s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001317s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001437s ]
+SQL: SHOW COLUMNS FROM `apart_article` [ RunTime:0.0083s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `apart_article` WHERE `category` = 'xsgz' LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT `articleId`,`aTitle`,`aTime`,`author`,`source` FROM `apart_article` WHERE `category` = 'xsgz' ORDER BY aTime desc LIMIT 0,10   [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000143s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000270s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039169s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039331s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000724s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000817s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001132s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001225s ]
+
+[ 2017-10-12T16:55:18+08:00 ] ::1 /apartment/Admin/article/xggy.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001056s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001269s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001402s ]
+SQL: SHOW COLUMNS FROM `apart_article` [ RunTime:0.0086s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `apart_article` WHERE `category` = 'xggy' LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT `articleId`,`aTitle`,`aTime`,`author`,`source` FROM `apart_article` WHERE `category` = 'xggy' ORDER BY aTime desc LIMIT 0,10   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000146s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000274s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040309s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040453s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001222s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001357s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001506s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001628s ]
+
+[ 2017-10-12T16:55:23+08:00 ] ::1 /apartment/Admin/article/tzgg.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001309s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001174s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001286s ]
+SQL: SHOW COLUMNS FROM `apart_article` [ RunTime:0.0100s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `apart_article` WHERE `category` = 'tzgg' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `articleId`,`aTitle`,`aTime`,`author`,`source` FROM `apart_article` WHERE `category` = 'tzgg' ORDER BY aTime desc LIMIT 0,10   [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000151s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000277s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040079s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040256s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001159s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001297s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001918s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002052s ]
+
+[ 2017-10-12T16:55:24+08:00 ] ::1 /apartment/Admin/article/whjs.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000112s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001434s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001406s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001539s ]
+SQL: SHOW COLUMNS FROM `apart_article` [ RunTime:0.0090s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `apart_article` WHERE `category` = 'whjs' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `articleId`,`aTitle`,`aTime`,`author`,`source` FROM `apart_article` WHERE `category` = 'whjs' ORDER BY aTime desc LIMIT 0,10   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000150s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000304s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036148s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000805s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000899s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001092s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001184s ]
+
+[ 2017-10-12T16:55:25+08:00 ] ::1 /apartment/Admin/article/gzzd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001175s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001386s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001524s ]
+SQL: SHOW COLUMNS FROM `apart_article` [ RunTime:0.0085s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `apart_article` WHERE `category` = 'gzzd' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `articleId`,`aTitle`,`aTime`,`author`,`source` FROM `apart_article` WHERE `category` = 'gzzd' ORDER BY aTime desc LIMIT 0,10   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000184s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000342s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038156s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038300s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000827s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000930s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001231s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001341s ]
+
+[ 2017-10-12T16:55:27+08:00 ] ::1 /apartment/Admin/article/xfzs.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001066s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001252s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001381s ]
+SQL: SHOW COLUMNS FROM `apart_article` [ RunTime:0.0099s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `apart_article` WHERE `category` = 'xfzs' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `articleId`,`aTitle`,`aTime`,`author`,`source` FROM `apart_article` WHERE `category` = 'xfzs' ORDER BY aTime desc LIMIT 0,10   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000140s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000258s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.074884s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.075029s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000888s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000989s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001234s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001336s ]
+
+[ 2017-10-12T16:55:28+08:00 ] ::1 /apartment/Admin/article/ydgl.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001044s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001321s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001460s ]
+SQL: SHOW COLUMNS FROM `apart_article` [ RunTime:0.0089s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `apart_article` WHERE `category` = 'ydgl' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `articleId`,`aTitle`,`aTime`,`author`,`source` FROM `apart_article` WHERE `category` = 'ydgl' ORDER BY aTime desc LIMIT 0,10   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000144s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000269s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040364s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040561s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001202s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001332s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001483s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001595s ]
+
+[ 2017-10-12T16:55:28+08:00 ] ::1 /apartment/Admin/article/zagl.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001111s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001443s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001590s ]
+SQL: SHOW COLUMNS FROM `apart_article` [ RunTime:0.0098s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `apart_article` WHERE `category` = 'zagl' LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT `articleId`,`aTitle`,`aTime`,`author`,`source` FROM `apart_article` WHERE `category` = 'zagl' ORDER BY aTime desc LIMIT 0,10   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000149s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000319s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.050585s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.050747s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000906s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001015s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001277s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001384s ]
+
+[ 2017-10-12T16:55:29+08:00 ] ::1 /apartment/Admin/article/crbzs.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001154s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001136s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001244s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000132s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000253s ]
+NOTIC: [8] Undefined variable: list D:\xampp\htdocs\apartment\Application\Runtime\Cache\Admin\310ce2f226c4820bcd117bd6bf62e33e.php 第 57 行.
+NOTIC: [8] Undefined variable: count D:\xampp\htdocs\apartment\Application\Runtime\Cache\Admin\310ce2f226c4820bcd117bd6bf62e33e.php 第 74 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023389s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023513s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000686s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000774s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001106s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001198s ]
+
+[ 2017-10-12T16:55:32+08:00 ] ::1 /apartment/Admin/article/fwzl.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000980s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002237s ]
+SQL: SHOW COLUMNS FROM `apart_article` [ RunTime:0.0091s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `apart_article` WHERE `category` = 'fwzl' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `articleId`,`aTitle`,`aTime`,`author`,`source` FROM `apart_article` WHERE `category` = 'fwzl' ORDER BY aTime desc LIMIT 0,10   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000147s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000270s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.056300s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.056450s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001057s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001182s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001367s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001479s ]
+
+[ 2017-10-12T16:55:33+08:00 ] ::1 /apartment/Admin/article/fwzl.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001497s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001232s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001355s ]
+SQL: SHOW COLUMNS FROM `apart_article` [ RunTime:0.0570s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `apart_article` WHERE `category` = 'fwzl' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `articleId`,`aTitle`,`aTime`,`author`,`source` FROM `apart_article` WHERE `category` = 'fwzl' ORDER BY aTime desc LIMIT 0,10   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000155s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000290s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023271s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023427s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000995s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001116s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001501s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001631s ]
+
+[ 2017-10-12T16:55:35+08:00 ] ::1 /apartment/Admin/article/xszt.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001012s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001306s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001460s ]
+SQL: SHOW COLUMNS FROM `apart_article` [ RunTime:0.0095s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `apart_article` WHERE `category` = 'xszt' LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT `articleId`,`aTitle`,`aTime`,`author`,`source` FROM `apart_article` WHERE `category` = 'xszt' ORDER BY aTime desc LIMIT 0,10   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000138s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000259s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.044172s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044323s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000848s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000952s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001255s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001368s ]
+
+[ 2017-10-12T16:55:35+08:00 ] ::1 /apartment/Admin/article/byszt.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001040s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001356s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001493s ]
+SQL: SHOW COLUMNS FROM `apart_article` [ RunTime:0.0091s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `apart_article` WHERE `category` = 'byszt' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `articleId`,`aTitle`,`aTime`,`author`,`source` FROM `apart_article` WHERE `category` = 'byszt' ORDER BY aTime desc LIMIT 0,10   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000136s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000252s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036635s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036783s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000800s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000899s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001378s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001496s ]
+
+[ 2017-10-12T16:55:36+08:00 ] ::1 /apartment/Admin/article/whyzt.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001028s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001416s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001555s ]
+SQL: SHOW COLUMNS FROM `apart_article` [ RunTime:0.0095s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `apart_article` WHERE `category` = 'whyzt' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `articleId`,`aTitle`,`aTime`,`author`,`source` FROM `apart_article` WHERE `category` = 'whyzt' ORDER BY aTime desc LIMIT 0,10   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000141s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000260s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.054489s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.054679s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001223s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001368s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001488s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001607s ]
+
+[ 2017-10-12T16:55:37+08:00 ] ::1 /apartment/Admin/article/hbzt.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001532s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001896s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002097s ]
+SQL: SHOW COLUMNS FROM `apart_article` [ RunTime:0.0081s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `apart_article` WHERE `category` = 'hbzt' LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT `articleId`,`aTitle`,`aTime`,`author`,`source` FROM `apart_article` WHERE `category` = 'hbzt' ORDER BY aTime desc LIMIT 0,10   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000152s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000287s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.078470s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.078617s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000757s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000859s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001185s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001288s ]
+
+[ 2017-10-12T16:55:37+08:00 ] ::1 /apartment/Admin/article/hbzt.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001073s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001654s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001808s ]
+SQL: SHOW COLUMNS FROM `apart_article` [ RunTime:0.0093s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `apart_article` WHERE `category` = 'hbzt' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `articleId`,`aTitle`,`aTime`,`author`,`source` FROM `apart_article` WHERE `category` = 'hbzt' ORDER BY aTime desc LIMIT 0,10   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000207s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000348s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022227s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022377s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000677s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000845s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001101s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001193s ]
+
+[ 2017-10-12T16:55:40+08:00 ] ::1 /apartment/Admin/article/xgxz.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001054s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001277s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001403s ]
+SQL: SHOW COLUMNS FROM `apart_article` [ RunTime:0.0092s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `apart_article` WHERE `category` = 'xgxz' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `articleId`,`aTitle`,`aTime`,`author`,`source` FROM `apart_article` WHERE `category` = 'xgxz' ORDER BY aTime desc LIMIT 0,10   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000139s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000262s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036219s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036390s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001111s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001246s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001883s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002022s ]
+
+[ 2017-10-12T16:55:48+08:00 ] ::1 /apartment/Admin/Index/login_out
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001481s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001387s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001552s ]
+
+[ 2017-10-12T16:55:48+08:00 ] ::1 /apartment/Admin/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001617s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001529s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001755s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000142s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000279s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016109s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016262s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000892s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001547s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001681s ]
+
+[ 2017-10-12T16:55:58+08:00 ] ::1 /apartment/Admin/Index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000970s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001385s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001507s ]
+SQL: SHOW COLUMNS FROM `apart_admin` [ RunTime:0.0081s ]
+SQL: SELECT `password` FROM `apart_admin` WHERE `username` = 'apartadmin' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `nickname` FROM `apart_admin` WHERE `username` = 'apartadmin' AND `password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-10-12T16:55:58+08:00 ] ::1 /apartment/Admin/Article/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001359s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001764s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001969s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000102s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000243s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015021s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015173s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000953s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001066s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001540s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001682s ]
+
+[ 2017-10-12T16:55:58+08:00 ] ::1 /apartment/Admin/article/top
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001225s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001839s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002069s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000104s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000237s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020595s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020741s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001063s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001237s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001986s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002163s ]
+
+[ 2017-10-12T16:55:58+08:00 ] ::1 /apartment/Admin/article/left
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000988s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001752s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001926s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000128s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000266s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025336s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025492s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001304s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001454s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001923s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002055s ]
+
+[ 2017-10-12T16:55:58+08:00 ] ::1 /apartment/Admin/article/publish
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001536s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003140s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003478s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000325s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000494s ]
+NOTIC: [8] Undefined index: publish D:\xampp\htdocs\apartment\Application\Runtime\Cache\Admin\0596532377ed9b2c394887d1ce8ac725.php 第 73 行.
+NOTIC: [8] Undefined index: publish D:\xampp\htdocs\apartment\Application\Runtime\Cache\Admin\0596532377ed9b2c394887d1ce8ac725.php 第 77 行.
+NOTIC: [8] Undefined index: publish D:\xampp\htdocs\apartment\Application\Runtime\Cache\Admin\0596532377ed9b2c394887d1ce8ac725.php 第 81 行.
+NOTIC: [8] Undefined index: publish D:\xampp\htdocs\apartment\Application\Runtime\Cache\Admin\0596532377ed9b2c394887d1ce8ac725.php 第 85 行.
+NOTIC: [8] Undefined index: publish D:\xampp\htdocs\apartment\Application\Runtime\Cache\Admin\0596532377ed9b2c394887d1ce8ac725.php 第 89 行.
+NOTIC: [8] Undefined index: publish D:\xampp\htdocs\apartment\Application\Runtime\Cache\Admin\0596532377ed9b2c394887d1ce8ac725.php 第 93 行.
+NOTIC: [8] Undefined index: publish D:\xampp\htdocs\apartment\Application\Runtime\Cache\Admin\0596532377ed9b2c394887d1ce8ac725.php 第 97 行.
+NOTIC: [8] Undefined index: publish D:\xampp\htdocs\apartment\Application\Runtime\Cache\Admin\0596532377ed9b2c394887d1ce8ac725.php 第 101 行.
+NOTIC: [8] Undefined index: publish D:\xampp\htdocs\apartment\Application\Runtime\Cache\Admin\0596532377ed9b2c394887d1ce8ac725.php 第 105 行.
+NOTIC: [8] Undefined index: publish D:\xampp\htdocs\apartment\Application\Runtime\Cache\Admin\0596532377ed9b2c394887d1ce8ac725.php 第 109 行.
+NOTIC: [8] Undefined index: publish D:\xampp\htdocs\apartment\Application\Runtime\Cache\Admin\0596532377ed9b2c394887d1ce8ac725.php 第 113 行.
+NOTIC: [8] Undefined index: publish D:\xampp\htdocs\apartment\Application\Runtime\Cache\Admin\0596532377ed9b2c394887d1ce8ac725.php 第 117 行.
+NOTIC: [8] Undefined index: publish D:\xampp\htdocs\apartment\Application\Runtime\Cache\Admin\0596532377ed9b2c394887d1ce8ac725.php 第 121 行.
+NOTIC: [8] Undefined index: publish D:\xampp\htdocs\apartment\Application\Runtime\Cache\Admin\0596532377ed9b2c394887d1ce8ac725.php 第 125 行.
+NOTIC: [8] Undefined index: publish D:\xampp\htdocs\apartment\Application\Runtime\Cache\Admin\0596532377ed9b2c394887d1ce8ac725.php 第 129 行.
+NOTIC: [8] Undefined index: publish D:\xampp\htdocs\apartment\Application\Runtime\Cache\Admin\0596532377ed9b2c394887d1ce8ac725.php 第 133 行.
+NOTIC: [8] Undefined index: publish D:\xampp\htdocs\apartment\Application\Runtime\Cache\Admin\0596532377ed9b2c394887d1ce8ac725.php 第 137 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042670s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042885s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002260s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002392s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003120s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003291s ]
+
+[ 2017-10-12T16:56:02+08:00 ] ::1 /apartment/Admin/Index/login_out
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001433s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001459s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001646s ]
+
+[ 2017-10-12T16:56:02+08:00 ] ::1 /apartment/Admin/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001127s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001241s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001372s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000446s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000597s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018567s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018714s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001160s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001292s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002461s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002644s ]
+
+[ 2017-10-12T16:56:08+08:00 ] ::1 /apartment/Admin/Index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001174s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001531s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001665s ]
+SQL: SHOW COLUMNS FROM `apart_admin` [ RunTime:0.0082s ]
+SQL: SELECT `password` FROM `apart_admin` WHERE `username` = 'apartadmin' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `nickname` FROM `apart_admin` WHERE `username` = 'apartadmin' AND `password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2017-10-12T16:56:08+08:00 ] ::1 /apartment/Admin/Article/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001305s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001448s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000103s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000245s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015673s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015821s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000726s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000824s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001293s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001414s ]
+
+[ 2017-10-12T16:56:08+08:00 ] ::1 /apartment/Admin/article/top
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001133s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001280s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001427s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000122s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000275s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016228s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016370s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001386s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001535s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001667s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001790s ]
+
+[ 2017-10-12T16:56:08+08:00 ] ::1 /apartment/Admin/article/left
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000974s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001112s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001242s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000128s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000261s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023725s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023887s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000918s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001039s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004348s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004487s ]
+
+[ 2017-10-12T16:56:08+08:00 ] ::1 /apartment/Admin/article/publish
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001036s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001161s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001300s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000232s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000373s ]
+NOTIC: [8] Undefined index: publish D:\xampp\htdocs\apartment\Application\Runtime\Cache\Admin\0596532377ed9b2c394887d1ce8ac725.php 第 73 行.
+NOTIC: [8] Undefined index: publish D:\xampp\htdocs\apartment\Application\Runtime\Cache\Admin\0596532377ed9b2c394887d1ce8ac725.php 第 77 行.
+NOTIC: [8] Undefined index: publish D:\xampp\htdocs\apartment\Application\Runtime\Cache\Admin\0596532377ed9b2c394887d1ce8ac725.php 第 81 行.
+NOTIC: [8] Undefined index: publish D:\xampp\htdocs\apartment\Application\Runtime\Cache\Admin\0596532377ed9b2c394887d1ce8ac725.php 第 85 行.
+NOTIC: [8] Undefined index: publish D:\xampp\htdocs\apartment\Application\Runtime\Cache\Admin\0596532377ed9b2c394887d1ce8ac725.php 第 89 行.
+NOTIC: [8] Undefined index: publish D:\xampp\htdocs\apartment\Application\Runtime\Cache\Admin\0596532377ed9b2c394887d1ce8ac725.php 第 93 行.
+NOTIC: [8] Undefined index: publish D:\xampp\htdocs\apartment\Application\Runtime\Cache\Admin\0596532377ed9b2c394887d1ce8ac725.php 第 97 行.
+NOTIC: [8] Undefined index: publish D:\xampp\htdocs\apartment\Application\Runtime\Cache\Admin\0596532377ed9b2c394887d1ce8ac725.php 第 101 行.
+NOTIC: [8] Undefined index: publish D:\xampp\htdocs\apartment\Application\Runtime\Cache\Admin\0596532377ed9b2c394887d1ce8ac725.php 第 105 行.
+NOTIC: [8] Undefined index: publish D:\xampp\htdocs\apartment\Application\Runtime\Cache\Admin\0596532377ed9b2c394887d1ce8ac725.php 第 109 行.
+NOTIC: [8] Undefined index: publish D:\xampp\htdocs\apartment\Application\Runtime\Cache\Admin\0596532377ed9b2c394887d1ce8ac725.php 第 113 行.
+NOTIC: [8] Undefined index: publish D:\xampp\htdocs\apartment\Application\Runtime\Cache\Admin\0596532377ed9b2c394887d1ce8ac725.php 第 117 行.
+NOTIC: [8] Undefined index: publish D:\xampp\htdocs\apartment\Application\Runtime\Cache\Admin\0596532377ed9b2c394887d1ce8ac725.php 第 121 行.
+NOTIC: [8] Undefined index: publish D:\xampp\htdocs\apartment\Application\Runtime\Cache\Admin\0596532377ed9b2c394887d1ce8ac725.php 第 125 行.
+NOTIC: [8] Undefined index: publish D:\xampp\htdocs\apartment\Application\Runtime\Cache\Admin\0596532377ed9b2c394887d1ce8ac725.php 第 129 行.
+NOTIC: [8] Undefined index: publish D:\xampp\htdocs\apartment\Application\Runtime\Cache\Admin\0596532377ed9b2c394887d1ce8ac725.php 第 133 行.
+NOTIC: [8] Undefined index: publish D:\xampp\htdocs\apartment\Application\Runtime\Cache\Admin\0596532377ed9b2c394887d1ce8ac725.php 第 137 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029579s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029710s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002553s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002691s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001801s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001951s ]
+
+[ 2017-10-12T16:56:13+08:00 ] ::1 /apartment/Admin/article/xgxz.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001014s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001438s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001576s ]
+SQL: SHOW COLUMNS FROM `apart_article` [ RunTime:0.0088s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `apart_article` WHERE `category` = 'xgxz' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `articleId`,`aTitle`,`aTime`,`author`,`source` FROM `apart_article` WHERE `category` = 'xgxz' ORDER BY aTime desc LIMIT 0,10   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000155s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000309s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022847s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022993s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000769s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000870s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001217s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001319s ]
+
+[ 2017-10-12T16:56:18+08:00 ] ::1 /apartment/Admin/Index/login_out
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000972s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001370s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001504s ]
+
+[ 2017-10-12T16:56:18+08:00 ] ::1 /apartment/Admin/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000921s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001247s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001368s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000138s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000264s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014869s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015025s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001281s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001411s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001605s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001735s ]
+
+[ 2017-10-12T18:08:38+08:00 ] ::1 /apartment/Admin/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001116s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002174s ]
+SQL: SHOW COLUMNS FROM `apart_admin` [ RunTime:0.0082s ]
+SQL: SELECT `password` FROM `apart_admin` WHERE `username` = 'apartadmin' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `nickname` FROM `apart_admin` WHERE `username` = 'apartadmin' AND `password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-10-12T18:39:05+08:00 ] ::1 /apartment/Admin/article/ydgl.html
+ERR: 模板不存在:./Application/Admin/View/Article/fdgl.html
+
+[ 2017-10-12T18:39:17+08:00 ] ::1 /apartment/Admin/article/ydgl.html
+ERR: 模板不存在:./Application/Admin/View/Article/fdgl.html
+
+[ 2017-10-12T18:39:18+08:00 ] ::1 /apartment/Admin/article/ydgl.html
+ERR: 模板不存在:./Application/Admin/View/Article/fdgl.html
+
+[ 2017-10-12T18:39:19+08:00 ] ::1 /apartment/Admin/article/ydgl.html
+ERR: 模板不存在:./Application/Admin/View/Article/fdgl.html
+

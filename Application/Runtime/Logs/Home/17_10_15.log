@@ -1,0 +1,915 @@
+[ 2017-10-15T19:07:48+08:00 ] ::1 /apartment/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.040483s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.013305s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013512s ]
+SQL: SHOW COLUMNS FROM `apart_article` [ RunTime:0.0194s ]
+SQL: SELECT `articleId`,`aTitle`,`category` FROM `apart_article` WHERE `category` = 'tzgg' ORDER BY aTime desc LIMIT 7   [ RunTime:0.0184s ]
+SQL: SELECT `articleId`,`aTitle`,`category` FROM `apart_article` WHERE `category` = 'fwzl' ORDER BY aTime desc LIMIT 7   [ RunTime:0.0183s ]
+SQL: SELECT `articleId`,`aTitle`,`category` FROM `apart_article` WHERE `category` = 'gzzd' ORDER BY aTime desc LIMIT 7   [ RunTime:0.0871s ]
+SQL: SELECT `articleId`,`aTitle`,`category` FROM `apart_article` WHERE ( category='sgdt' or category='xyxw' or category='xsgz' or category='xggy' ) ORDER BY aTime desc LIMIT 7   [ RunTime:0.0201s ]
+SQL: SELECT `articleId`,`aTitle`,`category` FROM `apart_article` WHERE ( category='xfzs' or category='ydgl' or category='zagl' or category='crbzs' ) ORDER BY aTime desc LIMIT 7   [ RunTime:0.0187s ]
+SQL: SELECT `articleId`,`aTitle`,`image`,`category` FROM `apart_article` WHERE ( image is not null AND isnav=1 AND image <> '' ) ORDER BY aTime desc LIMIT 7   [ RunTime:0.0193s ]
+SQL: SELECT `articleId`,`aTitle`,`image`,`category` FROM `apart_article` WHERE ( image is not null AND (category='xszt' or category='byszt' or category='whyzt' or category='hbzt') ) ORDER BY aTime desc LIMIT 3   [ RunTime:0.0192s ]
+SQL: SELECT `articleId`,`aTitle`,`image`,`category` FROM `apart_article` WHERE ( (image is not null) AND (category='whjs') ) ORDER BY aTime desc LIMIT 8   [ RunTime:0.0186s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.011811s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.012050s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.180986s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.181229s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.013245s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.013449s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.086442s ]
+INFO: [ app_end ] --END-- [ RunTime:0.086611s ]
+
+[ 2017-10-15T19:07:49+08:00 ] ::1 /apartment/Public/Upload/images/20171015/59e2bc3b215a1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001319s ]
+
+[ 2017-10-15T19:07:49+08:00 ] ::1 /apartment/Public/Upload/images/20171015/59e2b7884791b.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001810s ]
+
+[ 2017-10-15T19:07:49+08:00 ] ::1 /apartment/Public/Upload/images/20171015/59e2b6d213aa6.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.014923s ]
+
+[ 2017-10-15T19:07:49+08:00 ] ::1 /apartment/Public/Upload/images/20171015/59e2b63ca8207.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001249s ]
+
+[ 2017-10-15T19:07:49+08:00 ] ::1 /apartment/Public/Upload/images/20171015/59e2bbf99ba11.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001205s ]
+
+[ 2017-10-15T19:07:49+08:00 ] ::1 /apartment/Public/Upload/images/20171015/59e2b580eb284.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001316s ]
+
+[ 2017-10-15T19:07:49+08:00 ] ::1 /apartment/Public/Upload/images/20171015/59e2b68b9cf75.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001597s ]
+
+[ 2017-10-15T19:07:53+08:00 ] ::1 /apartment/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001355s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002281s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002426s ]
+SQL: SHOW COLUMNS FROM `apart_article` [ RunTime:0.0223s ]
+SQL: SELECT `articleId`,`aTitle`,`category` FROM `apart_article` WHERE `category` = 'tzgg' ORDER BY aTime desc LIMIT 7   [ RunTime:0.0668s ]
+SQL: SELECT `articleId`,`aTitle`,`category` FROM `apart_article` WHERE `category` = 'fwzl' ORDER BY aTime desc LIMIT 7   [ RunTime:0.0191s ]
+SQL: SELECT `articleId`,`aTitle`,`category` FROM `apart_article` WHERE `category` = 'gzzd' ORDER BY aTime desc LIMIT 7   [ RunTime:0.0189s ]
+SQL: SELECT `articleId`,`aTitle`,`category` FROM `apart_article` WHERE ( category='sgdt' or category='xyxw' or category='xsgz' or category='xggy' ) ORDER BY aTime desc LIMIT 7   [ RunTime:0.0193s ]
+SQL: SELECT `articleId`,`aTitle`,`category` FROM `apart_article` WHERE ( category='xfzs' or category='ydgl' or category='zagl' or category='crbzs' ) ORDER BY aTime desc LIMIT 7   [ RunTime:0.0189s ]
+SQL: SELECT `articleId`,`aTitle`,`image`,`category` FROM `apart_article` WHERE ( image is not null AND isnav=1 AND image <> '' ) ORDER BY aTime desc LIMIT 7   [ RunTime:0.0196s ]
+SQL: SELECT `articleId`,`aTitle`,`image`,`category` FROM `apart_article` WHERE ( image is not null AND (category='xszt' or category='byszt' or category='whyzt' or category='hbzt') ) ORDER BY aTime desc LIMIT 3   [ RunTime:0.0218s ]
+SQL: SELECT `articleId`,`aTitle`,`image`,`category` FROM `apart_article` WHERE ( (image is not null) AND (category='whjs') ) ORDER BY aTime desc LIMIT 8   [ RunTime:0.0196s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000349s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000476s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.051478s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.051628s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001603s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001705s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002958s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003094s ]
+
+[ 2017-10-15T19:07:53+08:00 ] ::1 /apartment/Public/Upload/images/20171015/59e2b7884791b.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001172s ]
+
+[ 2017-10-15T19:07:53+08:00 ] ::1 /apartment/Public/Upload/images/20171015/59e2b68b9cf75.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001571s ]
+
+[ 2017-10-15T19:07:53+08:00 ] ::1 /apartment/Public/Upload/images/20171015/59e2bc3b215a1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000942s ]
+
+[ 2017-10-15T19:07:53+08:00 ] ::1 /apartment/Public/Upload/images/20171015/59e2b63ca8207.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001723s ]
+
+[ 2017-10-15T19:07:53+08:00 ] ::1 /apartment/Public/Upload/images/20171015/59e2bbf99ba11.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001205s ]
+
+[ 2017-10-15T19:07:53+08:00 ] ::1 /apartment/Public/Upload/images/20171015/59e2b580eb284.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001028s ]
+
+[ 2017-10-15T19:07:53+08:00 ] ::1 /apartment/Public/Upload/images/20171015/59e2b6d213aa6.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000980s ]
+
+[ 2017-10-15T19:07:54+08:00 ] ::1 /apartment/Public/Upload/images/20171015/59e2bc3b215a1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000957s ]
+
+[ 2017-10-15T19:07:54+08:00 ] ::1 /apartment/Public/Upload/images/20171015/59e2bbf99ba11.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001078s ]
+
+[ 2017-10-15T19:07:54+08:00 ] ::1 /apartment/Public/Upload/images/20171015/59e2b68b9cf75.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005058s ]
+
+[ 2017-10-15T19:07:54+08:00 ] ::1 /apartment/Public/Upload/images/20171015/59e2b63ca8207.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001018s ]
+
+[ 2017-10-15T19:07:54+08:00 ] ::1 /apartment/Public/Upload/images/20171015/59e2b580eb284.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000074s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008729s ]
+
+[ 2017-10-15T19:07:57+08:00 ] ::1 /apartment/Index/otherList1/category/fwzl.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000931s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002005s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002139s ]
+SQL: SHOW COLUMNS FROM `apart_article` [ RunTime:0.0191s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `apart_article` WHERE `category` = 'fwzl' LIMIT 1   [ RunTime:0.0184s ]
+SQL: SELECT `articleId`,`aTitle`,`aTime`,`author`,`source` FROM `apart_article` WHERE `category` = 'fwzl' ORDER BY aTime desc LIMIT 0,20   [ RunTime:0.0183s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000192s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000313s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.073241s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.073412s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002019s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002162s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002334s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002465s ]
+
+[ 2017-10-15T19:08:00+08:00 ] ::1 /apartment/Index/otherList1/category/fwzl.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001047s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001634s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001776s ]
+SQL: SHOW COLUMNS FROM `apart_article` [ RunTime:0.0189s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `apart_article` WHERE `category` = 'fwzl' LIMIT 1   [ RunTime:0.0348s ]
+SQL: SELECT `articleId`,`aTitle`,`aTime`,`author`,`source` FROM `apart_article` WHERE `category` = 'fwzl' ORDER BY aTime desc LIMIT 0,20   [ RunTime:0.0183s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000183s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000296s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026173s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026316s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001206s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001332s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001401s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001510s ]
+
+[ 2017-10-15T19:08:07+08:00 ] ::1 /apartment/Index/otherList1/category/fwzl.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002531s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002691s ]
+SQL: SHOW COLUMNS FROM `apart_article` [ RunTime:0.0193s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `apart_article` WHERE `category` = 'fwzl' LIMIT 1   [ RunTime:0.0352s ]
+SQL: SELECT `articleId`,`aTitle`,`aTime`,`author`,`source` FROM `apart_article` WHERE `category` = 'fwzl' ORDER BY aTime desc LIMIT 0,20   [ RunTime:0.0187s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000351s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000557s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.052156s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.052393s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002720s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002925s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003397s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003595s ]
+
+[ 2017-10-15T19:08:13+08:00 ] ::1 /apartment/Index/otherList2/category/xwzx.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001135s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001093s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001197s ]
+SQL: SHOW COLUMNS FROM `apart_article` [ RunTime:0.0185s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `apart_article` WHERE ( category='sgdt' or category='xyxw' or category='xsgz' or category='xggy' ) LIMIT 1   [ RunTime:0.0207s ]
+SQL: SELECT `articleId`,`aTitle`,`aTime`,`author`,`source` FROM `apart_article` WHERE ( category='sgdt' or category='xyxw' or category='xsgz' or category='xggy' ) ORDER BY aTime desc LIMIT 0,20   [ RunTime:0.0187s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000316s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000505s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.056867s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.057319s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001537s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001731s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002538s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002757s ]
+
+[ 2017-10-15T19:08:22+08:00 ] ::1 /apartment/Index/details/article/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001298s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002147s ]
+SQL: SHOW COLUMNS FROM `apart_article` [ RunTime:0.0202s ]
+SQL: UPDATE `apart_article` SET `hits`=hits+1 WHERE `articleId` = 1 [ RunTime:0.0195s ]
+SQL: SELECT * FROM `apart_article` WHERE `articleId` = 1 LIMIT 1   [ RunTime:0.0426s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000291s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000490s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.054482s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.054711s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003425s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003633s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003649s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003881s ]
+
+[ 2017-10-15T19:08:33+08:00 ] ::1 /apartment/Index/otherList1/category/gzzd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001607s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001948s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002088s ]
+SQL: SHOW COLUMNS FROM `apart_article` [ RunTime:0.0208s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `apart_article` WHERE `category` = 'gzzd' LIMIT 1   [ RunTime:0.0185s ]
+SQL: SELECT `articleId`,`aTitle`,`aTime`,`author`,`source` FROM `apart_article` WHERE `category` = 'gzzd' ORDER BY aTime desc LIMIT 0,20   [ RunTime:0.0249s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000312s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000497s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046617s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046839s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001338s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001501s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001841s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002102s ]
+
+[ 2017-10-15T19:08:43+08:00 ] ::1 /apartment/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001537s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001787s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001952s ]
+SQL: SHOW COLUMNS FROM `apart_article` [ RunTime:0.0198s ]
+SQL: SELECT `articleId`,`aTitle`,`category` FROM `apart_article` WHERE `category` = 'tzgg' ORDER BY aTime desc LIMIT 7   [ RunTime:0.0190s ]
+SQL: SELECT `articleId`,`aTitle`,`category` FROM `apart_article` WHERE `category` = 'fwzl' ORDER BY aTime desc LIMIT 7   [ RunTime:0.0200s ]
+SQL: SELECT `articleId`,`aTitle`,`category` FROM `apart_article` WHERE `category` = 'gzzd' ORDER BY aTime desc LIMIT 7   [ RunTime:0.0190s ]
+SQL: SELECT `articleId`,`aTitle`,`category` FROM `apart_article` WHERE ( category='sgdt' or category='xyxw' or category='xsgz' or category='xggy' ) ORDER BY aTime desc LIMIT 7   [ RunTime:0.0193s ]
+SQL: SELECT `articleId`,`aTitle`,`category` FROM `apart_article` WHERE ( category='xfzs' or category='ydgl' or category='zagl' or category='crbzs' ) ORDER BY aTime desc LIMIT 7   [ RunTime:0.0194s ]
+SQL: SELECT `articleId`,`aTitle`,`image`,`category` FROM `apart_article` WHERE ( image is not null AND isnav=1 AND image <> '' ) ORDER BY aTime desc LIMIT 7   [ RunTime:0.0209s ]
+SQL: SELECT `articleId`,`aTitle`,`image`,`category` FROM `apart_article` WHERE ( image is not null AND (category='xszt' or category='byszt' or category='whyzt' or category='hbzt') ) ORDER BY aTime desc LIMIT 3   [ RunTime:0.0202s ]
+SQL: SELECT `articleId`,`aTitle`,`image`,`category` FROM `apart_article` WHERE ( (image is not null) AND (category='whjs') ) ORDER BY aTime desc LIMIT 8   [ RunTime:0.0196s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000451s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000649s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.069579s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.069791s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001464s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001598s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002466s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002627s ]
+
+[ 2017-10-15T19:08:43+08:00 ] ::1 /apartment/Public/Upload/images/20171015/59e2bc3b215a1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001135s ]
+
+[ 2017-10-15T19:08:43+08:00 ] ::1 /apartment/Public/Upload/images/20171015/59e2bbf99ba11.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001022s ]
+
+[ 2017-10-15T19:08:43+08:00 ] ::1 /apartment/Public/Upload/images/20171015/59e2b6d213aa6.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001175s ]
+
+[ 2017-10-15T19:08:43+08:00 ] ::1 /apartment/Public/Upload/images/20171015/59e2b63ca8207.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001050s ]
+
+[ 2017-10-15T19:08:43+08:00 ] ::1 /apartment/Public/Upload/images/20171015/59e2b7884791b.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001027s ]
+
+[ 2017-10-15T19:08:43+08:00 ] ::1 /apartment/Public/Upload/images/20171015/59e2b68b9cf75.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001285s ]
+
+[ 2017-10-15T19:08:43+08:00 ] ::1 /apartment/Public/Upload/images/20171015/59e2b580eb284.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001351s ]
+
+[ 2017-10-15T19:08:43+08:00 ] ::1 /apartment/Public/Upload/images/20171015/59e2bc3b215a1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001513s ]
+
+[ 2017-10-15T19:08:46+08:00 ] ::1 /apartment/Index/details/article/11.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000934s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002436s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002615s ]
+SQL: SHOW COLUMNS FROM `apart_article` [ RunTime:0.0333s ]
+SQL: UPDATE `apart_article` SET `hits`=hits+1 WHERE `articleId` = 11 [ RunTime:0.0194s ]
+SQL: SELECT * FROM `apart_article` WHERE `articleId` = 11 LIMIT 1   [ RunTime:0.0201s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000167s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000289s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026464s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026618s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001532s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001635s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001787s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001901s ]
+
+[ 2017-10-15T19:08:53+08:00 ] ::1 /apartment/Index/details/article/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002164s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001489s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001634s ]
+SQL: SHOW COLUMNS FROM `apart_article` [ RunTime:0.2036s ]
+SQL: UPDATE `apart_article` SET `hits`=hits+1 WHERE `articleId` = 4 [ RunTime:0.2027s ]
+SQL: SELECT * FROM `apart_article` WHERE `articleId` = 4 LIMIT 1   [ RunTime:0.1937s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000238s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000444s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026502s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026670s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001364s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001504s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001961s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002141s ]
+
+[ 2017-10-15T19:12:24+08:00 ] ::1 /apartment/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001862s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002023s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002148s ]
+SQL: SHOW COLUMNS FROM `apart_article` [ RunTime:0.0228s ]
+SQL: SELECT `articleId`,`aTitle`,`category` FROM `apart_article` WHERE `category` = 'tzgg' ORDER BY aTime desc LIMIT 7   [ RunTime:0.0190s ]
+SQL: SELECT `articleId`,`aTitle`,`category` FROM `apart_article` WHERE `category` = 'fwzl' ORDER BY aTime desc LIMIT 7   [ RunTime:0.0186s ]
+SQL: SELECT `articleId`,`aTitle`,`category` FROM `apart_article` WHERE `category` = 'gzzd' ORDER BY aTime desc LIMIT 7   [ RunTime:0.0185s ]
+SQL: SELECT `articleId`,`aTitle`,`category` FROM `apart_article` WHERE ( category='sgdt' or category='xyxw' or category='xsgz' or category='xggy' ) ORDER BY aTime desc LIMIT 7   [ RunTime:0.0192s ]
+SQL: SELECT `articleId`,`aTitle`,`category` FROM `apart_article` WHERE ( category='xfzs' or category='ydgl' or category='zagl' or category='crbzs' ) ORDER BY aTime desc LIMIT 7   [ RunTime:0.0192s ]
+SQL: SELECT `articleId`,`aTitle`,`image`,`category` FROM `apart_article` WHERE ( image is not null AND isnav=1 AND image <> '' ) ORDER BY aTime desc LIMIT 7   [ RunTime:0.0195s ]
+SQL: SELECT `articleId`,`aTitle`,`image`,`category` FROM `apart_article` WHERE ( image is not null AND (category='xszt' or category='byszt' or category='whyzt' or category='hbzt') ) ORDER BY aTime desc LIMIT 3   [ RunTime:0.0192s ]
+SQL: SELECT `articleId`,`aTitle`,`image`,`category` FROM `apart_article` WHERE ( (image is not null) AND (category='whjs') ) ORDER BY aTime desc LIMIT 8   [ RunTime:0.0193s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000615s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000831s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.097381s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.097832s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003092s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003295s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004494s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004808s ]
+
+[ 2017-10-15T19:12:24+08:00 ] ::1 /apartment/Public/Upload/images/20171015/59e2bc3b215a1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000926s ]
+
+[ 2017-10-15T19:12:24+08:00 ] ::1 /apartment/Public/Upload/images/20171015/59e2b68b9cf75.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005083s ]
+
+[ 2017-10-15T19:12:24+08:00 ] ::1 /apartment/Public/Upload/images/20171015/59e2bbf99ba11.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001543s ]
+
+[ 2017-10-15T19:12:24+08:00 ] ::1 /apartment/Public/Upload/images/20171015/59e2b6d213aa6.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.013989s ]
+
+[ 2017-10-15T19:12:24+08:00 ] ::1 /apartment/Public/Upload/images/20171015/59e2b63ca8207.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003123s ]
+
+[ 2017-10-15T19:12:25+08:00 ] ::1 /apartment/Public/Upload/images/20171015/59e2b580eb284.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001347s ]
+
+[ 2017-10-15T19:12:25+08:00 ] ::1 /apartment/Public/Upload/images/20171015/59e2b7884791b.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000080s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002107s ]
+
+[ 2017-10-15T19:12:25+08:00 ] ::1 /apartment/Public/Upload/images/20171015/59e2b68b9cf75.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002045s ]
+
+[ 2017-10-15T19:12:28+08:00 ] ::1 /apartment/Index/otherList1/category/fwzl.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002404s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002366s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002540s ]
+SQL: SHOW COLUMNS FROM `apart_article` [ RunTime:0.0216s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `apart_article` WHERE `category` = 'fwzl' LIMIT 1   [ RunTime:0.0189s ]
+SQL: SELECT `articleId`,`aTitle`,`aTime`,`author`,`source` FROM `apart_article` WHERE `category` = 'fwzl' ORDER BY aTime desc LIMIT 0,20   [ RunTime:0.0192s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000207s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000334s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031754s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031904s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002161s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002300s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002479s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002603s ]
+
+[ 2017-10-15T19:12:36+08:00 ] ::1 /apartment/Index/otherList1/category/fwzl.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001052s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001269s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001393s ]
+SQL: SHOW COLUMNS FROM `apart_article` [ RunTime:0.0194s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `apart_article` WHERE `category` = 'fwzl' LIMIT 1   [ RunTime:0.0176s ]
+SQL: SELECT `articleId`,`aTitle`,`aTime`,`author`,`source` FROM `apart_article` WHERE `category` = 'fwzl' ORDER BY aTime desc LIMIT 0,20   [ RunTime:0.0182s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000400s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000824s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043770s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043953s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001681s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001866s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002127s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002317s ]
+
+[ 2017-10-15T19:47:23+08:00 ] ::1 /apartment/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001678s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002900s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003239s ]
+SQL: SHOW COLUMNS FROM `apart_article` [ RunTime:0.0194s ]
+SQL: SELECT `articleId`,`aTitle`,`category` FROM `apart_article` WHERE `category` = 'tzgg' ORDER BY aTime desc LIMIT 7   [ RunTime:0.0181s ]
+SQL: SELECT `articleId`,`aTitle`,`category` FROM `apart_article` WHERE `category` = 'fwzl' ORDER BY aTime desc LIMIT 7   [ RunTime:0.0193s ]
+SQL: SELECT `articleId`,`aTitle`,`category` FROM `apart_article` WHERE `category` = 'gzzd' ORDER BY aTime desc LIMIT 7   [ RunTime:0.0313s ]
+SQL: SELECT `articleId`,`aTitle`,`category` FROM `apart_article` WHERE ( category='sgdt' or category='xyxw' or category='xsgz' or category='xggy' ) ORDER BY aTime desc LIMIT 7   [ RunTime:0.0291s ]
+SQL: SELECT `articleId`,`aTitle`,`category` FROM `apart_article` WHERE ( category='xfzs' or category='ydgl' or category='zagl' or category='crbzs' ) ORDER BY aTime desc LIMIT 7   [ RunTime:0.0239s ]
+SQL: SELECT `articleId`,`aTitle`,`image`,`category` FROM `apart_article` WHERE ( image is not null AND isnav=1 AND image <> '' ) ORDER BY aTime desc LIMIT 7   [ RunTime:0.0250s ]
+SQL: SELECT `articleId`,`aTitle`,`image`,`category` FROM `apart_article` WHERE ( image is not null AND (category='xszt' or category='byszt' or category='whyzt' or category='hbzt') ) ORDER BY aTime desc LIMIT 3   [ RunTime:0.0336s ]
+SQL: SELECT `articleId`,`aTitle`,`image`,`category` FROM `apart_article` WHERE ( (image is not null) AND (category='whjs') ) ORDER BY aTime desc LIMIT 8   [ RunTime:0.0528s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000401s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000551s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.060569s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.060763s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002680s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002816s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008109s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008260s ]
+
+[ 2017-10-15T19:47:23+08:00 ] ::1 /apartment/Public/Upload/images/20171015/59e2bc3b215a1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001514s ]
+
+[ 2017-10-15T19:47:23+08:00 ] ::1 /apartment/Public/Upload/images/20171015/59e2bbf99ba11.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000961s ]
+
+[ 2017-10-15T19:47:23+08:00 ] ::1 /apartment/Public/Upload/images/20171015/59e2b7884791b.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001460s ]
+
+[ 2017-10-15T19:47:23+08:00 ] ::1 /apartment/Public/Upload/images/20171015/59e2b580eb284.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001225s ]
+
+[ 2017-10-15T19:47:23+08:00 ] ::1 /apartment/Public/Upload/images/20171015/59e2b68b9cf75.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001614s ]
+
+[ 2017-10-15T19:47:23+08:00 ] ::1 /apartment/Public/Upload/images/20171015/59e2b63ca8207.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001954s ]
+
+[ 2017-10-15T19:47:23+08:00 ] ::1 /apartment/Public/Upload/images/20171015/59e2b6d213aa6.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001628s ]
+
+[ 2017-10-15T19:47:23+08:00 ] ::1 /apartment/Public/Upload/images/20171015/59e2bc3b215a1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000081s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001818s ]
+
+[ 2017-10-15T20:56:30+08:00 ] ::1 /apartment/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001317s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002021s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002148s ]
+SQL: SHOW COLUMNS FROM `apart_article` [ RunTime:0.5659s ]
+SQL: SELECT `articleId`,`aTitle`,`category` FROM `apart_article` WHERE `category` = 'tzgg' ORDER BY aTime desc LIMIT 7   [ RunTime:0.5819s ]
+SQL: SELECT `articleId`,`aTitle`,`category` FROM `apart_article` WHERE `category` = 'fwzl' ORDER BY aTime desc LIMIT 7   [ RunTime:0.5970s ]
+SQL: SELECT `articleId`,`aTitle`,`category` FROM `apart_article` WHERE `category` = 'gzzd' ORDER BY aTime desc LIMIT 7   [ RunTime:0.4763s ]
+SQL: SELECT `articleId`,`aTitle`,`category` FROM `apart_article` WHERE ( category='sgdt' or category='xyxw' or category='xsgz' or category='xggy' ) ORDER BY aTime desc LIMIT 7   [ RunTime:0.3194s ]
+SQL: SELECT `articleId`,`aTitle`,`category` FROM `apart_article` WHERE ( category='xfzs' or category='ydgl' or category='zagl' or category='crbzs' ) ORDER BY aTime desc LIMIT 7   [ RunTime:0.3641s ]
+SQL: SELECT `articleId`,`aTitle`,`image`,`category` FROM `apart_article` WHERE ( image is not null AND isnav=1 AND image <> '' ) ORDER BY aTime desc LIMIT 7   [ RunTime:0.3948s ]
+SQL: SELECT `articleId`,`aTitle`,`image`,`category` FROM `apart_article` WHERE ( image is not null AND (category='xszt' or category='byszt' or category='whyzt' or category='hbzt') ) ORDER BY aTime desc LIMIT 3   [ RunTime:0.4263s ]
+SQL: SELECT `articleId`,`aTitle`,`image`,`category` FROM `apart_article` WHERE ( (image is not null) AND (category='whjs') ) ORDER BY aTime desc LIMIT 8   [ RunTime:0.3935s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000416s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000568s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.056727s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.056898s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001768s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001916s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002861s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003024s ]
+
+[ 2017-10-15T20:56:30+08:00 ] ::1 /apartment/Public/Upload/images/20171015/59e2bc3b215a1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001993s ]
+
+[ 2017-10-15T20:56:30+08:00 ] ::1 /apartment/Public/Upload/images/20171015/59e2bbf99ba11.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002686s ]
+
+[ 2017-10-15T20:56:30+08:00 ] ::1 /apartment/Public/Upload/images/20171015/59e2b7884791b.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001429s ]
+
+[ 2017-10-15T20:56:30+08:00 ] ::1 /apartment/Public/Upload/images/20171015/59e2b6d213aa6.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001615s ]
+
+[ 2017-10-15T20:56:30+08:00 ] ::1 /apartment/Public/Upload/images/20171015/59e2b580eb284.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001277s ]
+
+[ 2017-10-15T20:56:30+08:00 ] ::1 /apartment/Public/Upload/images/20171015/59e2b63ca8207.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001270s ]
+
+[ 2017-10-15T20:56:30+08:00 ] ::1 /apartment/Public/Upload/images/20171015/59e2b68b9cf75.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010779s ]
+
+[ 2017-10-15T21:26:51+08:00 ] ::1 /apartment/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001464s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002178s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002333s ]
+SQL: SHOW COLUMNS FROM `apart_article` [ RunTime:0.0246s ]
+SQL: SELECT `articleId`,`aTitle`,`category` FROM `apart_article` WHERE `category` = 'tzgg' ORDER BY aTime desc LIMIT 7   [ RunTime:0.0185s ]
+SQL: SELECT `articleId`,`aTitle`,`category` FROM `apart_article` WHERE `category` = 'fwzl' ORDER BY aTime desc LIMIT 7   [ RunTime:0.0326s ]
+SQL: SELECT `articleId`,`aTitle`,`category` FROM `apart_article` WHERE `category` = 'gzzd' ORDER BY aTime desc LIMIT 7   [ RunTime:0.0195s ]
+SQL: SELECT `articleId`,`aTitle`,`category` FROM `apart_article` WHERE ( category='sgdt' or category='xyxw' or category='xsgz' or category='xggy' ) ORDER BY aTime desc LIMIT 7   [ RunTime:0.0414s ]
+SQL: SELECT `articleId`,`aTitle`,`category` FROM `apart_article` WHERE ( category='xfzs' or category='ydgl' or category='zagl' or category='crbzs' ) ORDER BY aTime desc LIMIT 7   [ RunTime:0.0199s ]
+SQL: SELECT `articleId`,`aTitle`,`image`,`category` FROM `apart_article` WHERE ( image is not null AND isnav=1 AND image <> '' ) ORDER BY aTime desc LIMIT 7   [ RunTime:0.0208s ]
+SQL: SELECT `articleId`,`aTitle`,`image`,`category` FROM `apart_article` WHERE ( image is not null AND (category='xszt' or category='byszt' or category='whyzt' or category='hbzt') ) ORDER BY aTime desc LIMIT 3   [ RunTime:0.0296s ]
+SQL: SELECT `articleId`,`aTitle`,`image`,`category` FROM `apart_article` WHERE ( (image is not null) AND (category='whjs') ) ORDER BY aTime desc LIMIT 8   [ RunTime:0.0193s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000378s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000520s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.058466s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.058606s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001650s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001788s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002761s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002943s ]
+
+[ 2017-10-15T21:26:52+08:00 ] ::1 /apartment/Public/Upload/images/20171015/59e2bc3b215a1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004837s ]
+
+[ 2017-10-15T21:26:52+08:00 ] ::1 /apartment/Public/Upload/images/20171015/59e2b580eb284.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001528s ]
+
+[ 2017-10-15T21:26:52+08:00 ] ::1 /apartment/Public/Upload/images/20171015/59e2b6d213aa6.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001992s ]
+
+[ 2017-10-15T21:26:52+08:00 ] ::1 /apartment/Public/Upload/images/20171015/59e2bbf99ba11.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002016s ]
+
+[ 2017-10-15T21:26:52+08:00 ] ::1 /apartment/Public/Upload/images/20171015/59e2b68b9cf75.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005679s ]
+
+[ 2017-10-15T21:26:52+08:00 ] ::1 /apartment/Public/Upload/images/20171015/59e2b63ca8207.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000493s ]
+INFO: [ app_init ] --END-- [ RunTime:0.027961s ]
+
+[ 2017-10-15T21:26:52+08:00 ] ::1 /apartment/Public/Upload/images/20171015/59e2b7884791b.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002103s ]
+
+[ 2017-10-15T21:34:48+08:00 ] ::1 /apartment/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001277s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002189s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002335s ]
+SQL: SHOW COLUMNS FROM `apart_article` [ RunTime:0.0273s ]
+SQL: SELECT `articleId`,`aTitle`,`category` FROM `apart_article` WHERE `category` = 'tzgg' ORDER BY aTime desc LIMIT 7   [ RunTime:0.0193s ]
+SQL: SELECT `articleId`,`aTitle`,`category` FROM `apart_article` WHERE `category` = 'fwzl' ORDER BY aTime desc LIMIT 7   [ RunTime:0.0181s ]
+SQL: SELECT `articleId`,`aTitle`,`category` FROM `apart_article` WHERE `category` = 'gzzd' ORDER BY aTime desc LIMIT 7   [ RunTime:0.0182s ]
+SQL: SELECT `articleId`,`aTitle`,`category` FROM `apart_article` WHERE ( category='sgdt' or category='xyxw' or category='xsgz' or category='xggy' ) ORDER BY aTime desc LIMIT 7   [ RunTime:0.0191s ]
+SQL: SELECT `articleId`,`aTitle`,`category` FROM `apart_article` WHERE ( category='xfzs' or category='ydgl' or category='zagl' or category='crbzs' ) ORDER BY aTime desc LIMIT 7   [ RunTime:0.0177s ]
+SQL: SELECT `articleId`,`aTitle`,`image`,`category` FROM `apart_article` WHERE ( image is not null AND isnav=1 AND image <> '' ) ORDER BY aTime desc LIMIT 7   [ RunTime:0.0212s ]
+SQL: SELECT `articleId`,`aTitle`,`image`,`category` FROM `apart_article` WHERE ( image is not null AND (category='xszt' or category='byszt' or category='whyzt' or category='hbzt') ) ORDER BY aTime desc LIMIT 3   [ RunTime:0.0190s ]
+SQL: SELECT `articleId`,`aTitle`,`image`,`category` FROM `apart_article` WHERE ( (image is not null) AND (category='whjs') ) ORDER BY aTime desc LIMIT 8   [ RunTime:0.0223s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000345s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000469s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.068873s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.069072s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001598s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001700s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002042s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002173s ]
+
+[ 2017-10-15T21:34:48+08:00 ] ::1 /apartment/Public/Upload/images/20171015/59e2bc3b215a1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003710s ]
+
+[ 2017-10-15T21:34:48+08:00 ] ::1 /apartment/Public/Upload/images/20171015/59e2b7884791b.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001323s ]
+
+[ 2017-10-15T21:34:48+08:00 ] ::1 /apartment/Public/Upload/images/20171015/59e2b63ca8207.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002048s ]
+
+[ 2017-10-15T21:34:48+08:00 ] ::1 /apartment/Public/Upload/images/20171015/59e2b68b9cf75.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001912s ]
+
+[ 2017-10-15T21:34:48+08:00 ] ::1 /apartment/Public/Upload/images/20171015/59e2bbf99ba11.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002090s ]
+
+[ 2017-10-15T21:34:48+08:00 ] ::1 /apartment/Public/Upload/images/20171015/59e2b6d213aa6.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002659s ]
+
+[ 2017-10-15T21:34:48+08:00 ] ::1 /apartment/Public/Upload/images/20171015/59e2b580eb284.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003321s ]
+
+[ 2017-10-15T21:34:48+08:00 ] ::1 /apartment/Public/Upload/images/20171015/59e2bc3b215a1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001761s ]
+
+[ 2017-10-15T22:56:21+08:00 ] ::1 /apartment/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002307s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002883s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003083s ]
+SQL: SHOW COLUMNS FROM `apart_article` [ RunTime:0.0187s ]
+SQL: SELECT `articleId`,`aTitle`,`category` FROM `apart_article` WHERE `category` = 'tzgg' ORDER BY aTime desc LIMIT 7   [ RunTime:0.0230s ]
+SQL: SELECT `articleId`,`aTitle`,`category` FROM `apart_article` WHERE `category` = 'fwzl' ORDER BY aTime desc LIMIT 7   [ RunTime:0.0540s ]
+SQL: SELECT `articleId`,`aTitle`,`category` FROM `apart_article` WHERE `category` = 'gzzd' ORDER BY aTime desc LIMIT 7   [ RunTime:0.0176s ]
+SQL: SELECT `articleId`,`aTitle`,`category` FROM `apart_article` WHERE ( category='sgdt' or category='xyxw' or category='xsgz' or category='xggy' ) ORDER BY aTime desc LIMIT 7   [ RunTime:0.0175s ]
+SQL: SELECT `articleId`,`aTitle`,`category` FROM `apart_article` WHERE ( category='xfzs' or category='ydgl' or category='zagl' or category='crbzs' ) ORDER BY aTime desc LIMIT 7   [ RunTime:0.0556s ]
+SQL: SELECT `articleId`,`aTitle`,`image`,`category` FROM `apart_article` WHERE ( image is not null AND isnav=1 AND image <> '' ) ORDER BY aTime desc LIMIT 7   [ RunTime:0.1304s ]
+SQL: SELECT `articleId`,`aTitle`,`image`,`category` FROM `apart_article` WHERE ( image is not null AND (category='xszt' or category='byszt' or category='whyzt' or category='hbzt') ) ORDER BY aTime desc LIMIT 3   [ RunTime:0.0700s ]
+SQL: SELECT `articleId`,`aTitle`,`image`,`category` FROM `apart_article` WHERE ( (image is not null) AND (category='whjs') ) ORDER BY aTime desc LIMIT 8   [ RunTime:0.0573s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000408s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000536s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.060800s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.060973s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001483s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001608s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002046s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002237s ]
+
+[ 2017-10-15T22:56:21+08:00 ] ::1 /apartment/Public/Upload/images/20171015/59e2bc3b215a1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002058s ]
+
+[ 2017-10-15T22:56:21+08:00 ] ::1 /apartment/Public/Upload/images/20171015/59e2b7884791b.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001636s ]
+
+[ 2017-10-15T22:56:21+08:00 ] ::1 /apartment/Public/Upload/images/20171015/59e2b6d213aa6.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002018s ]
+
+[ 2017-10-15T22:56:21+08:00 ] ::1 /apartment/Public/Upload/images/20171015/59e2b68b9cf75.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001636s ]
+
+[ 2017-10-15T22:56:21+08:00 ] ::1 /apartment/Public/Upload/images/20171015/59e2bbf99ba11.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002384s ]
+
+[ 2017-10-15T22:56:21+08:00 ] ::1 /apartment/Public/Upload/images/20171015/59e2b580eb284.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001457s ]
+
+[ 2017-10-15T22:56:21+08:00 ] ::1 /apartment/Public/Upload/images/20171015/59e2b63ca8207.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002048s ]
+
+[ 2017-10-15T22:56:26+08:00 ] ::1 /apartment/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001447s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002188s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002360s ]
+SQL: SHOW COLUMNS FROM `apart_article` [ RunTime:0.0562s ]
+SQL: SELECT `articleId`,`aTitle`,`category` FROM `apart_article` WHERE `category` = 'tzgg' ORDER BY aTime desc LIMIT 7   [ RunTime:0.0184s ]
+SQL: SELECT `articleId`,`aTitle`,`category` FROM `apart_article` WHERE `category` = 'fwzl' ORDER BY aTime desc LIMIT 7   [ RunTime:0.0187s ]
+SQL: SELECT `articleId`,`aTitle`,`category` FROM `apart_article` WHERE `category` = 'gzzd' ORDER BY aTime desc LIMIT 7   [ RunTime:0.0199s ]
+SQL: SELECT `articleId`,`aTitle`,`category` FROM `apart_article` WHERE ( category='sgdt' or category='xyxw' or category='xsgz' or category='xggy' ) ORDER BY aTime desc LIMIT 7   [ RunTime:0.0663s ]
+SQL: SELECT `articleId`,`aTitle`,`category` FROM `apart_article` WHERE ( category='xfzs' or category='ydgl' or category='zagl' or category='crbzs' ) ORDER BY aTime desc LIMIT 7   [ RunTime:0.0226s ]
+SQL: SELECT `articleId`,`aTitle`,`image`,`category` FROM `apart_article` WHERE ( image is not null AND isnav=1 AND image <> '' ) ORDER BY aTime desc LIMIT 7   [ RunTime:0.0356s ]
+SQL: SELECT `articleId`,`aTitle`,`image`,`category` FROM `apart_article` WHERE ( image is not null AND (category='xszt' or category='byszt' or category='whyzt' or category='hbzt') ) ORDER BY aTime desc LIMIT 3   [ RunTime:0.0186s ]
+SQL: SELECT `articleId`,`aTitle`,`image`,`category` FROM `apart_article` WHERE ( (image is not null) AND (category='whjs') ) ORDER BY aTime desc LIMIT 8   [ RunTime:0.0210s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000379s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000527s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.052992s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.053133s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001932s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002066s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002906s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003079s ]
+
+[ 2017-10-15T22:56:26+08:00 ] ::1 /apartment/Public/Upload/images/20171015/59e2bbf99ba11.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001269s ]
+
+[ 2017-10-15T22:56:26+08:00 ] ::1 /apartment/Public/Upload/images/20171015/59e2b63ca8207.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001299s ]
+
+[ 2017-10-15T22:56:26+08:00 ] ::1 /apartment/Public/Upload/images/20171015/59e2bc3b215a1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001312s ]
+
+[ 2017-10-15T22:56:27+08:00 ] ::1 /apartment/Public/Upload/images/20171015/59e2b580eb284.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001336s ]
+
+[ 2017-10-15T22:56:27+08:00 ] ::1 /apartment/Public/Upload/images/20171015/59e2b7884791b.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001185s ]
+
+[ 2017-10-15T22:56:27+08:00 ] ::1 /apartment/Public/Upload/images/20171015/59e2b68b9cf75.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001248s ]
+
+[ 2017-10-15T22:56:27+08:00 ] ::1 /apartment/Public/Upload/images/20171015/59e2b6d213aa6.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001134s ]
+

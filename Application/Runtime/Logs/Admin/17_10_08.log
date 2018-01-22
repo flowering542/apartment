@@ -1,0 +1,643 @@
+[ 2017-10-08T10:47:22+08:00 ] ::1 /apartment/Admin/Index/checkyzm
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003826s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005810s ]
+
+[ 2017-10-08T10:47:26+08:00 ] ::1 /apartment/Admin/Index/checkyzm
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001845s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003312s ]
+
+[ 2017-10-08T10:47:27+08:00 ] ::1 /apartment/Admin/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001880s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003600s ]
+SQL: SHOW COLUMNS FROM `apart_admin` [ RunTime:0.0694s ]
+SQL: SELECT `password` FROM `apart_admin` WHERE `username` = 'apartadmin' LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT `nickname` FROM `apart_admin` WHERE `username` = 'apartadmin' AND `password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: data D:\xampp\htdocs\apartment\Application\Admin\Controller\IndexController.class.php 第 19 行.
+
+[ 2017-10-08T20:30:31+08:00 ] ::1 /apartment/Admin/js/cloud.js
+ERR: 无法加载控制器:Js
+
+[ 2017-10-08T20:31:11+08:00 ] ::1 /apartment/Admin/js/cloud.js
+ERR: 无法加载控制器:Js
+
+[ 2017-10-08T20:31:11+08:00 ] ::1 /apartment/Admin/js/cloud.js
+ERR: 无法加载控制器:Js
+
+[ 2017-10-08T20:31:12+08:00 ] ::1 /apartment/Admin/js/cloud.js
+ERR: 无法加载控制器:Js
+
+[ 2017-10-08T20:31:12+08:00 ] ::1 /apartment/Admin/js/cloud.js
+ERR: 无法加载控制器:Js
+
+[ 2017-10-08T20:31:22+08:00 ] ::1 /apartment/Admin/js/cloud.js
+ERR: 无法加载控制器:Js
+
+[ 2017-10-08T20:31:22+08:00 ] ::1 /apartment/Admin/js/cloud.js
+ERR: 无法加载控制器:Js
+
+[ 2017-10-08T20:32:19+08:00 ] ::1 /apartment/Admin/js/cloud.js
+ERR: 无法加载控制器:Js
+
+[ 2017-10-08T20:43:07+08:00 ] ::1 /apartment/Admin/top.html
+ERR: 无法加载控制器:Top
+
+[ 2017-10-08T20:43:07+08:00 ] ::1 /apartment/Admin/left.html
+ERR: 无法加载控制器:Left
+
+[ 2017-10-08T20:43:07+08:00 ] ::1 /apartment/Admin/publish.html
+ERR: 无法加载控制器:Publish
+
+[ 2017-10-08T21:19:26+08:00 ] ::1 /apartment/Admin/article/undefinedlang/zh-cn/zh-cn.js
+ERR: 非法操作:undefinedlang
+
+[ 2017-10-08T21:19:26+08:00 ] ::1 /apartment/Admin/article/undefinedthemes/default/css/ueditor.css
+ERR: 非法操作:undefinedthemes
+
+[ 2017-10-08T21:30:49+08:00 ] ::1 /apartment/Admin/article/tab.html
+ERR: 非法操作:tab
+
+[ 2017-10-08T21:30:50+08:00 ] ::1 /apartment/Admin/article/tab.html
+ERR: 非法操作:tab
+
+[ 2017-10-08T21:30:52+08:00 ] ::1 /apartment/Admin/article/tab.html
+ERR: 非法操作:tab
+
+[ 2017-10-08T21:32:04+08:00 ] ::1 /apartment/Admin/article/main.html
+ERR: 非法操作:main
+
+[ 2017-10-08T21:36:06+08:00 ] ::1 /apartment/Admin/article/fwzn.html
+ERR: 非法操作:fwzn
+
+[ 2017-10-08T21:41:00+08:00 ] ::1 /apartment/Admin/article/tzgg.html
+ERR: 非法操作:tzgg
+
+[ 2017-10-08T21:42:16+08:00 ] ::1 /apartment/Admin/article/fwzn.html
+ERR: 非法操作:fwzn
+
+[ 2017-10-08T22:03:30+08:00 ] ::1 /apartment/admin/auth/login
+ERR: 无法加载控制器:Auth
+
+[ 2017-10-08T22:04:24+08:00 ] ::1 /apartment/Admin/Admin/Index
+ERR: 无法加载控制器:Admin
+
+[ 2017-10-08T22:04:31+08:00 ] ::1 /apartment/Admin/Admin/Index
+ERR: 无法加载控制器:Admin
+
+[ 2017-10-08T22:05:40+08:00 ] ::1 /apartment/Admin/Admin/ndex
+ERR: 无法加载控制器:Admin
+
+[ 2017-10-08T22:05:47+08:00 ] ::1 /apartment/Admin/Admin/ndex
+ERR: 无法加载控制器:Admin
+
+[ 2017-10-08T22:05:54+08:00 ] ::1 /apartment/Admin/ndex
+ERR: 无法加载控制器:Ndex
+
+[ 2017-10-08T22:06:01+08:00 ] ::1 /apartment/Admin/ndex
+ERR: 无法加载控制器:Ndex
+
+[ 2017-10-08T22:52:49+08:00 ] ::1 /apartment/Admin/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002251s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004902s ]
+
+[ 2017-10-08T22:52:50+08:00 ] ::1 /apartment/Admin/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004394s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007260s ]
+
+[ 2017-10-08T22:52:51+08:00 ] ::1 /apartment/Admin/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006148s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009486s ]
+
+[ 2017-10-08T22:53:00+08:00 ] ::1 /apartment/Admin/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002829s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.029632s ]
+
+[ 2017-10-08T22:53:00+08:00 ] ::1 /apartment/Admin/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005031s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007722s ]
+
+[ 2017-10-08T22:53:00+08:00 ] ::1 /apartment/Admin/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002872s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006090s ]
+
+[ 2017-10-08T22:53:01+08:00 ] ::1 /apartment/Admin/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002516s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005507s ]
+
+[ 2017-10-08T22:53:01+08:00 ] ::1 /apartment/Admin/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002361s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005116s ]
+
+[ 2017-10-08T22:53:01+08:00 ] ::1 /apartment/Admin/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003060s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006360s ]
+
+[ 2017-10-08T22:53:36+08:00 ] ::1 /apartment/Admin/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002675s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005656s ]
+
+[ 2017-10-08T22:53:36+08:00 ] ::1 /apartment/Admin/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006383s ]
+
+[ 2017-10-08T22:53:37+08:00 ] ::1 /apartment/Admin/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005470s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009033s ]
+
+[ 2017-10-08T22:53:37+08:00 ] ::1 /apartment/Admin/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.017618s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.021194s ]
+
+[ 2017-10-08T22:53:38+08:00 ] ::1 /apartment/Admin/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004172s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007361s ]
+
+[ 2017-10-08T22:53:38+08:00 ] ::1 /apartment/Admin/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002478s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005360s ]
+
+[ 2017-10-08T22:53:39+08:00 ] ::1 /apartment/Admin/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003398s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008361s ]
+
+[ 2017-10-08T22:53:39+08:00 ] ::1 /apartment/Admin/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005818s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.029288s ]
+
+[ 2017-10-08T22:53:40+08:00 ] ::1 /apartment/Admin/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002565s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005349s ]
+
+[ 2017-10-08T22:53:42+08:00 ] ::1 /apartment/Admin/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002401s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005202s ]
+
+[ 2017-10-08T22:53:43+08:00 ] ::1 /apartment/Admin/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002574s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008324s ]
+
+[ 2017-10-08T22:53:51+08:00 ] ::1 /apartment/Admin/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.017865s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.020400s ]
+
+[ 2017-10-08T22:53:52+08:00 ] ::1 /apartment/Admin/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003320s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011115s ]
+
+[ 2017-10-08T22:53:53+08:00 ] ::1 /apartment/Admin/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002370s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005273s ]
+
+[ 2017-10-08T22:53:55+08:00 ] ::1 /apartment/Admin/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003435s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006269s ]
+
+[ 2017-10-08T22:54:23+08:00 ] ::1 /apartment/Admin/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003813s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006299s ]
+
+[ 2017-10-08T22:54:24+08:00 ] ::1 /apartment/Admin/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003495s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007511s ]
+
+[ 2017-10-08T22:54:24+08:00 ] ::1 /apartment/Admin/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003512s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007192s ]
+
+[ 2017-10-08T22:54:24+08:00 ] ::1 /apartment/Admin/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002925s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005531s ]
+
+[ 2017-10-08T22:54:25+08:00 ] ::1 /apartment/Admin/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002749s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005749s ]
+
+[ 2017-10-08T22:54:31+08:00 ] ::1 /apartment/Admin/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002293s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004872s ]
+
+[ 2017-10-08T22:54:31+08:00 ] ::1 /apartment/Admin/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002399s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004685s ]
+
+[ 2017-10-08T22:54:31+08:00 ] ::1 /apartment/Admin/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002698s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005837s ]
+
+[ 2017-10-08T22:55:16+08:00 ] ::1 /apartment/Admin/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002684s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005689s ]
+
+[ 2017-10-08T22:55:16+08:00 ] ::1 /apartment/Admin/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004106s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008982s ]
+
+[ 2017-10-08T22:55:17+08:00 ] ::1 /apartment/Admin/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002505s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005200s ]
+
+[ 2017-10-08T22:55:17+08:00 ] ::1 /apartment/Admin/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003035s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006425s ]
+
+[ 2017-10-08T22:55:17+08:00 ] ::1 /apartment/Admin/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002651s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005252s ]
+
+[ 2017-10-08T22:56:02+08:00 ] ::1 /apartment/Admin/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005102s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008251s ]
+
+[ 2017-10-08T22:56:25+08:00 ] ::1 /apartment/Admin/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002774s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005366s ]
+
+[ 2017-10-08T22:56:37+08:00 ] ::1 /apartment/Admin/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002751s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005305s ]
+
+[ 2017-10-08T22:56:50+08:00 ] ::1 /apartment/Admin/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003637s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006241s ]
+SQL: SHOW COLUMNS FROM `apart_admin` [ RunTime:0.0188s ]
+SQL: SELECT `password` FROM `apart_admin` WHERE `username` = '17864159289' LIMIT 1   [ RunTime:0.0011s ]
+
+[ 2017-10-08T22:59:03+08:00 ] ::1 /apartment/Admin/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002443s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005041s ]
+SQL: SHOW COLUMNS FROM `apart_admin` [ RunTime:0.0160s ]
+SQL: SELECT `password` FROM `apart_admin` WHERE `username` = '' LIMIT 1   [ RunTime:0.0011s ]
+
+[ 2017-10-08T22:59:04+08:00 ] ::1 /apartment/Admin/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002368s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004713s ]
+SQL: SHOW COLUMNS FROM `apart_admin` [ RunTime:0.0164s ]
+SQL: SELECT `password` FROM `apart_admin` WHERE `username` = '' LIMIT 1   [ RunTime:0.0012s ]
+
+[ 2017-10-08T22:59:04+08:00 ] ::1 /apartment/Admin/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005688s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010679s ]
+SQL: SHOW COLUMNS FROM `apart_admin` [ RunTime:0.0145s ]
+SQL: SELECT `password` FROM `apart_admin` WHERE `username` = '' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-10-08T22:59:04+08:00 ] ::1 /apartment/Admin/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002866s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006387s ]
+SQL: SHOW COLUMNS FROM `apart_admin` [ RunTime:0.0169s ]
+SQL: SELECT `password` FROM `apart_admin` WHERE `username` = '' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-10-08T22:59:04+08:00 ] ::1 /apartment/Admin/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002201s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004351s ]
+SQL: SHOW COLUMNS FROM `apart_admin` [ RunTime:0.0154s ]
+SQL: SELECT `password` FROM `apart_admin` WHERE `username` = '' LIMIT 1   [ RunTime:0.0011s ]
+
+[ 2017-10-08T22:59:05+08:00 ] ::1 /apartment/Admin/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002032s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003965s ]
+SQL: SHOW COLUMNS FROM `apart_admin` [ RunTime:0.0157s ]
+SQL: SELECT `password` FROM `apart_admin` WHERE `username` = '' LIMIT 1   [ RunTime:0.0009s ]
+
+[ 2017-10-08T22:59:05+08:00 ] ::1 /apartment/Admin/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003602s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007853s ]
+SQL: SHOW COLUMNS FROM `apart_admin` [ RunTime:0.0152s ]
+SQL: SELECT `password` FROM `apart_admin` WHERE `username` = '' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-10-08T22:59:05+08:00 ] ::1 /apartment/Admin/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002361s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004131s ]
+SQL: SHOW COLUMNS FROM `apart_admin` [ RunTime:0.0141s ]
+SQL: SELECT `password` FROM `apart_admin` WHERE `username` = '' LIMIT 1   [ RunTime:0.0008s ]
+
+[ 2017-10-08T22:59:05+08:00 ] ::1 /apartment/Admin/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001906s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003439s ]
+SQL: SHOW COLUMNS FROM `apart_admin` [ RunTime:0.0143s ]
+SQL: SELECT `password` FROM `apart_admin` WHERE `username` = '' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-10-08T22:59:06+08:00 ] ::1 /apartment/Admin/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002060s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003715s ]
+SQL: SHOW COLUMNS FROM `apart_admin` [ RunTime:0.0165s ]
+SQL: SELECT `password` FROM `apart_admin` WHERE `username` = '' LIMIT 1   [ RunTime:0.0016s ]
+
+[ 2017-10-08T22:59:06+08:00 ] ::1 /apartment/Admin/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005244s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008172s ]
+SQL: SHOW COLUMNS FROM `apart_admin` [ RunTime:0.0169s ]
+SQL: SELECT `password` FROM `apart_admin` WHERE `username` = '' LIMIT 1   [ RunTime:0.0013s ]
+
+[ 2017-10-08T22:59:49+08:00 ] ::1 /apartment/Admin/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004512s ]
+SQL: SHOW COLUMNS FROM `apart_admin` [ RunTime:0.0167s ]
+SQL: SELECT `password` FROM `apart_admin` WHERE `username` = '23' LIMIT 1   [ RunTime:0.0009s ]
+
+[ 2017-10-08T22:59:50+08:00 ] ::1 /apartment/Admin/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002804s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007016s ]
+SQL: SHOW COLUMNS FROM `apart_admin` [ RunTime:0.0163s ]
+SQL: SELECT `password` FROM `apart_admin` WHERE `username` = '23' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-10-08T22:59:50+08:00 ] ::1 /apartment/Admin/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003797s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006304s ]
+SQL: SHOW COLUMNS FROM `apart_admin` [ RunTime:0.0140s ]
+SQL: SELECT `password` FROM `apart_admin` WHERE `username` = '23' LIMIT 1   [ RunTime:0.0008s ]
+
+[ 2017-10-08T22:59:50+08:00 ] ::1 /apartment/Admin/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002683s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007663s ]
+SQL: SHOW COLUMNS FROM `apart_admin` [ RunTime:0.0167s ]
+SQL: SELECT `password` FROM `apart_admin` WHERE `username` = '23' LIMIT 1   [ RunTime:0.0011s ]
+
+[ 2017-10-08T22:59:50+08:00 ] ::1 /apartment/Admin/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002094s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005568s ]
+SQL: SHOW COLUMNS FROM `apart_admin` [ RunTime:0.0151s ]
+SQL: SELECT `password` FROM `apart_admin` WHERE `username` = '23' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-10-08T22:59:52+08:00 ] ::1 /apartment/Admin/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002809s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005071s ]
+SQL: SHOW COLUMNS FROM `apart_admin` [ RunTime:0.0184s ]
+SQL: SELECT `password` FROM `apart_admin` WHERE `username` = '23' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-10-08T22:59:53+08:00 ] ::1 /apartment/Admin/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002652s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005980s ]
+SQL: SHOW COLUMNS FROM `apart_admin` [ RunTime:0.0174s ]
+SQL: SELECT `password` FROM `apart_admin` WHERE `username` = '23' LIMIT 1   [ RunTime:0.0012s ]
+
+[ 2017-10-08T23:01:14+08:00 ] ::1 /apartment/Admin/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003201s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005939s ]
+SQL: SHOW COLUMNS FROM `apart_admin` [ RunTime:0.0173s ]
+SQL: SELECT `password` FROM `apart_admin` WHERE `username` = '' LIMIT 1   [ RunTime:0.0011s ]
+
+[ 2017-10-08T23:01:15+08:00 ] ::1 /apartment/Admin/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002914s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008299s ]
+SQL: SHOW COLUMNS FROM `apart_admin` [ RunTime:0.0157s ]
+SQL: SELECT `password` FROM `apart_admin` WHERE `username` = '' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-10-08T23:01:32+08:00 ] ::1 /apartment/Admin/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003939s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006939s ]
+SQL: SHOW COLUMNS FROM `apart_admin` [ RunTime:0.0166s ]
+SQL: SELECT `password` FROM `apart_admin` WHERE `username` = '' LIMIT 1   [ RunTime:0.0007s ]
+
+[ 2017-10-08T23:01:33+08:00 ] ::1 /apartment/Admin/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001985s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004361s ]
+SQL: SHOW COLUMNS FROM `apart_admin` [ RunTime:0.0145s ]
+SQL: SELECT `password` FROM `apart_admin` WHERE `username` = '' LIMIT 1   [ RunTime:0.0008s ]
+
+[ 2017-10-08T23:01:33+08:00 ] ::1 /apartment/Admin/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008534s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013071s ]
+SQL: SHOW COLUMNS FROM `apart_admin` [ RunTime:0.0280s ]
+SQL: SELECT `password` FROM `apart_admin` WHERE `username` = '' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-10-08T23:01:34+08:00 ] ::1 /apartment/Admin/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009162s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015200s ]
+SQL: SHOW COLUMNS FROM `apart_admin` [ RunTime:0.0159s ]
+SQL: SELECT `password` FROM `apart_admin` WHERE `username` = '' LIMIT 1   [ RunTime:0.0033s ]
+
+[ 2017-10-08T23:01:34+08:00 ] ::1 /apartment/Admin/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002412s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005205s ]
+SQL: SHOW COLUMNS FROM `apart_admin` [ RunTime:0.0139s ]
+SQL: SELECT `password` FROM `apart_admin` WHERE `username` = '' LIMIT 1   [ RunTime:0.0007s ]
+
+[ 2017-10-08T23:01:34+08:00 ] ::1 /apartment/Admin/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009038s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012602s ]
+SQL: SHOW COLUMNS FROM `apart_admin` [ RunTime:0.0192s ]
+SQL: SELECT `password` FROM `apart_admin` WHERE `username` = '' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-10-08T23:01:34+08:00 ] ::1 /apartment/Admin/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002663s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004739s ]
+SQL: SHOW COLUMNS FROM `apart_admin` [ RunTime:0.0165s ]
+SQL: SELECT `password` FROM `apart_admin` WHERE `username` = '' LIMIT 1   [ RunTime:0.0011s ]
+
+[ 2017-10-08T23:01:34+08:00 ] ::1 /apartment/Admin/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003483s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007007s ]
+SQL: SHOW COLUMNS FROM `apart_admin` [ RunTime:0.0158s ]
+SQL: SELECT `password` FROM `apart_admin` WHERE `username` = '' LIMIT 1   [ RunTime:0.0013s ]
+
+[ 2017-10-08T23:01:35+08:00 ] ::1 /apartment/Admin/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002636s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004895s ]
+SQL: SHOW COLUMNS FROM `apart_admin` [ RunTime:0.0157s ]
+SQL: SELECT `password` FROM `apart_admin` WHERE `username` = '' LIMIT 1   [ RunTime:0.0018s ]
+
+[ 2017-10-08T23:01:35+08:00 ] ::1 /apartment/Admin/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002793s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005799s ]
+SQL: SHOW COLUMNS FROM `apart_admin` [ RunTime:0.0170s ]
+SQL: SELECT `password` FROM `apart_admin` WHERE `username` = '' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-10-08T23:01:35+08:00 ] ::1 /apartment/Admin/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003718s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008660s ]
+SQL: SHOW COLUMNS FROM `apart_admin` [ RunTime:0.0140s ]
+SQL: SELECT `password` FROM `apart_admin` WHERE `username` = '' LIMIT 1   [ RunTime:0.0009s ]
+
+[ 2017-10-08T23:01:44+08:00 ] ::1 /apartment/Admin/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002071s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004419s ]
+SQL: SHOW COLUMNS FROM `apart_admin` [ RunTime:0.0149s ]
+SQL: SELECT `password` FROM `apart_admin` WHERE `username` = '' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-10-08T23:01:44+08:00 ] ::1 /apartment/Admin/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002874s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006283s ]
+SQL: SHOW COLUMNS FROM `apart_admin` [ RunTime:0.0174s ]
+SQL: SELECT `password` FROM `apart_admin` WHERE `username` = '' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-10-08T23:01:45+08:00 ] ::1 /apartment/Admin/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002480s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004825s ]
+SQL: SHOW COLUMNS FROM `apart_admin` [ RunTime:0.0178s ]
+SQL: SELECT `password` FROM `apart_admin` WHERE `username` = '' LIMIT 1   [ RunTime:0.0011s ]
+
+[ 2017-10-08T23:01:45+08:00 ] ::1 /apartment/Admin/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002153s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004581s ]
+SQL: SHOW COLUMNS FROM `apart_admin` [ RunTime:0.0141s ]
+SQL: SELECT `password` FROM `apart_admin` WHERE `username` = '' LIMIT 1   [ RunTime:0.0007s ]
+
+[ 2017-10-08T23:01:45+08:00 ] ::1 /apartment/Admin/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003924s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007666s ]
+SQL: SHOW COLUMNS FROM `apart_admin` [ RunTime:0.0189s ]
+SQL: SELECT `password` FROM `apart_admin` WHERE `username` = '' LIMIT 1   [ RunTime:0.0009s ]
+
+[ 2017-10-08T23:02:20+08:00 ] ::1 /apartment/Admin/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005063s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011601s ]
+SQL: SHOW COLUMNS FROM `apart_admin` [ RunTime:0.0175s ]
+SQL: SELECT `password` FROM `apart_admin` WHERE `username` = '' LIMIT 1   [ RunTime:0.0008s ]
+
+[ 2017-10-08T23:02:21+08:00 ] ::1 /apartment/Admin/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002205s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005135s ]
+SQL: SHOW COLUMNS FROM `apart_admin` [ RunTime:0.0177s ]
+SQL: SELECT `password` FROM `apart_admin` WHERE `username` = '' LIMIT 1   [ RunTime:0.0011s ]
+
+[ 2017-10-08T23:02:21+08:00 ] ::1 /apartment/Admin/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002523s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004868s ]
+SQL: SHOW COLUMNS FROM `apart_admin` [ RunTime:0.0229s ]
+SQL: SELECT `password` FROM `apart_admin` WHERE `username` = '' LIMIT 1   [ RunTime:0.0013s ]
+
+[ 2017-10-08T23:02:28+08:00 ] ::1 /apartment/Admin/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002563s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005039s ]
+SQL: SHOW COLUMNS FROM `apart_admin` [ RunTime:0.0152s ]
+SQL: SELECT `password` FROM `apart_admin` WHERE `username` = '' LIMIT 1   [ RunTime:0.0009s ]
+
+[ 2017-10-08T23:02:28+08:00 ] ::1 /apartment/Admin/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002276s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004629s ]
+SQL: SHOW COLUMNS FROM `apart_admin` [ RunTime:0.0153s ]
+SQL: SELECT `password` FROM `apart_admin` WHERE `username` = '' LIMIT 1   [ RunTime:0.0012s ]
+
+[ 2017-10-08T23:02:31+08:00 ] ::1 /apartment/Admin/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003961s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007005s ]
+SQL: SHOW COLUMNS FROM `apart_admin` [ RunTime:0.0177s ]
+SQL: SELECT `password` FROM `apart_admin` WHERE `username` = '' LIMIT 1   [ RunTime:0.0012s ]
+
+[ 2017-10-08T23:02:32+08:00 ] ::1 /apartment/Admin/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002623s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005725s ]
+SQL: SHOW COLUMNS FROM `apart_admin` [ RunTime:0.0188s ]
+SQL: SELECT `password` FROM `apart_admin` WHERE `username` = '' LIMIT 1   [ RunTime:0.0013s ]
+
+[ 2017-10-08T23:02:32+08:00 ] ::1 /apartment/Admin/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002550s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004505s ]
+SQL: SHOW COLUMNS FROM `apart_admin` [ RunTime:0.0172s ]
+SQL: SELECT `password` FROM `apart_admin` WHERE `username` = '' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-10-08T23:02:33+08:00 ] ::1 /apartment/Admin/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003900s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007618s ]
+SQL: SHOW COLUMNS FROM `apart_admin` [ RunTime:0.0169s ]
+SQL: SELECT `password` FROM `apart_admin` WHERE `username` = '' LIMIT 1   [ RunTime:0.0017s ]
+
+[ 2017-10-08T23:02:33+08:00 ] ::1 /apartment/Admin/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002384s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004218s ]
+SQL: SHOW COLUMNS FROM `apart_admin` [ RunTime:0.0176s ]
+SQL: SELECT `password` FROM `apart_admin` WHERE `username` = '' LIMIT 1   [ RunTime:0.0009s ]
+
+[ 2017-10-08T23:02:34+08:00 ] ::1 /apartment/Admin/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004249s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007192s ]
+SQL: SHOW COLUMNS FROM `apart_admin` [ RunTime:0.0153s ]
+SQL: SELECT `password` FROM `apart_admin` WHERE `username` = '' LIMIT 1   [ RunTime:0.0011s ]
+
+[ 2017-10-08T23:02:34+08:00 ] ::1 /apartment/Admin/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.031323s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.053883s ]
+SQL: SHOW COLUMNS FROM `apart_admin` [ RunTime:0.0179s ]
+SQL: SELECT `password` FROM `apart_admin` WHERE `username` = '' LIMIT 1   [ RunTime:0.0011s ]
+

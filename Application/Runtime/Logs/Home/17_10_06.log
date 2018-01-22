@@ -1,0 +1,1683 @@
+[ 2017-10-06T21:23:34+08:00 ] ::1 /apartment/Home/Index/details
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001928s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002992s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003307s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000332s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000537s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036995s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037217s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001203s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001360s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002486s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002701s ]
+
+[ 2017-10-06T21:23:35+08:00 ] ::1 /apartment/Home/Index/details
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002691s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002192s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002498s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000306s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000515s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033593s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033813s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001356s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001541s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003382s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003604s ]
+
+[ 2017-10-06T21:23:35+08:00 ] ::1 /apartment/Home/Index/details
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001931s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004406s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005316s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000381s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000607s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.050909s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.051144s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005589s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005800s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008253s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008646s ]
+
+[ 2017-10-06T21:23:36+08:00 ] ::1 /apartment/Home/Index/details
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002025s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002460s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002722s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000320s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000543s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041446s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041740s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001632s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001837s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002428s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002682s ]
+
+[ 2017-10-06T21:23:36+08:00 ] ::1 /apartment/Home/Index/details
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007721s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005860s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006099s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000350s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000591s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.050655s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.050960s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001522s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001724s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006064s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006565s ]
+
+[ 2017-10-06T21:23:37+08:00 ] ::1 /apartment/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004804s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002974s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003216s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000995s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001638s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.063635s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.063885s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002293s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002492s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002499s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002742s ]
+
+[ 2017-10-06T21:23:39+08:00 ] ::1 /apartment/Home/Index/introduction.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000237s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004874s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002531s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002777s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000314s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000664s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042967s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043218s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001597s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001798s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002472s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002691s ]
+
+[ 2017-10-06T21:23:40+08:00 ] ::1 /apartment/Home/Index/list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002438s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002785s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003325s ]
+ERR: 非法操作:list
+
+[ 2017-10-06T21:23:44+08:00 ] ::1 /apartment/Home/Index/list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002570s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002335s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002643s ]
+ERR: 非法操作:list
+
+[ 2017-10-06T21:23:52+08:00 ] ::1 /apartment/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000075s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004253s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003916s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004165s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000999s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001292s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.078122s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.079670s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004160s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004398s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006501s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006990s ]
+
+[ 2017-10-06T21:23:55+08:00 ] ::1 /apartment/Home/Index/list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002832s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002218s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002453s ]
+ERR: 非法操作:list
+
+[ 2017-10-06T21:23:58+08:00 ] ::1 /apartment/Home/Index/introduction.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002241s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002530s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002760s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000302s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000523s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043453s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043698s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001995s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002291s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002727s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002948s ]
+
+[ 2017-10-06T21:24:31+08:00 ] ::1 /apartment/Home/Index/introduction.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002593s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003966s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004215s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000305s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000524s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039352s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039614s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003162s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003362s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003751s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003956s ]
+
+[ 2017-10-06T21:24:33+08:00 ] ::1 /apartment/Home/Index/introduction.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001758s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002585s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002824s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000306s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000527s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031701s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031941s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001512s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001720s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002532s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002781s ]
+
+[ 2017-10-06T21:25:29+08:00 ] ::1 /apartment/Home/Index/introduction.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003296s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002202s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002411s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000301s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000533s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030378s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030614s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001463s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001664s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003366s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003662s ]
+
+[ 2017-10-06T21:25:46+08:00 ] ::1 /apartment/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001819s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002280s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002517s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000744s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000951s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.047425s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047650s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001179s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001338s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002468s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002684s ]
+
+[ 2017-10-06T21:25:58+08:00 ] ::1 /apartment/Home/Index/details
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002654s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004084s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004329s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000383s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000721s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040609s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040855s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003286s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003613s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004389s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004690s ]
+
+[ 2017-10-06T21:27:20+08:00 ] ::1 /apartment/Home/Index/details
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000068s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003168s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005454s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005773s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000304s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000508s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041366s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041620s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002455s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002661s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003426s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004046s ]
+
+[ 2017-10-06T21:31:01+08:00 ] ::1 /apartment/Home/Index/details
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002594s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003635s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003874s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000330s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000547s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041249s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041487s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002542s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002753s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004559s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004831s ]
+
+[ 2017-10-06T21:31:39+08:00 ] ::1 /apartment/Home/Index/details
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001894s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003058s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003658s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000314s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000519s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035512s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035736s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001427s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001611s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006399s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006645s ]
+
+[ 2017-10-06T21:32:18+08:00 ] ::1 /apartment/Home/Index/details
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002220s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003591s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003802s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000333s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000539s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038332s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038565s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002110s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002269s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004214s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004430s ]
+
+[ 2017-10-06T21:35:15+08:00 ] ::1 /apartment/Home/Index/details
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003394s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005232s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005480s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000298s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000502s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.047870s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048109s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003003s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003211s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005855s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006649s ]
+
+[ 2017-10-06T21:37:08+08:00 ] ::1 /apartment/Home/Index/details
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001751s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002234s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002447s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000319s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000528s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033860s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034362s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004287s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004575s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002404s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002655s ]
+
+[ 2017-10-06T21:37:10+08:00 ] ::1 /apartment/Home/Index/details
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000169s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003766s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002196s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002425s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000321s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000527s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038491s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038845s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002095s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002399s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.009142s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010280s ]
+
+[ 2017-10-06T21:39:45+08:00 ] ::1 /apartment/Home/Index/details
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002225s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003850s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000312s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000520s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040065s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040316s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002311s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002475s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003638s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003858s ]
+
+[ 2017-10-06T21:39:47+08:00 ] ::1 /apartment/Home/Index/details
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002005s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003237s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004768s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000423s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000970s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.049879s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.050113s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001558s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001789s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005229s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005530s ]
+
+[ 2017-10-06T21:40:03+08:00 ] ::1 /apartment/Home/Index/details
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002315s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004220s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004466s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000325s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000530s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039267s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039535s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003674s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003874s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004134s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004353s ]
+
+[ 2017-10-06T21:42:25+08:00 ] ::1 /apartment/Home/Index/details
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002806s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006879s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007130s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000353s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000557s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048959s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049190s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002804s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003034s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003952s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004228s ]
+
+[ 2017-10-06T21:42:46+08:00 ] ::1 /apartment/introduction.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000086s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002263s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002635s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002865s ]
+ERR: 无法加载控制器:Introduction
+
+[ 2017-10-06T21:42:55+08:00 ] ::1 /apartment/Home/Index/details
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002763s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004221s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004493s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000350s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001159s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.092981s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.093224s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002358s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002550s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005273s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006553s ]
+
+[ 2017-10-06T21:43:40+08:00 ] ::1 /apartment/Home/Index/details
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001605s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002181s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002387s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000328s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000539s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034634s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034863s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001626s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001842s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004592s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004815s ]
+
+[ 2017-10-06T21:47:36+08:00 ] ::1 /apartment/Home/Index/details
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002427s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004368s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004623s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000486s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000716s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.052750s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.053050s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002575s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002856s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007152s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007479s ]
+
+[ 2017-10-06T21:47:52+08:00 ] ::1 /apartment/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002177s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003722s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003939s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000895s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001139s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.056518s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.056749s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002095s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002254s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004381s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004599s ]
+
+[ 2017-10-06T21:48:06+08:00 ] ::1 /apartment/Home/Index/details
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002554s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004167s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004435s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000388s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000665s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.064928s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.065571s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002239s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002562s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003030s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004006s ]
+
+[ 2017-10-06T21:49:01+08:00 ] ::1 /apartment/Home/Index/details
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001990s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002212s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002498s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000569s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000874s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033096s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033339s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001670s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001864s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002428s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002751s ]
+
+[ 2017-10-06T21:49:21+08:00 ] ::1 /apartment/Home/Index/details
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001597s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002068s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002283s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000330s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000537s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032399s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032627s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001543s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001735s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003092s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003400s ]
+
+[ 2017-10-06T21:49:44+08:00 ] ::1 /apartment/Home/Index/details
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000252s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002381s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003903s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004131s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000316s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000521s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038973s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039197s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002231s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002419s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003979s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004216s ]
+
+[ 2017-10-06T21:49:46+08:00 ] ::1 /apartment/Home/Index/details
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002307s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002294s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002616s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000317s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000523s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033964s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034196s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001336s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001535s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003122s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003473s ]
+
+[ 2017-10-06T21:50:06+08:00 ] ::1 /apartment/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002568s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003549s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003778s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000781s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001022s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.055182s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.055437s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002223s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002390s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004044s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004280s ]
+
+[ 2017-10-06T21:50:17+08:00 ] ::1 /apartment/Home/Index/details
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000077s ]
+INFO: [ app_init ] --END-- [ RunTime:0.009015s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003436s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003693s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000383s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000604s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.056986s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.057421s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001792s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002060s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004326s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004567s ]
+
+[ 2017-10-06T21:51:05+08:00 ] ::1 /apartment/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000092s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002294s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003664s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003891s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000819s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001218s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.058414s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.058657s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002416s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002592s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003575s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003819s ]
+
+[ 2017-10-06T21:51:25+08:00 ] ::1 /apartment/Home/Index/list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001855s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005490s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006099s ]
+ERR: 非法操作:list
+
+[ 2017-10-06T21:51:33+08:00 ] ::1 /apartment/Home/Index/introduction
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002558s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003464s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003768s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000399s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000625s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.052822s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.053070s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001390s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001560s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002895s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003108s ]
+
+[ 2017-10-06T21:52:32+08:00 ] ::1 /apartment/Home/Index/introduction
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002587s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004138s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004766s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000306s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000519s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042012s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042330s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002925s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003144s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007078s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007349s ]
+
+[ 2017-10-06T21:52:52+08:00 ] ::1 /apartment/Home/Index/list2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002291s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003664s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003894s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000362s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000580s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.080783s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.081017s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002244s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002428s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003538s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003767s ]
+
+[ 2017-10-06T21:52:57+08:00 ] ::1 /apartment/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001928s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002668s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002908s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000727s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000953s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.051499s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.051754s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001760s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001958s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004366s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004645s ]
+
+[ 2017-10-06T21:54:22+08:00 ] ::1 /apartment/Home/Index/otherList1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001999s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003785s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004132s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000337s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000558s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.133732s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.134079s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002591s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003113s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004957s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005261s ]
+
+[ 2017-10-06T21:55:01+08:00 ] ::1 /apartment/Home/Index/otherList2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002256s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003446s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003677s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000331s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000553s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041031s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041267s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002077s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002267s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003818s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004031s ]
+
+[ 2017-10-06T21:55:55+08:00 ] ::1 /apartment/Home/Index/details.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002935s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004324s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004609s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000317s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000522s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040702s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040936s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002125s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002283s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003798s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004031s ]
+
+[ 2017-10-06T21:56:32+08:00 ] ::1 /apartment/Home/Index/list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001898s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003840s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004071s ]
+ERR: 非法操作:list
+
+[ 2017-10-06T21:56:37+08:00 ] ::1 /apartment/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001852s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002975s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003208s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000742s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000977s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.051534s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.052063s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002134s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002340s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002355s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002603s ]
+
+[ 2017-10-06T22:01:04+08:00 ] ::1 /apartment/Home/Index/introduction.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002450s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005167s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005417s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000303s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000505s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039624s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039863s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002418s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002678s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008153s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008393s ]
+
+[ 2017-10-06T22:03:11+08:00 ] ::1 /apartment/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002819s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003696s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004105s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000743s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000965s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.054884s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.055122s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002759s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002968s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008531s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008813s ]
+
+[ 2017-10-06T22:04:34+08:00 ] ::1 /apartment/Home/Index/introduction.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002627s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004333s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004571s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000307s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000519s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036597s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036835s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002173s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002356s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003598s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003810s ]
+
+[ 2017-10-06T22:06:14+08:00 ] ::1 /apartment/Home/Index/introduction.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001929s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003181s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003443s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000329s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000546s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033344s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033587s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001464s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001662s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002295s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002510s ]
+
+[ 2017-10-06T22:06:16+08:00 ] ::1 /apartment/Home/Index/list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001734s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002637s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002867s ]
+ERR: 非法操作:list
+
+[ 2017-10-06T22:07:41+08:00 ] ::1 /apartment/Home/Index/introduction.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002381s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003522s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003757s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000624s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000927s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040014s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040330s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002828s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003156s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005345s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005601s ]
+
+[ 2017-10-06T22:07:48+08:00 ] ::1 /apartment/Home/Index/list2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003426s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008496s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008860s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000311s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000524s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.044359s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044603s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004238s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004582s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004291s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004847s ]
+
+[ 2017-10-06T22:13:05+08:00 ] ::1 /apartment/Home/Index/list2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002790s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003651s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003891s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000341s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000587s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040862s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041097s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002962s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003170s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007253s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007535s ]
+
+[ 2017-10-06T22:13:36+08:00 ] ::1 /apartment/Home/Index/details.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002454s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004009s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004248s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000304s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000518s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040091s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040322s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002213s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002398s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004768s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005666s ]
+
+[ 2017-10-06T22:14:22+08:00 ] ::1 /apartment/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001562s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002353s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002572s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000752s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000977s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.051562s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.051785s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001534s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001722s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002864s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003094s ]
+
+[ 2017-10-06T22:17:28+08:00 ] ::1 /apartment/Home/Index/list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000350s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003246s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004237s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004483s ]
+ERR: 非法操作:list
+
+[ 2017-10-06T22:18:21+08:00 ] ::1 /apartment/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003556s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002321s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002542s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000779s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001014s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.063642s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.063900s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005204s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005637s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003905s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004167s ]
+
+[ 2017-10-06T22:18:34+08:00 ] ::1 /apartment/Home/Index/otherList1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004286s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003522s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003932s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000335s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000542s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.062845s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.063261s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001393s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001582s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004995s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005677s ]
+
+[ 2017-10-06T22:18:39+08:00 ] ::1 /apartment/Home/Index/otherList2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001790s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002172s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002396s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000310s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000520s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035153s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035405s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001438s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001611s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002696s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002908s ]
+
+[ 2017-10-06T22:19:02+08:00 ] ::1 /apartment/Home/Index/otherList1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002437s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003437s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003648s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000279s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000491s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039713s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039947s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002306s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002633s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003054s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003232s ]
+
+[ 2017-10-06T22:19:30+08:00 ] ::1 /apartment/Home/Index/otherList1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000071s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002421s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004892s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005302s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000340s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000552s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035027s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035295s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001659s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001908s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002922s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003471s ]
+
+[ 2017-10-06T22:20:31+08:00 ] ::1 /apartment/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002263s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002760s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002986s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000867s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001118s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.112431s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.112676s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001540s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001704s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002489s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002702s ]
+
+[ 2017-10-06T22:21:26+08:00 ] ::1 /apartment/Home/Index/list2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002730s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.012060s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014179s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000435s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000655s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.059676s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.060053s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003742s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003944s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004167s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004403s ]
+
+[ 2017-10-06T22:23:30+08:00 ] ::1 /apartment/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002390s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003702s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004029s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001002s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001326s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.056900s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.057225s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002631s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002835s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006335s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006579s ]
+
+[ 2017-10-06T22:24:19+08:00 ] ::1 /apartment/Home/Index/list2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003728s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003394s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003687s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000322s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000609s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.061753s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.062001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001818s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002030s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002604s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002821s ]
+
+[ 2017-10-06T22:24:25+08:00 ] ::1 /apartment/Home/Index/list2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003064s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005494s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005884s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000320s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000558s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.067298s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.067742s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002830s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003038s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015830s ]
+INFO: [ app_end ] --END-- [ RunTime:0.016073s ]
+
+[ 2017-10-06T22:25:00+08:00 ] ::1 /apartment/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003075s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004440s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004688s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001012s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001281s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.060070s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.060310s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002587s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002775s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005958s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006194s ]
+
+[ 2017-10-06T22:25:05+08:00 ] ::1 /apartment/Home/Index/list2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002448s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005021s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005293s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000322s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000646s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.054140s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.054383s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001725s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001928s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005496s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005946s ]
+
+[ 2017-10-06T22:25:37+08:00 ] ::1 /apartment/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002129s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002796s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003032s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000780s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.054609s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.054846s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001788s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001989s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004712s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005006s ]
+
+[ 2017-10-06T22:28:40+08:00 ] ::1 /apartment/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002920s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005026s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005285s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000892s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001174s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.114156s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.115410s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003458s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003778s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.017803s ]
+INFO: [ app_end ] --END-- [ RunTime:0.018289s ]
+
+[ 2017-10-06T22:30:32+08:00 ] ::1 /apartment/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004697s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002906s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003145s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000836s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001109s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.076227s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.076479s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001615s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001818s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006763s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007185s ]
+
+[ 2017-10-06T22:31:03+08:00 ] ::1 /apartment/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000068s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002820s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004594s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004847s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000853s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001213s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.169599s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.169853s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.014975s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015248s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.016999s ]
+INFO: [ app_end ] --END-- [ RunTime:0.017282s ]
+
+[ 2017-10-06T22:32:02+08:00 ] ::1 /apartment/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002325s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006907s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008055s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001052s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001385s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.101716s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.102544s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002116s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002347s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006394s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010804s ]
+
+[ 2017-10-06T22:38:40+08:00 ] ::1 /apartment/Home/Index/list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002157s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005387s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005622s ]
+ERR: 非法操作:list
+
+[ 2017-10-06T22:48:27+08:00 ] ::1 /apartment/Public/admin/css/login.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001978s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002640s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002900s ]
+ERR: 无法加载控制器:Public
+
+[ 2017-10-06T22:48:27+08:00 ] ::1 /apartment/Public/admin/css/bootstrap.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002161s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002307s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002596s ]
+ERR: 无法加载控制器:Public
+
+[ 2017-10-06T22:48:27+08:00 ] ::1 /apartment/Public/admin/js/jquery-3.2.1.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002435s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003891s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004131s ]
+ERR: 无法加载控制器:Public
+
+[ 2017-10-06T22:48:27+08:00 ] ::1 /apartment/Public/student/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002085s ]
+
+[ 2017-10-06T22:48:27+08:00 ] ::1 /apartment/Public/admin/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002128s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002592s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002825s ]
+ERR: 无法加载控制器:Public
+
+[ 2017-10-06T22:50:45+08:00 ] ::1 /apartment/Public/carouselengine/logo.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001770s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002169s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002397s ]
+ERR: 无法加载控制器:Public
+
+[ 2017-10-06T22:50:45+08:00 ] ::1 /apartment/Public/admin/js/jquery-3.2.1.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002416s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004134s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004352s ]
+ERR: 无法加载控制器:Public
+
+[ 2017-10-06T22:50:45+08:00 ] ::1 /apartment/Public/admin/css/bootstrap.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002769s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003970s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004216s ]
+ERR: 无法加载控制器:Public
+
+[ 2017-10-06T22:50:45+08:00 ] ::1 /apartment/Public/admin/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002557s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002389s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002684s ]
+ERR: 无法加载控制器:Public
+
+[ 2017-10-06T22:51:15+08:00 ] ::1 /apartment/Public/carouselengine/logo.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000121s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003094s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002145s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002356s ]
+ERR: 无法加载控制器:Public
+
+[ 2017-10-06T22:52:58+08:00 ] ::1 /apartment/Public/teacher/login.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002424s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003382s ]
+ERR: 无法加载控制器:Public
+
+[ 2017-10-06T22:53:42+08:00 ] ::1 /apartment/Public/teacher/login.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000190s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002696s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002098s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002335s ]
+ERR: 无法加载控制器:Public
+
+[ 2017-10-06T22:53:46+08:00 ] ::1 /apartment/Public/teacher/login.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000097s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001959s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002263s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002486s ]
+ERR: 无法加载控制器:Public
+
+[ 2017-10-06T22:53:46+08:00 ] ::1 /apartment/Public/teacher/css/bootstrap.min.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002080s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002570s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002808s ]
+ERR: 无法加载控制器:Public
+
+[ 2017-10-06T22:54:19+08:00 ] ::1 /apartment/Public/teacher/css/bootstrap.min.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002154s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003335s ]
+ERR: 无法加载控制器:Public
+
+[ 2017-10-06T22:55:56+08:00 ] ::1 /apartment/Public/teacher/css/bootstrap.min.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002382s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002581s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002820s ]
+ERR: 无法加载控制器:Public
+
+[ 2017-10-06T22:58:40+08:00 ] ::1 /apartment/Public/teacher/css/bootstrap.min.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003181s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003690s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003949s ]
+ERR: 无法加载控制器:Public
+
+[ 2017-10-06T23:00:42+08:00 ] ::1 /apartment/Public/teacher/css/bootstrap.min.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008742s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002559s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002805s ]
+ERR: 无法加载控制器:Public
+
+[ 2017-10-06T23:00:45+08:00 ] ::1 /apartment/Public/teacher/css/bootstrap.min.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002873s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002615s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002858s ]
+ERR: 无法加载控制器:Public
+
+[ 2017-10-06T23:03:31+08:00 ] ::1 /apartment/Public/teacher/css/bootstrap.min.css.map
+ERR: 无法加载控制器:Public
+
+[ 2017-10-06T23:19:59+08:00 ] ::1 /apartment/Public/teacher/css/bootstrap.min.css.map
+ERR: 无法加载控制器:Public
+
+[ 2017-10-06T23:23:13+08:00 ] ::1 /apartment/Public/teacher/css/bootstrap.min.css.map
+ERR: 无法加载控制器:Public
+
+[ 2017-10-06T23:24:59+08:00 ] ::1 /apartment/Public/teacher/css/bootstrap.min.css.map
+ERR: 无法加载控制器:Public
+
+[ 2017-10-06T23:27:18+08:00 ] ::1 /apartment/Public/teacher/css/bootstrap.min.css.map
+ERR: 无法加载控制器:Public
+

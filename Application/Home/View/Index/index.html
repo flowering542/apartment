@@ -1,0 +1,159 @@
+
+<div class="container_wrapper">
+	<div class="content_1024 clearfix">
+		<div class="leftContent_index" style="margin-left: 10px;">
+			<div id="container" style="width: 350px;height: 231px;">
+				<div id="list" style="left: -350px;">
+					<volist name="tpxw" id="vo">
+						 	<a href="{:U('Index/details',array('article'=>$vo['articleId']))}" target="_blank"><img src="__PUBLIC__{$vo['image']}" title="{$vo['aTitle']}" alt="1" width="350" height="230"/></a>
+					</volist>
+				</div>
+				<div id="buttons">
+					<span index="1" class="on"></span>
+					<span index="2"></span>
+					<span index="3"></span>
+					<span index="4"></span>
+					<span index="5"></span>
+				</div>
+				<a href="javascript:;" id="prev" class="arrow">&lt;</a>
+				<a href="javascript:;" id="next" class="arrow">&gt;</a>
+			</div>
+		</div>
+		<div class="panel fl default" style="width: 398px;margin-left: 10px;">
+			<div class="columnHeader">
+				<h1><a href="#"><i class="fa fa-bullhorn"></i>&nbsp;通知公告</a></h1>
+				<span><a href="{:U('Index/otherList1',array('category'=>'tzgg'))}" target="_blank"><img src="__PUBLIC__/img/more.jpg" width="40" height="9"></a></span>
+			</div>
+			<div class="content" style="height: 187px;border: 1px #ccc solid;">
+				<ul>
+					<volist name="tzgg" id="vo">
+						<li><span>>></span>
+						  <a href="{:U('Index/details',array('article'=>$vo['articleId']))}" target="_blank">{$vo['aTitle']}</a>
+					   </li>
+					</volist>
+				</ul>
+			</div>
+		</div>
+		<div class="panel fl default" style="margin-right: 10px;margin-left: 10px;">
+			<div class="columnHeader">
+				<h1><a href="#"><i class="fa fa-edit"></i>&nbsp;服务指南</a></h1>
+				<span><a href="{:U('Index/otherList1',array('category'=>'fwzl'))}" target="_blank"><img src="__PUBLIC__/img/more.jpg" width="40" height="9"></a></span>
+			</div>
+			<div class="content" style="height: 187px;border: 1px #ccc solid;">
+				<ul>
+					<volist name="fwzl" id="vo">
+						<li><span>>></span>
+						  <a href="{:U('Index/details',array('article'=>$vo['articleId']))}" target="_blank">{$vo['aTitle']}</a>
+					   </li>
+					</volist>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class="content_1024 mt_10">
+		<div class="panel fl default" style="margin-left: 10px;width: 356px;">
+			<div class="columnHeader">
+				<h1><a href="#"><i class="fa fa-newspaper-o"></i>&nbsp;新闻资讯</a></h1>
+				<span><a href="{:U('Index/otherList2',array('category'=>'xwzx'))}" target="_blank"><img src="__PUBLIC__/img/more.jpg" width="40" height="9"></a></span>
+			</div>
+			<div class="content" style="height: 187px;border: 1px #ccc solid;">
+				<ul>
+					<volist name="xwzx" id="vo">
+						<li><span>>></span>
+						  <a href="{:U('Index/details',array('article'=>$vo['articleId']))}" target="_blank">{$vo['aTitle']}</a>
+					   </li>
+					</volist>
+				</ul>
+			</div>
+		</div>
+		<div class="panel fl default" style="width: 397px;margin-left: 10px;">
+			<div class="columnHeader">
+				<h1><a href="#"><i class="fa fa-book"></i>&nbsp;规章制度</a></h1>
+				<span><a href="{:U('Index/otherList1',array('category'=>'gzzd'))}" target="_blank"><img src="__PUBLIC__/img/more.jpg" width="40" height="9"></a></span>
+			</div>
+			<div class="content" style="height: 187px;border: 1px #ccc solid;">
+				<ul>
+					<volist name="gzzd" id="vo">
+						<li><span>>></span>
+						  <a href="{:U('Index/details',array('article'=>$vo['articleId']))}" target="_blank">{$vo['aTitle']}</a>
+					   </li>
+					</volist>
+				</ul>
+			</div>
+		</div>
+		<div class="panel fl default" style="margin-left: 10px;">
+			<div class="columnHeader">
+				<h1><a href="#"><i class="fa fa-users"></i>&nbsp;安全管理</a></h1>
+				<span><a href="{:U('Index/otherList2',array('category'=>'aqgl'))}" target="_blank"><img src="__PUBLIC__/img/more.jpg" width="40" height="9"></a></span>
+			</div>
+			<div class="content" style="height: 187px;border: 1px #ccc solid;">
+				<ul>
+					<volist name="aqgl" id="vo">
+						<li><span>>></span>
+						  <a href="{:U('Index/details',array('article'=>$vo['articleId']))}" target="_blank">{$vo['aTitle']}</a>
+					   </li>
+					</volist>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class="content_1024 clearfix mt_20">
+		<div class="content_title clearfix">
+			<div class="fl mt_20">
+				<span class="whjs_tit">专题报道</span>
+				<span class="whjs_tit_grey">Special Report</span>
+			</div>
+			<div class="fr more_div">
+				<a href="{:U('Index/otherList2',array('category'=>'ztbd'))}" target="_blank">更多&nbsp;</a><i class="fa fa-angle-right"></i>
+			</div>
+		</div>
+		<div class="cultural_list clearfix">
+			<volist name="ztbd" id="vo">
+				<div class="box">
+					<img class="scrollLoading" data-url="__PUBLIC__{$vo['image']}" src="__PUBLIC__/carouselengine/lightbox-loading.gif">
+					<p>
+						{$vo['aTitle']}...
+					</p>
+
+					<br />
+					<a href="{:U('Index/details',array('article'=>$vo['articleId']))}" target="_blank">查看详情</a>
+				</div>
+			</volist>
+		</div>
+	</div>
+	<div class="content_1024 clearfix mt_20">
+		<div class="content_title clearfix">
+			<div class="fl mt_20">
+				<span class="whjs_tit">文化建设</span>
+				<span class="whjs_tit_grey">Cultural Developement</span>
+			</div>
+			<div class="fr more_div">
+				<a href="{:U('Index/otherList1',array('category'=>'whjs'))}" target="_blank">更多&nbsp;</a><i class="fa fa-angle-right"></i>
+			</div>
+		</div>
+		<div class="cultural_list clearfix  mt_20">
+			<!-- Insert to your webpage where you want to display the carousel -->
+			<div id="amazingcarousel-container-1">
+				<div id="amazingcarousel-1" style="display:none;position:relative;width:100%;max-width:920px;margin:0px auto 0px;">
+					<div class="amazingcarousel-list-container">
+						<ul class="amazingcarousel-list">
+							<volist name="whjs" id="vo">
+							<li class="amazingcarousel-item">
+								<div class="amazingcarousel-item-container">
+									<div class="amazingcarousel-image">
+										<a href="{:U('Index/details',array('article'=>$vo['articleId']))}" title="{$vo['aTitle']}" target="_blank"><img alt="01" class="scrollLoading" data-url="__PUBLIC__{$vo['image']}" src="__PUBLIC__/carouselengine/lightbox-loading.gif" width="240px" height="180px" /></a>
+									</div>
+									<div class="amazingcarousel-title" style="text-align: center;color:black;font-size: 14px;">{$vo['aTitle']}</div>
+									<div class="amazingcarousel-description"></div>
+								</div>
+							</li>
+							</volist>
+						</ul>
+					</div>
+					<div class="amazingcarousel-nav"></div>
+				</div>
+			</div>
+			<!-- End of body section HTML codes -->
+		</div>
+	</div>
+</div>

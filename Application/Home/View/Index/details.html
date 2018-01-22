@@ -1,0 +1,34 @@
+<div class="container_wrapper clearfix">
+	<div class="banner">
+	</div>
+	<div class="leftContent" style="padding-left: 30px;position: relative;">
+		<div class="page-header" style="border-bottom:1px inset #2a66a8;margin: 10px 0px;">
+			<h2 class="text-center" style="margin:10px 0px 10px 0px;">{$list['aTitle']}</h2>
+			<p class="text-center text-info" style="padding-bottom: 10px;">发布：{$list['aTime']}&nbsp;&nbsp;|&nbsp;&nbsp;作者：{$list['author']|default="无"}&nbsp;&nbsp;|&nbsp;&nbsp;来源：{$list['source']|default="公寓中心"}&nbsp;&nbsp;|&nbsp;&nbsp;游览次数：{$list['hits']}次</p>
+		</div>
+		{$list['aContent']|htmlspecialchars_decode}
+		<div style="text-align: right;margin-bottom: 5px;">
+			<a href="javascript:window.opener=null;window.open('','_self');window.close();" style="padding:5px;">
+				【关闭】
+			</a>
+		</div>
+	</div>
+	<div class="sidebarRight fr" style="margin-right: 10px;">
+		<div class="columnHeader">
+			<h1>
+				<font style="vertical-align: inherit;">
+					<font style="vertical-align: inherit;">联系我们&nbsp;<span style="font-size: 14px;">contact us</span></font>
+				</font>
+			</h1>
+		</div>
+		<div class="content">
+			<p>您可以通过以下方式联系我们：</p>
+			<p style="font-size: 20px;color: rgb(255, 204, 0);" class="mt_20"><i class="fa fa-phone"></i>联系电话</p>
+			<p style="font-size: 20px;" class="mt_20">17865311972</p>
+			<p style="font-size: 20px;color: rgb(255, 204, 0);" class="mt_20"><i class="fa fa-address-book"></i>联系地址</p>
+			<p style="font-size: 20px;" class="mt_20">榴园212</p>
+			<p style="font-size: 20px;color: rgb(255, 204, 0);" class="mt_20"><i class="fa fa-qq"></i>QQ</p>
+			<p style="font-size: 20px;" class="mt_20">761684652	</p>
+		</div>
+	</div>
+</div>

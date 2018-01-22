@@ -1,0 +1,442 @@
+[ 2017-10-07T22:03:56+08:00 ] ::1 /apartment/Admin/Index/checkyzm
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001931s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003806s ]
+
+[ 2017-10-07T22:03:56+08:00 ] ::1 /apartment/Admin/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002153s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003801s ]
+ERR: SQLSTATE[HY000] [1049] Unknown database 'apartmnet'
+
+[ 2017-10-07T22:03:58+08:00 ] ::1 /apartment/Admin/Index/checkyzm
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002038s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003728s ]
+
+[ 2017-10-07T22:04:04+08:00 ] ::1 /apartment/Admin/Index/checkyzm
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002139s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004097s ]
+
+[ 2017-10-07T22:04:04+08:00 ] ::1 /apartment/Admin/Index/checkyzm
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003172s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005226s ]
+
+[ 2017-10-07T22:07:40+08:00 ] ::1 /apartment/Admin/Index/checkyzm
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003157s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005077s ]
+
+[ 2017-10-07T22:07:45+08:00 ] ::1 /apartment/Admin/Index/checkyzm
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001912s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003553s ]
+
+[ 2017-10-07T22:07:45+08:00 ] ::1 /apartment/Admin/Index/checkyzm
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003431s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005491s ]
+
+[ 2017-10-07T22:07:45+08:00 ] ::1 /apartment/Admin/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002145s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004388s ]
+
+[ 2017-10-07T22:09:07+08:00 ] ::1 /apartment/Admin/Index/checkyzm
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001842s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003296s ]
+
+[ 2017-10-07T22:09:07+08:00 ] ::1 /apartment/Admin/Index/checkyzm
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002240s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004252s ]
+
+[ 2017-10-07T22:09:20+08:00 ] ::1 /apartment/Admin/Index/checkyzm
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002035s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003833s ]
+
+[ 2017-10-07T22:09:40+08:00 ] ::1 /apartment/Admin/Index/checkyzm
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001832s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003585s ]
+
+[ 2017-10-07T22:09:44+08:00 ] ::1 /apartment/Admin/Index/checkyzm
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002399s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003932s ]
+
+[ 2017-10-07T22:09:44+08:00 ] ::1 /apartment/Admin/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002193s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003982s ]
+
+[ 2017-10-07T22:09:56+08:00 ] ::1 /apartment/Admin/Index/checkyzm
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003179s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005247s ]
+
+[ 2017-10-07T22:10:03+08:00 ] ::1 /apartment/Admin/Index/checkyzm
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001827s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003325s ]
+
+[ 2017-10-07T22:10:07+08:00 ] ::1 /apartment/Admin/Index/checkyzm
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001821s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003284s ]
+
+[ 2017-10-07T22:10:07+08:00 ] ::1 /apartment/Admin/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002258s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004171s ]
+
+[ 2017-10-07T22:10:43+08:00 ] ::1 /apartment/Admin/Index/checkyzm
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002071s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003718s ]
+
+[ 2017-10-07T22:10:43+08:00 ] ::1 /apartment/Admin/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001878s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003557s ]
+
+[ 2017-10-07T22:11:28+08:00 ] ::1 /apartment/Admin/Index/checkyzm
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001848s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003358s ]
+
+[ 2017-10-07T22:11:28+08:00 ] ::1 /apartment/Admin/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002167s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004026s ]
+ERR: SQLSTATE[HY000] [1049] Unknown database 'apartmnet'
+
+[ 2017-10-07T22:11:59+08:00 ] ::1 /apartment/Admin/Index/checkyzm
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002032s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003785s ]
+
+[ 2017-10-07T22:11:59+08:00 ] ::1 /apartment/Admin/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001847s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003354s ]
+SQL: SHOW COLUMNS FROM `apart_admin` [ RunTime:0.0985s ]
+ERR: 1054:Unknown column 'tPwd' in 'field list'
+ [ SQL语句 ] : SELECT `tPwd` FROM `apart_admin` WHERE `username` = 'sdfasf' LIMIT 1  
+ERR: 1054:Unknown column 'tPwd' in 'field list'
+ [ SQL语句 ] : SELECT `tPwd` FROM `apart_admin` WHERE `username` = 'sdfasf' LIMIT 1  
+
+[ 2017-10-07T22:13:48+08:00 ] ::1 /apartment/Admin/Index/checkyzm
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001990s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004170s ]
+
+[ 2017-10-07T22:13:48+08:00 ] ::1 /apartment/Admin/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002023s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004321s ]
+SQL: SHOW COLUMNS FROM `apart_admin` [ RunTime:0.0266s ]
+ERR: 1054:Unknown column 'tPwd' in 'field list'
+ [ SQL语句 ] : SELECT `tPwd` FROM `apart_admin` WHERE `username` = 'sdf' LIMIT 1  
+ERR: 1054:Unknown column 'tPwd' in 'field list'
+ [ SQL语句 ] : SELECT `tPwd` FROM `apart_admin` WHERE `username` = 'sdf' LIMIT 1  
+
+[ 2017-10-07T22:13:49+08:00 ] ::1 /apartment/Admin/Index/checkyzm
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002220s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004558s ]
+
+[ 2017-10-07T22:14:13+08:00 ] ::1 /apartment/Admin/Index/checkyzm
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001966s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004012s ]
+
+[ 2017-10-07T22:14:13+08:00 ] ::1 /apartment/Admin/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002064s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004056s ]
+SQL: SHOW COLUMNS FROM `apart_admin` [ RunTime:0.0142s ]
+ERR: 1054:Unknown column 'tPwd' in 'field list'
+ [ SQL语句 ] : SELECT `tPwd` FROM `apart_admin` WHERE `username` = 'sdfa' LIMIT 1  
+ERR: 1054:Unknown column 'tPwd' in 'field list'
+ [ SQL语句 ] : SELECT `tPwd` FROM `apart_admin` WHERE `username` = 'sdfa' LIMIT 1  
+
+[ 2017-10-07T22:14:14+08:00 ] ::1 /apartment/Admin/Index/checkyzm
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002052s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004224s ]
+
+[ 2017-10-07T22:14:24+08:00 ] ::1 /apartment/Admin/Index/checkyzm
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002094s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004197s ]
+
+[ 2017-10-07T22:14:31+08:00 ] ::1 /apartment/Admin/Index/checkyzm
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002501s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004629s ]
+
+[ 2017-10-07T22:14:31+08:00 ] ::1 /apartment/Admin/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002039s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004271s ]
+SQL: SHOW COLUMNS FROM `apart_admin` [ RunTime:0.0139s ]
+ERR: 1054:Unknown column 'tPwd' in 'field list'
+ [ SQL语句 ] : SELECT `tPwd` FROM `apart_admin` WHERE `username` = '201511105065' LIMIT 1  
+ERR: 1054:Unknown column 'tPwd' in 'field list'
+ [ SQL语句 ] : SELECT `tPwd` FROM `apart_admin` WHERE `username` = '201511105065' LIMIT 1  
+
+[ 2017-10-07T22:14:52+08:00 ] ::1 /apartment/Admin/Index/checkyzm
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001883s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004016s ]
+
+[ 2017-10-07T22:14:52+08:00 ] ::1 /apartment/Admin/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002233s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004417s ]
+NOTIC: [8] Undefined variable: tpwd1 D:\xampp\htdocs\apartment\Application\Admin\Controller\IndexController.class.php 第 17 行.
+
+[ 2017-10-07T22:17:31+08:00 ] ::1 /apartment/Admin/Index/checkyzm
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002058s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004231s ]
+
+[ 2017-10-07T22:17:31+08:00 ] ::1 /apartment/Admin/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004415s ]
+SQL: SHOW COLUMNS FROM `apart_admin` [ RunTime:0.0140s ]
+ERR: 1054:Unknown column 'tPwd' in 'field list'
+ [ SQL语句 ] : SELECT `tPwd` FROM `apart_admin` WHERE `username` = 'ds' LIMIT 1  
+ERR: 1054:Unknown column 'tPwd' in 'field list'
+ [ SQL语句 ] : SELECT `tPwd` FROM `apart_admin` WHERE `username` = 'ds' LIMIT 1  
+
+[ 2017-10-07T22:19:15+08:00 ] ::1 /apartment/Admin/Index/checkyzm
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004507s ]
+
+[ 2017-10-07T22:19:19+08:00 ] ::1 /apartment/Admin/Index/checkyzm
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004331s ]
+
+[ 2017-10-07T22:19:19+08:00 ] ::1 /apartment/Admin/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001924s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003928s ]
+SQL: SHOW COLUMNS FROM `apart_admin` [ RunTime:0.0140s ]
+ERR: 1054:Unknown column 'tPwd' in 'field list'
+ [ SQL语句 ] : SELECT `tPwd` FROM `apart_admin` WHERE `username` = 'sdfasf' LIMIT 1  
+ERR: 1054:Unknown column 'tPwd' in 'field list'
+ [ SQL语句 ] : SELECT `tPwd` FROM `apart_admin` WHERE `username` = 'sdfasf' LIMIT 1  
+
+[ 2017-10-07T22:19:41+08:00 ] ::1 /apartment/Admin/Index/checkyzm
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002089s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004082s ]
+
+[ 2017-10-07T22:19:41+08:00 ] ::1 /apartment/Admin/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002364s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004912s ]
+
+[ 2017-10-07T22:21:05+08:00 ] ::1 /apartment/Admin/Index/checkyzm
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001889s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003921s ]
+
+[ 2017-10-07T22:21:09+08:00 ] ::1 /apartment/Admin/Index/checkyzm
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001901s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004037s ]
+
+[ 2017-10-07T22:21:09+08:00 ] ::1 /apartment/Admin/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002110s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004111s ]
+SQL: SHOW COLUMNS FROM `apart_admin` [ RunTime:0.0138s ]
+SQL: SELECT * FROM `apart_admin` WHERE `username` = 'dsf'  [ RunTime:0.0009s ]
+
+[ 2017-10-07T22:22:19+08:00 ] ::1 /apartment/Admin/Index/checkyzm
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001917s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003969s ]
+
+[ 2017-10-07T22:22:19+08:00 ] ::1 /apartment/Admin/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001880s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004071s ]
+SQL: SHOW COLUMNS FROM `apart_admin` [ RunTime:0.0142s ]
+ERR: Think\Model:filed方法不存在！
+
+[ 2017-10-07T22:22:49+08:00 ] ::1 /apartment/Admin/Index/checkyzm
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002164s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003756s ]
+
+[ 2017-10-07T22:22:49+08:00 ] ::1 /apartment/Admin/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001950s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003678s ]
+SQL: SHOW COLUMNS FROM `apart_admin` [ RunTime:0.0137s ]
+SQL: SELECT `password` FROM `apart_admin` WHERE `username` = '23' LIMIT 1   [ RunTime:0.0007s ]
+
+[ 2017-10-07T22:28:03+08:00 ] ::1 /apartment/Admin/Index/checkyzm
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002076s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004460s ]
+
+[ 2017-10-07T22:28:08+08:00 ] ::1 /apartment/Admin/Index/checkyzm
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001907s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003932s ]
+
+[ 2017-10-07T22:28:13+08:00 ] ::1 /apartment/Admin/Index/checkyzm
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001967s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004002s ]
+
+[ 2017-10-07T22:28:13+08:00 ] ::1 /apartment/Admin/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001920s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003969s ]
+SQL: SHOW COLUMNS FROM `apart_admin` [ RunTime:0.0143s ]
+SQL: SELECT `password` FROM `apart_admin` WHERE `username` = 'apartAdmin' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `nickname` FROM `apart_admin` WHERE `username` = 'apartAdmin' AND `password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined variable: data D:\xampp\htdocs\apartment\Application\Admin\Controller\IndexController.class.php 第 19 行.
+
+[ 2017-10-07T22:28:13+08:00 ] ::1 /apartment/Admin/Article
+ERR: 模板不存在:./Application/Admin/View/Article/index.html
+
+[ 2017-10-07T22:29:58+08:00 ] ::1 /apartment/Admin/Teacher/dashboard
+ERR: 无法加载控制器:Teacher
+
+[ 2017-10-07T22:30:09+08:00 ] ::1 /apartment/Admin/Teacher/dashboard
+ERR: 无法加载控制器:Teacher
+
+[ 2017-10-07T22:30:41+08:00 ] ::1 /apartment/Admin/Index/checkyzm
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002294s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004050s ]
+
+[ 2017-10-07T22:30:41+08:00 ] ::1 /apartment/Admin/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001918s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003510s ]
+SQL: SHOW COLUMNS FROM `apart_admin` [ RunTime:0.0147s ]
+SQL: SELECT `password` FROM `apart_admin` WHERE `username` = 'fga' LIMIT 1   [ RunTime:0.0008s ]
+
+[ 2017-10-07T22:31:19+08:00 ] ::1 /apartment/Admin/Index/checkyzm
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003621s ]
+
+[ 2017-10-07T22:31:19+08:00 ] ::1 /apartment/Admin/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002150s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003862s ]
+SQL: SHOW COLUMNS FROM `apart_admin` [ RunTime:0.0140s ]
+SQL: SELECT `password` FROM `apart_admin` WHERE `username` = 'apartadmin' LIMIT 1   [ RunTime:0.0008s ]
+
+[ 2017-10-07T22:31:30+08:00 ] ::1 /apartment/Admin/Index/checkyzm
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001989s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003707s ]
+
+[ 2017-10-07T22:31:53+08:00 ] ::1 /apartment/Admin/Index/checkyzm
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002417s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004104s ]
+
+[ 2017-10-07T22:31:53+08:00 ] ::1 /apartment/Admin/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002144s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003866s ]
+SQL: SHOW COLUMNS FROM `apart_admin` [ RunTime:0.0139s ]
+SQL: SELECT `password` FROM `apart_admin` WHERE `username` = 'apartadmin' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `nickname` FROM `apart_admin` WHERE `username` = 'apartadmin' AND `password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: data D:\xampp\htdocs\apartment\Application\Admin\Controller\IndexController.class.php 第 19 行.
+
+[ 2017-10-07T22:31:54+08:00 ] ::1 /apartment/Admin/Teacher/dashboard
+ERR: 无法加载控制器:Teacher
+
+[ 2017-10-07T22:34:15+08:00 ] ::1 /apartment/Admin/Index/checkyzm
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002010s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003675s ]
+
+[ 2017-10-07T22:34:15+08:00 ] ::1 /apartment/Admin/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002078s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003670s ]
+SQL: SHOW COLUMNS FROM `apart_admin` [ RunTime:0.0143s ]
+SQL: SELECT `password` FROM `apart_admin` WHERE `username` = 'apartadmin' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `nickname` FROM `apart_admin` WHERE `username` = 'apartadmin' AND `password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: data D:\xampp\htdocs\apartment\Application\Admin\Controller\IndexController.class.php 第 19 行.
+
+[ 2017-10-07T22:34:15+08:00 ] ::1 /apartment/Admin/Teacher/dashboard
+ERR: 无法加载控制器:Teacher
+
+[ 2017-10-07T22:34:49+08:00 ] ::1 /apartment/Admin/Teacher/dashboard
+ERR: 无法加载控制器:Teacher
+
+[ 2017-10-07T22:35:16+08:00 ] ::1 /apartment/Admin/Teacher/dashboard
+ERR: 无法加载控制器:Teacher
+
+[ 2017-10-07T22:36:01+08:00 ] ::1 /apartment/Admin/Teacher/dashboard
+ERR: 无法加载控制器:Teacher
+
+[ 2017-10-07T22:36:41+08:00 ] ::1 /apartment/Admin/Teacher/dashboard
+ERR: 无法加载控制器:Teacher
+
+[ 2017-10-07T22:37:00+08:00 ] ::1 /apartment/Admin/Teacher/dashboard
+ERR: 无法加载控制器:Teacher
+
+[ 2017-10-07T22:37:11+08:00 ] ::1 /apartment/Admin/Teacher/dashboard
+ERR: 无法加载控制器:Teacher
+
+[ 2017-10-07T22:38:08+08:00 ] ::1 /apartment/Admin/Teacher/personal
+ERR: 无法加载控制器:Teacher
+
+[ 2017-10-07T22:38:10+08:00 ] ::1 /apartment/Admin/Teacher/modifyPwd
+ERR: 无法加载控制器:Teacher
+
+[ 2017-10-07T22:38:18+08:00 ] ::1 /apartment/Admin/Teacher/modifyPwd
+ERR: 无法加载控制器:Teacher
+
+[ 2017-10-07T22:39:12+08:00 ] ::1 /apartment/Admin/Teacher/dashboard
+ERR: 无法加载控制器:Teacher
+
+[ 2017-10-07T22:39:13+08:00 ] ::1 /apartment/Admin/Teacher/dashboard
+ERR: 无法加载控制器:Teacher
+
+[ 2017-10-07T22:39:14+08:00 ] ::1 /apartment/Admin/Teacher/dashboard
+ERR: 无法加载控制器:Teacher
+
+[ 2017-10-07T22:39:15+08:00 ] ::1 /apartment/Admin/Teacher/dashboard
+ERR: 无法加载控制器:Teacher
+
+[ 2017-10-07T22:39:16+08:00 ] ::1 /apartment/Admin/Teacher/dashboard
+ERR: 无法加载控制器:Teacher
+
+[ 2017-10-07T22:42:51+08:00 ] ::1 /apartment/Admin/Exam/waitExam
+ERR: 无法加载控制器:Exam
+
+[ 2017-10-07T22:45:18+08:00 ] ::1 /apartment/Admin/Exam/lan
+ERR: 无法加载控制器:Exam
+
+[ 2017-10-07T22:45:20+08:00 ] ::1 /apartment/Admin/Teacher/dashboard
+ERR: 无法加载控制器:Teacher
+
+[ 2017-10-07T22:46:17+08:00 ] ::1 /apartment/Admin/Teacher/dashboard
+ERR: 无法加载控制器:Teacher
+
+[ 2017-10-07T22:46:18+08:00 ] ::1 /apartment/Admin/Teacher/dashboard
+ERR: 无法加载控制器:Teacher
+
